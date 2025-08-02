@@ -1,5 +1,5 @@
 {
-  "profile_id": "THOUGHT_LEADER_01",
+  "profile_id": "1",
   "name": "Naval Ravikant",
   "archetype": "Philosophy-Driven Angel Investor",
   "domain": "Thought Leadership",
@@ -54,4 +54,4 @@
     "aspirational_references": ["Charlie Munger", "Warren Buffett", "Buddha", "Richard Feynman"],
     "distinctive_quirks": ["quotes ancient philosophers in business contexts", "meditates daily", "avoids meetings"]
   }
-}
+} 
