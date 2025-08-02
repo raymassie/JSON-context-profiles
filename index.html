@@ -1,0 +1,1057 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JSON Context Profiles - Interactive Index</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js"></script>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+        }
+
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 30px;
+            color: white;
+        }
+
+        .header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+        }
+
+        .header p {
+            font-size: 1.1rem;
+            opacity: 0.9;
+        }
+
+        .filters {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            margin-bottom: 30px;
+        }
+
+        .filter-group {
+            margin-bottom: 15px;
+        }
+
+        .filter-group label {
+            display: block;
+            font-weight: 600;
+            margin-bottom: 5px;
+            color: #555;
+        }
+
+        .filter-group select,
+        .filter-group input {
+            width: 100%;
+            padding: 10px;
+            border: 2px solid #e1e5e9;
+            border-radius: 5px;
+            font-size: 14px;
+            transition: border-color 0.3s ease;
+        }
+
+        .filter-group select[multiple] {
+            height: 120px;
+        }
+
+        .filter-group select:focus,
+        .filter-group input:focus {
+            outline: none;
+            border-color: #667eea;
+        }
+
+        .filter-row {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 15px;
+            margin-bottom: 15px;
+        }
+
+        .filter-controls {
+            display: flex;
+            gap: 10px;
+            margin-top: 10px;
+        }
+
+        .filter-controls button {
+            padding: 5px 10px;
+            border: 1px solid #e1e5e9;
+            background: #f8f9fa;
+            border-radius: 3px;
+            cursor: pointer;
+            font-size: 12px;
+        }
+
+        .filter-controls button:hover {
+            background: #e9ecef;
+        }
+
+        .stats {
+            background: white;
+            padding: 15px;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        .stats span {
+            font-weight: 600;
+            color: #667eea;
+        }
+
+        .profiles-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+            gap: 20px;
+        }
+
+        .profile-card {
+            background: white;
+            border-radius: 10px;
+            padding: 20px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            cursor: pointer;
+        }
+
+        .profile-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 15px rgba(0,0,0,0.2);
+        }
+
+        .profile-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 15px;
+        }
+
+        .profile-id {
+            background: #667eea;
+            color: white;
+            padding: 5px 10px;
+            border-radius: 15px;
+            font-size: 12px;
+            font-weight: 600;
+        }
+
+        .profile-name {
+            font-size: 1.3rem;
+            font-weight: 600;
+            color: #333;
+            margin-bottom: 5px;
+        }
+
+        .profile-archetype {
+            color: #666;
+            font-size: 0.9rem;
+            margin-bottom: 10px;
+        }
+
+        .profile-domain {
+            display: inline-block;
+            background: #f0f4ff;
+            color: #667eea;
+            padding: 3px 8px;
+            border-radius: 12px;
+            font-size: 11px;
+            font-weight: 600;
+            margin-bottom: 10px;
+        }
+
+        .profile-subdomain {
+            display: inline-block;
+            background: #fff0f4;
+            color: #e6677a;
+            padding: 3px 8px;
+            border-radius: 12px;
+            font-size: 11px;
+            font-weight: 600;
+            margin-left: 5px;
+        }
+
+        .profile-traits {
+            margin-bottom: 15px;
+        }
+
+        .traits-label {
+            font-size: 0.8rem;
+            color: #888;
+            margin-bottom: 5px;
+        }
+
+        .traits-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 5px;
+        }
+
+        .trait-tag {
+            background: #f8f9fa;
+            color: #555;
+            padding: 2px 6px;
+            border-radius: 8px;
+            font-size: 10px;
+            border: 1px solid #e9ecef;
+        }
+
+        .profile-actions {
+            display: flex;
+            gap: 10px;
+            margin-top: 15px;
+        }
+
+        .profile-card.selected {
+            border: 3px solid #667eea;
+            box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
+        }
+
+        .comparison-panel {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background: white;
+            border-top: 2px solid #667eea;
+            padding: 15px;
+            transform: translateY(100%);
+            transition: transform 0.3s ease;
+            z-index: 1000;
+            max-height: 300px;
+            overflow-y: auto;
+        }
+
+        .comparison-panel.show {
+            transform: translateY(0);
+        }
+
+        .comparison-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 15px;
+        }
+
+        .comparison-profiles {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 15px;
+        }
+
+        .comparison-profile {
+            border: 1px solid #e1e5e9;
+            border-radius: 5px;
+            padding: 10px;
+        }
+
+        .comparison-profile h4 {
+            margin: 0 0 10px 0;
+            color: #667eea;
+        }
+
+        .comparison-trait {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 5px;
+            font-size: 12px;
+        }
+
+        .comparison-trait-label {
+            font-weight: 600;
+        }
+
+        .comparison-trait-value {
+            color: #666;
+        }
+
+        .btn {
+            padding: 8px 15px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 12px;
+            font-weight: 600;
+            transition: all 0.3s ease;
+            text-decoration: none;
+            display: inline-block;
+            text-align: center;
+        }
+
+        .btn-primary {
+            background: #667eea;
+            color: white;
+        }
+
+        .btn-primary:hover {
+            background: #5a6fd8;
+            transform: translateY(-1px);
+        }
+
+        .btn-secondary {
+            background: #f8f9fa;
+            color: #555;
+            border: 1px solid #e9ecef;
+        }
+
+        .btn-secondary:hover {
+            background: #e9ecef;
+        }
+
+        .no-results {
+            text-align: center;
+            padding: 40px;
+            color: white;
+            font-size: 1.2rem;
+        }
+
+        .loading {
+            text-align: center;
+            padding: 40px;
+            color: white;
+            font-size: 1.2rem;
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                padding: 10px;
+            }
+            
+            .header h1 {
+                font-size: 2rem;
+            }
+            
+            .filter-row {
+                grid-template-columns: 1fr;
+            }
+            
+            .profiles-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>JSON Context Profiles</h1>
+            <p>Interactive index of psychological and behavioral profiles for thought leaders and entrepreneurs</p>
+        </div>
+
+        <div class="filters">
+            <div class="filter-row">
+                <div class="filter-group">
+                    <label for="archetype-filter">Archetype</label>
+                    <select id="archetype-filter" multiple>
+                        <option value="">All Archetypes</option>
+                    </select>
+                </div>
+                <div class="filter-group">
+                    <label for="domain-filter">Domain</label>
+                    <select id="domain-filter" multiple>
+                        <option value="">All Domains</option>
+                    </select>
+                </div>
+                <div class="filter-group">
+                    <label for="subdomain-filter">Subdomain</label>
+                    <select id="subdomain-filter" multiple>
+                        <option value="">All Subdomains</option>
+                    </select>
+                </div>
+            </div>
+            <div class="filter-row">
+                <div class="filter-group">
+                    <label for="trait-filter">Psychological Traits</label>
+                    <select id="trait-filter" multiple>
+                        <option value="">All Traits</option>
+                    </select>
+                </div>
+                <div class="filter-group">
+                    <label for="communication-filter">Communication Style</label>
+                    <select id="communication-filter" multiple>
+                        <option value="">All Styles</option>
+                    </select>
+                </div>
+                <div class="filter-group">
+                    <label for="expertise-filter">Domain Expertise</label>
+                    <select id="expertise-filter" multiple>
+                        <option value="">All Expertise</option>
+                    </select>
+                </div>
+            </div>
+            <div class="filter-row">
+                <div class="filter-group">
+                    <label for="background-filter">Background Context</label>
+                    <select id="background-filter" multiple>
+                        <option value="">All Backgrounds</option>
+                    </select>
+                </div>
+                <div class="filter-group">
+                    <label for="behavior-filter">Behavioral Patterns</label>
+                    <select id="behavior-filter" multiple>
+                        <option value="">All Patterns</option>
+                    </select>
+                </div>
+                <div class="filter-group">
+                    <label for="identifier-filter">Unique Identifiers</label>
+                    <select id="identifier-filter" multiple>
+                        <option value="">All Identifiers</option>
+                    </select>
+                </div>
+            </div>
+            <div class="filter-row">
+                <div class="filter-group">
+                    <label for="search-filter">Search Profiles</label>
+                    <input type="text" id="search-filter" placeholder="Search by name, archetype, domain...">
+                </div>
+            </div>
+        </div>
+
+        <div class="stats">
+            Showing <span id="visible-count">0</span> of <span id="total-count">0</span> profiles
+            <div style="margin-top: 10px;">
+                <button id="bulk-download-btn" class="btn btn-primary" style="display: none;">Download All Filtered Profiles</button>
+                <button id="clear-filters-btn" class="btn btn-secondary">Clear All Filters</button>
+            </div>
+        </div>
+
+        <div id="profiles-container">
+            <div class="loading">Loading profiles...</div>
+        </div>
+    </div>
+
+    <!-- Comparison Panel -->
+    <div id="comparison-panel" class="comparison-panel">
+        <div class="comparison-header">
+            <h3>Profile Comparison (<span id="comparison-count">0</span> selected)</h3>
+            <div>
+                <button id="compare-btn" class="btn btn-primary" disabled>Compare Profiles</button>
+                <button id="clear-comparison-btn" class="btn btn-secondary">Clear Selection</button>
+                <button id="close-comparison-btn" class="btn btn-secondary">Close</button>
+            </div>
+        </div>
+        <div id="comparison-content"></div>
+    </div>
+
+    <script>
+        let allProfiles = [];
+        let filteredProfiles = [];
+
+        // Load all profile files
+        async function loadProfiles() {
+            try {
+                // Create array of expected filenames based on our known structure
+                const expectedFiles = [];
+                for (let i = 1; i <= 49; i++) {
+                    // We'll try to load files with the pattern we know exists
+                    const paddedNum = i.toString().padStart(2, '0');
+                    expectedFiles.push(`${paddedNum}-*.json`);
+                }
+
+                // Try to load each profile file
+                for (let i = 1; i <= 49; i++) {
+                    const paddedNum = i.toString().padStart(2, '0');
+                    
+                    // Try different possible filename patterns
+                    const possibleFilenames = [
+                        `${paddedNum}-*.json`,
+                        `${i}-*.json`,
+                        `${paddedNum}-name.json`
+                    ];
+
+                    let profileLoaded = false;
+                    
+                    for (const filename of possibleFilenames) {
+                        try {
+                            // Get list of files in profiles directory
+                            const response = await fetch('profiles/');
+                            if (!response.ok) {
+                                // If we can't list directory, try direct file access
+                                const directFiles = [
+                                    `${paddedNum}-naval-ravikant.json`,
+                                    `${paddedNum}-david-goggins.json`,
+                                    `${paddedNum}-alex-hormozi.json`,
+                                    `${paddedNum}-iman-gadzhi.json`,
+                                    `${paddedNum}-gary-vaynerchuk.json`,
+                                    `${paddedNum}-grant-cardone.json`,
+                                    `${paddedNum}-steve-jobs.json`,
+                                    `${paddedNum}-mark-zuckerberg.json`,
+                                    `${paddedNum}-elon-musk.json`,
+                                    `${paddedNum}-jeff-bezos.json`,
+                                    `${paddedNum}-tim-ferriss.json`,
+                                    `${paddedNum}-seth-godin.json`,
+                                    `${paddedNum}-david-ogilvy.json`,
+                                    `${paddedNum}-eugene-schwartz.json`,
+                                    `${paddedNum}-gary-halbert.json`,
+                                    `${paddedNum}-dan-kennedy.json`,
+                                    `${paddedNum}-malcolm-gladwell.json`,
+                                    `${paddedNum}-james-clear.json`,
+                                    `${paddedNum}-ryan-holiday.json`,
+                                    `${paddedNum}-robert-greene.json`,
+                                    `${paddedNum}-cal-newport.json`,
+                                    `${paddedNum}-richard-branson.json`,
+                                    `${paddedNum}-reid-hoffman.json`,
+                                    `${paddedNum}-warren-buffett.json`,
+                                    `${paddedNum}-ray-dalio.json`,
+                                    `${paddedNum}-peter-thiel.json`,
+                                    `${paddedNum}-sara-blakely.json`,
+                                    `${paddedNum}-oprah-winfrey.json`,
+                                    `${paddedNum}-daniel-pink.json`,
+                                    `${paddedNum}-simon-sinek.json`,
+                                    `${paddedNum}-tony-robbins.json`,
+                                    `${paddedNum}-satya-nadella.json`,
+                                    `${paddedNum}-jack-dorsey.json`,
+                                    `${paddedNum}-brian-chesky.json`,
+                                    `${paddedNum}-charlie-munger.json`,
+                                    `${paddedNum}-brene-brown.json`,
+                                    `${paddedNum}-whitney-wolfe-herd.json`,
+                                    `${paddedNum}-russell-brunson.json`,
+                                    `${paddedNum}-john-caples.json`,
+                                    `${paddedNum}-claude-hopkins.json`,
+                                    `${paddedNum}-marie-forleo.json`,
+                                    `${paddedNum}-amy-porterfield.json`,
+                                    `${paddedNum}-ramit-sethi.json`,
+                                    `${paddedNum}-pat-flynn.json`,
+                                    `${paddedNum}-lewis-howes.json`,
+                                    `${paddedNum}-mel-robbins.json`,
+                                    `${paddedNum}-dean-graziosi.json`,
+                                    `${paddedNum}-brendon-burchard.json`,
+                                    `${paddedNum}-eric-thomas.json`
+                                ];
+
+                                for (const directFile of directFiles) {
+                                    try {
+                                        const profileResponse = await fetch(`profiles/${directFile}`);
+                                        if (profileResponse.ok) {
+                                            const profileData = await profileResponse.json();
+                                            allProfiles.push({
+                                                ...profileData,
+                                                filename: directFile
+                                            });
+                                            profileLoaded = true;
+                                            break;
+                                        }
+                                    } catch (error) {
+                                        // Continue to next file
+                                    }
+                                }
+                            } else {
+                                const text = await response.text();
+                                const files = text.match(/href="([^"]*\.json)"/g);
+                                if (files) {
+                                    const jsonFiles = files
+                                        .map(match => match.match(/href="([^"]*\.json)"/)[1])
+                                        .filter(file => file.includes('profiles/'))
+                                        .map(file => file.replace('profiles/', ''));
+
+                                    for (const file of jsonFiles) {
+                                        if (file.startsWith(paddedNum) || file.startsWith(i.toString())) {
+                                            try {
+                                                const profileResponse = await fetch(`profiles/${file}`);
+                                                if (profileResponse.ok) {
+                                                    const profileData = await profileResponse.json();
+                                                    allProfiles.push({
+                                                        ...profileData,
+                                                        filename: file
+                                                    });
+                                                    profileLoaded = true;
+                                                    break;
+                                                }
+                                            } catch (error) {
+                                                console.error(`Error loading ${file}:`, error);
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                            
+                            if (profileLoaded) break;
+                        } catch (error) {
+                            console.error(`Error trying filename pattern ${filename}:`, error);
+                        }
+                    }
+                }
+
+                if (allProfiles.length === 0) {
+                    throw new Error('No profiles could be loaded');
+                }
+
+                // Sort profiles by ID
+                allProfiles.sort((a, b) => parseInt(a.profile_id) - parseInt(b.profile_id));
+
+                initializeFilters();
+                displayProfiles();
+            } catch (error) {
+                console.error('Error loading profiles:', error);
+                document.getElementById('profiles-container').innerHTML = 
+                    '<div class="no-results">Error loading profiles. Please check the file paths and ensure all profile files are accessible.</div>';
+            }
+        }
+
+        function initializeFilters() {
+            const filters = {
+                'archetype-filter': 'archetype',
+                'domain-filter': 'domain',
+                'subdomain-filter': 'sub_domain',
+                'trait-filter': 'psychological_profile.primary_traits',
+                'communication-filter': 'communication_style.tone',
+                'expertise-filter': 'domain_expertise.core_competencies',
+                'background-filter': 'background_context.experience_level',
+                'behavior-filter': 'behavioral_patterns.work_style',
+                'identifier-filter': 'unique_identifiers.signature_methodologies'
+            };
+
+            Object.entries(filters).forEach(([filterId, dataPath]) => {
+                const filter = document.getElementById(filterId);
+                const values = new Set();
+
+                allProfiles.forEach(profile => {
+                    const value = getNestedValue(profile, dataPath);
+                    if (Array.isArray(value)) {
+                        value.forEach(v => values.add(v));
+                    } else if (value) {
+                        values.add(value);
+                    }
+                });
+
+                values.forEach(value => {
+                    const option = document.createElement('option');
+                    option.value = value;
+                    option.textContent = value;
+                    filter.appendChild(option);
+                });
+
+                filter.addEventListener('change', filterProfiles);
+            });
+
+            document.getElementById('search-filter').addEventListener('input', filterProfiles);
+        }
+
+        function getNestedValue(obj, path) {
+            return path.split('.').reduce((current, key) => current && current[key], obj);
+        }
+
+        function filterProfiles() {
+            const searchTerm = document.getElementById('search-filter').value.toLowerCase();
+            const archetypeFilter = Array.from(document.getElementById('archetype-filter').selectedOptions).map(option => option.value);
+            const domainFilter = Array.from(document.getElementById('domain-filter').selectedOptions).map(option => option.value);
+            const subdomainFilter = Array.from(document.getElementById('subdomain-filter').selectedOptions).map(option => option.value);
+            const traitFilter = Array.from(document.getElementById('trait-filter').selectedOptions).map(option => option.value);
+            const communicationFilter = Array.from(document.getElementById('communication-filter').selectedOptions).map(option => option.value);
+            const expertiseFilter = Array.from(document.getElementById('expertise-filter').selectedOptions).map(option => option.value);
+            const backgroundFilter = Array.from(document.getElementById('background-filter').selectedOptions).map(option => option.value);
+            const behaviorFilter = Array.from(document.getElementById('behavior-filter').selectedOptions).map(option => option.value);
+            const identifierFilter = Array.from(document.getElementById('identifier-filter').selectedOptions).map(option => option.value);
+
+            filteredProfiles = allProfiles.filter(profile => {
+                // Search filter
+                if (searchTerm && !profile.name.toLowerCase().includes(searchTerm) && 
+                    !profile.archetype.toLowerCase().includes(searchTerm) &&
+                    !profile.domain.toLowerCase().includes(searchTerm)) {
+                    return false;
+                }
+
+                // Archetype filter
+                if (archetypeFilter.length > 0 && !archetypeFilter.includes(profile.archetype)) {
+                    return false;
+                }
+
+                // Domain filter
+                if (domainFilter.length > 0 && !domainFilter.includes(profile.domain)) {
+                    return false;
+                }
+
+                // Subdomain filter
+                if (subdomainFilter.length > 0 && !subdomainFilter.includes(profile.sub_domain)) {
+                    return false;
+                }
+
+                // Trait filter
+                if (traitFilter.length > 0 && (!profile.psychological_profile?.primary_traits || 
+                    !profile.psychological_profile.primary_traits.some(trait => traitFilter.includes(trait)))) {
+                    return false;
+                }
+
+                // Communication filter
+                if (communicationFilter.length > 0 && (!profile.communication_style?.tone || 
+                    !communicationFilter.includes(profile.communication_style.tone))) {
+                    return false;
+                }
+
+                // Expertise filter
+                if (expertiseFilter.length > 0 && (!profile.domain_expertise?.core_competencies || 
+                    !profile.domain_expertise.core_competencies.some(competency => expertiseFilter.includes(competency)))) {
+                    return false;
+                }
+
+                // Background filter
+                if (backgroundFilter.length > 0 && (!profile.background_context?.experience_level || 
+                    !backgroundFilter.includes(profile.background_context.experience_level))) {
+                    return false;
+                }
+
+                // Behavior filter
+                if (behaviorFilter.length > 0 && (!profile.behavioral_patterns?.work_style || 
+                    !behaviorFilter.includes(profile.behavioral_patterns.work_style))) {
+                    return false;
+                }
+
+                // Identifier filter
+                if (identifierFilter.length > 0 && (!profile.unique_identifiers?.signature_methodologies || 
+                    !profile.unique_identifiers.signature_methodologies.some(method => identifierFilter.includes(method)))) {
+                    return false;
+                }
+
+                return true;
+            });
+
+            displayProfiles();
+        }
+
+        function displayProfiles() {
+            const container = document.getElementById('profiles-container');
+            const visibleCount = document.getElementById('visible-count');
+            const totalCount = document.getElementById('total-count');
+
+            visibleCount.textContent = filteredProfiles.length;
+            totalCount.textContent = allProfiles.length;
+
+            if (filteredProfiles.length === 0) {
+                container.innerHTML = '<div class="no-results">No profiles match the current filters.</div>';
+                document.getElementById('bulk-download-btn').style.display = 'none';
+                return;
+            }
+
+            container.innerHTML = filteredProfiles.map(profile => `
+                <div class="profile-card" data-profile-id="${profile.profile_id}" onclick="toggleProfileSelection('${profile.profile_id}')">
+                    <div class="profile-header">
+                        <div class="profile-id">#${profile.profile_id}</div>
+                        <div style="font-size: 12px; color: #667eea;">
+                            <span class="selection-indicator" id="indicator-${profile.profile_id}" style="display: none;">✓ Selected</span>
+                        </div>
+                    </div>
+                    <div class="profile-name">${profile.name}</div>
+                    <div class="profile-archetype">${profile.archetype}</div>
+                    <div>
+                        <span class="profile-domain">${profile.domain}</span>
+                        ${profile.sub_domain ? `<span class="profile-subdomain">${profile.sub_domain}</span>` : ''}
+                    </div>
+                    <div class="profile-traits">
+                        <div class="traits-label">Primary Traits:</div>
+                        <div class="traits-list">
+                            ${profile.psychological_profile?.primary_traits?.map(trait => 
+                                `<span class="trait-tag">${trait}</span>`
+                            ).join('') || ''}
+                        </div>
+                    </div>
+                    <div class="profile-actions">
+                        <a href="profiles/${profile.filename}" class="btn btn-primary" download onclick="event.stopPropagation()">Download JSON</a>
+                        <button class="btn btn-secondary" onclick="copyToClipboard('${profile.filename}'); event.stopPropagation()">Copy JSON</button>
+                        <button class="btn btn-secondary" onclick="viewProfile('${profile.filename}'); event.stopPropagation()">View Details</button>
+                    </div>
+                </div>
+            `).join('');
+            document.getElementById('bulk-download-btn').style.display = 'block';
+        }
+
+        function copyToClipboard(filename) {
+            fetch(`profiles/${filename}`)
+                .then(response => response.json())
+                .then(data => {
+                    navigator.clipboard.writeText(JSON.stringify(data, null, 2))
+                        .then(() => {
+                            alert('Profile copied to clipboard!');
+                        })
+                        .catch(() => {
+                            alert('Failed to copy to clipboard. Please try downloading instead.');
+                        });
+                })
+                .catch(error => {
+                    console.error('Error copying profile:', error);
+                    alert('Error copying profile. Please try downloading instead.');
+                });
+        }
+
+        function viewProfile(filename) {
+            fetch(`profiles/${filename}`)
+                .then(response => response.json())
+                .then(data => {
+                    const profileWindow = window.open('', '_blank');
+                    profileWindow.document.write(`
+                        <!DOCTYPE html>
+                        <html>
+                        <head>
+                            <title>${data.name} - Profile Details</title>
+                            <style>
+                                body { font-family: Arial, sans-serif; margin: 20px; }
+                                .section { margin-bottom: 20px; }
+                                .section h3 { color: #667eea; }
+                                .trait-list { display: flex; flex-wrap: wrap; gap: 5px; }
+                                .trait { background: #f0f4ff; padding: 3px 8px; border-radius: 12px; font-size: 12px; }
+                            </style>
+                        </head>
+                        <body>
+                            <h1>${data.name}</h1>
+                            <p><strong>Archetype:</strong> ${data.archetype}</p>
+                            <p><strong>Domain:</strong> ${data.domain}</p>
+                            ${data.sub_domain ? `<p><strong>Subdomain:</strong> ${data.sub_domain}</p>` : ''}
+                            
+                            <div class="section">
+                                <h3>Psychological Profile</h3>
+                                <p><strong>Primary Traits:</strong></p>
+                                <div class="trait-list">
+                                    ${data.psychological_profile?.primary_traits?.map(trait => 
+                                        `<span class="trait">${trait}</span>`
+                                    ).join('') || ''}
+                                </div>
+                                <p><strong>Cognitive Style:</strong> ${data.psychological_profile?.cognitive_style || 'N/A'}</p>
+                                <p><strong>Core Motivations:</strong></p>
+                                <div class="trait-list">
+                                    ${data.psychological_profile?.core_motivations?.map(motivation => 
+                                        `<span class="trait">${motivation}</span>`
+                                    ).join('') || ''}
+                                </div>
+                            </div>
+
+                            <div class="section">
+                                <h3>Communication Style</h3>
+                                <p><strong>Tone:</strong> ${data.communication_style?.tone || 'N/A'}</p>
+                                <p><strong>Vocabulary Patterns:</strong></p>
+                                <div class="trait-list">
+                                    ${data.communication_style?.vocabulary_patterns?.map(pattern => 
+                                        `<span class="trait">${pattern}</span>`
+                                    ).join('') || ''}
+                                </div>
+                            </div>
+
+                            <div class="section">
+                                <h3>Domain Expertise</h3>
+                                <p><strong>Core Competencies:</strong></p>
+                                <div class="trait-list">
+                                    ${data.domain_expertise?.core_competencies?.map(competency => 
+                                        `<span class="trait">${competency}</span>`
+                                    ).join('') || ''}
+                                </div>
+                            </div>
+
+                            <div class="section">
+                                <h3>Background Context</h3>
+                                <p><strong>Experience Level:</strong> ${data.background_context?.experience_level || 'N/A'}</p>
+                                <p><strong>Typical Career Path:</strong> ${data.background_context?.typical_career_path || 'N/A'}</p>
+                            </div>
+
+                            <div class="section">
+                                <h3>Behavioral Patterns</h3>
+                                <p><strong>Work Style:</strong> ${data.behavioral_patterns?.work_style || 'N/A'}</p>
+                                <p><strong>Problem Solving Approach:</strong> ${data.behavioral_patterns?.problem_solving_approach || 'N/A'}</p>
+                            </div>
+
+                            <div class="section">
+                                <h3>Unique Identifiers</h3>
+                                <p><strong>Signature Methodologies:</strong></p>
+                                <div class="trait-list">
+                                    ${data.unique_identifiers?.signature_methodologies?.map(method => 
+                                        `<span class="trait">${method}</span>`
+                                    ).join('') || ''}
+                                </div>
+                            </div>
+                        </body>
+                        </html>
+                    `);
+                })
+                .catch(error => {
+                    console.error('Error viewing profile:', error);
+                    alert('Error loading profile details.');
+                });
+        }
+
+        // Initialize the page
+        loadProfiles();
+
+        // Add event listeners for bulk operations
+        document.getElementById('bulk-download-btn').addEventListener('click', bulkDownload);
+        document.getElementById('clear-filters-btn').addEventListener('click', clearAllFilters);
+
+        // Add event listeners for comparison
+        document.getElementById('compare-btn').addEventListener('click', showComparison);
+        document.getElementById('clear-comparison-btn').addEventListener('click', clearComparison);
+        document.getElementById('close-comparison-btn').addEventListener('click', hideComparison);
+
+        let selectedProfiles = [];
+
+        function toggleProfileSelection(profileId) {
+            const profileCard = document.querySelector(`[data-profile-id="${profileId}"]`);
+            const indicator = document.getElementById(`indicator-${profileId}`);
+            
+            if (selectedProfiles.includes(profileId)) {
+                // Remove from selection
+                selectedProfiles = selectedProfiles.filter(id => id !== profileId);
+                profileCard.classList.remove('selected');
+                indicator.style.display = 'none';
+            } else {
+                // Add to selection (limit to 3 for comparison)
+                if (selectedProfiles.length < 3) {
+                    selectedProfiles.push(profileId);
+                    profileCard.classList.add('selected');
+                    indicator.style.display = 'inline';
+                } else {
+                    alert('You can only compare up to 3 profiles at once. Please deselect one first.');
+                    return;
+                }
+            }
+            
+            updateComparisonUI();
+        }
+
+        function updateComparisonUI() {
+            const comparisonCount = document.getElementById('comparison-count');
+            const compareBtn = document.getElementById('compare-btn');
+            const comparisonPanel = document.getElementById('comparison-panel');
+            
+            comparisonCount.textContent = selectedProfiles.length;
+            compareBtn.disabled = selectedProfiles.length < 2;
+            
+            if (selectedProfiles.length > 0) {
+                comparisonPanel.classList.add('show');
+            } else {
+                comparisonPanel.classList.remove('show');
+            }
+        }
+
+        function showComparison() {
+            if (selectedProfiles.length < 2) {
+                alert('Please select at least 2 profiles to compare.');
+                return;
+            }
+            
+            const comparisonContent = document.getElementById('comparison-content');
+            const selectedProfileData = selectedProfiles.map(id => 
+                allProfiles.find(profile => profile.profile_id === id)
+            );
+            
+            comparisonContent.innerHTML = selectedProfileData.map(profile => `
+                <div class="comparison-profile">
+                    <h4>${profile.name} (#${profile.profile_id})</h4>
+                    <div class="comparison-trait">
+                        <span class="comparison-trait-label">Archetype:</span>
+                        <span class="comparison-trait-value">${profile.archetype}</span>
+                    </div>
+                    <div class="comparison-trait">
+                        <span class="comparison-trait-label">Domain:</span>
+                        <span class="comparison-trait-value">${profile.domain}</span>
+                    </div>
+                    <div class="comparison-trait">
+                        <span class="comparison-trait-label">Primary Traits:</span>
+                        <span class="comparison-trait-value">${profile.psychological_profile?.primary_traits?.join(', ') || 'N/A'}</span>
+                    </div>
+                    <div class="comparison-trait">
+                        <span class="comparison-trait-label">Communication Tone:</span>
+                        <span class="comparison-trait-value">${profile.communication_style?.tone || 'N/A'}</span>
+                    </div>
+                    <div class="comparison-trait">
+                        <span class="comparison-trait-label">Work Style:</span>
+                        <span class="comparison-trait-value">${profile.behavioral_patterns?.work_style || 'N/A'}</span>
+                    </div>
+                    <div class="comparison-trait">
+                        <span class="comparison-trait-label">Experience Level:</span>
+                        <span class="comparison-trait-value">${profile.background_context?.experience_level || 'N/A'}</span>
+                    </div>
+                </div>
+            `).join('');
+        }
+
+        function clearComparison() {
+            selectedProfiles = [];
+            document.querySelectorAll('.profile-card').forEach(card => {
+                card.classList.remove('selected');
+            });
+            document.querySelectorAll('.selection-indicator').forEach(indicator => {
+                indicator.style.display = 'none';
+            });
+            updateComparisonUI();
+        }
+
+        function hideComparison() {
+            document.getElementById('comparison-panel').classList.remove('show');
+        }
+
+        function bulkDownload() {
+            if (filteredProfiles.length === 0) {
+                alert('No profiles to download.');
+                return;
+            }
+
+            // Create a ZIP file using JSZip library
+            if (typeof JSZip === 'undefined') {
+                // Fallback: download profiles one by one
+                alert('Bulk download requires JSZip library. Downloading profiles individually...');
+                filteredProfiles.forEach(profile => {
+                    const link = document.createElement('a');
+                    link.href = `profiles/${profile.filename}`;
+                    link.download = profile.filename;
+                    link.click();
+                });
+                return;
+            }
+
+            const zip = new JSZip();
+            
+            // Add each profile to the ZIP
+            filteredProfiles.forEach(profile => {
+                const profileData = JSON.stringify(profile, null, 2);
+                zip.file(profile.filename, profileData);
+            });
+
+            // Generate and download the ZIP
+            zip.generateAsync({type: 'blob'}).then(content => {
+                const link = document.createElement('a');
+                link.href = URL.createObjectURL(content);
+                link.download = `profiles-${filteredProfiles.length}-files.zip`;
+                link.click();
+            });
+        }
+
+        function clearAllFilters() {
+            // Clear all select elements
+            const selects = document.querySelectorAll('select');
+            selects.forEach(select => {
+                if (select.multiple) {
+                    // For multi-select, deselect all options
+                    Array.from(select.options).forEach(option => option.selected = false);
+                } else {
+                    // For single select, set to first option
+                    select.selectedIndex = 0;
+                }
+            });
+
+            // Clear search input
+            document.getElementById('search-filter').value = '';
+
+            // Re-filter profiles
+            filterProfiles();
+        }
+    </script>
+</body>
+</html>
