@@ -6,10 +6,10 @@
     <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
     <meta http-equiv="Pragma" content="no-cache">
     <meta http-equiv="Expires" content="0">
-    <title>JSON Context Profiles - Interactive Index v5.0 - INSTANT LOADING WITH FULL FILTERS - FIXED DISPLAY - REMOVED CONFLICT</title>
+    <title>JSON Context Profiles - Interactive Index v5.0 - INSTANT LOADING WITH FULL FILTERS - FIXED DISPLAY - REMOVED CONFLICT - ADDED VARIETY</title>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js"></script>
     <script>
-        console.log('🚀 VERSION 5.5 LOADED - INSTANT LOADING WITH FULL FILTERS - FIXED DISPLAY - REMOVED CONFLICT ONLY');
+        console.log('🚀 VERSION 5.6 LOADED - INSTANT LOADING WITH FULL FILTERS - FIXED DISPLAY - REMOVED CONFLICT - ADDED VARIETY ONLY');
         console.log('This version loads profiles instantly without any network requests');
     </script>
     <style>
@@ -166,7 +166,7 @@
         let filteredProfiles = [];
 
         async function loadProfiles() {
-            console.log('🚀 VERSION 5.5: Loading profiles with instant optimization...');
+            console.log('🚀 VERSION 5.6: Loading profiles with instant optimization...');
             
             try {
                 const essentialProfiles = [
@@ -228,11 +228,11 @@
                     domain: profile.domain,
                     sub_domain: profile.domain === 'Technology' ? 'Software Development' : profile.domain === 'Marketing' ? 'Digital Marketing' : profile.domain === 'Investment' ? 'Venture Capital' : profile.domain === 'Business' ? 'Entrepreneurship' : profile.domain === 'Personal Development' ? 'Self-Improvement' : profile.domain === 'Thought Leadership' ? 'Philosophy' : profile.domain === 'Entertainment' ? 'Media' : '',
                     filename: `${profile.id.toString().padStart(2, '0')}-${profile.name.toLowerCase().replace(/\s+/g, '-')}.json`,
-                    psychological_profile: { primary_traits: ['Analytical', 'Visionary', 'Resilient'], cognitive_style: 'Strategic', core_motivations: ['Innovation', 'Impact', 'Growth'] },
-                    communication_style: { tone: 'Authoritative', vocabulary_patterns: ['Technical', 'Inspirational', 'Direct'] },
+                    psychological_profile: { primary_traits: profile.domain === 'Technology' ? ['Analytical', 'Logical', 'Systematic'] : profile.domain === 'Marketing' ? ['Creative', 'Persuasive', 'Adaptive'] : profile.domain === 'Investment' ? ['Analytical', 'Patient', 'Disciplined'] : profile.domain === 'Business' ? ['Visionary', 'Ambitious', 'Resilient'] : profile.domain === 'Personal Development' ? ['Empathetic', 'Supportive', 'Motivational'] : profile.domain === 'Thought Leadership' ? ['Philosophical', 'Curious', 'Insightful'] : profile.domain === 'Entertainment' ? ['Charismatic', 'Engaging', 'Dynamic'] : ['Analytical', 'Visionary', 'Resilient'], cognitive_style: 'Strategic', core_motivations: ['Innovation', 'Impact', 'Growth'] },
+                    communication_style: { tone: profile.domain === 'Technology' ? 'Technical' : profile.domain === 'Marketing' ? 'Persuasive' : profile.domain === 'Investment' ? 'Analytical' : profile.domain === 'Business' ? 'Authoritative' : profile.domain === 'Personal Development' ? 'Inspirational' : profile.domain === 'Thought Leadership' ? 'Philosophical' : profile.domain === 'Entertainment' ? 'Engaging' : 'Authoritative', vocabulary_patterns: ['Technical', 'Inspirational', 'Direct'] },
                     domain_expertise: { core_competencies: ['Leadership', 'Strategy', 'Execution'] },
-                    background_context: { experience_level: 'Expert', typical_career_path: 'Founder/CEO' },
-                    behavioral_patterns: { work_style: 'High-Intensity', problem_solving_approach: 'Systematic' },
+                    background_context: { experience_level: profile.domain === 'Technology' ? 'Senior' : profile.domain === 'Marketing' ? 'Expert' : profile.domain === 'Investment' ? 'Veteran' : profile.domain === 'Business' ? 'Founder' : profile.domain === 'Personal Development' ? 'Coach' : profile.domain === 'Thought Leadership' ? 'Scholar' : profile.domain === 'Entertainment' ? 'Celebrity' : 'Expert', typical_career_path: 'Founder/CEO' },
+                    behavioral_patterns: { work_style: profile.domain === 'Technology' ? 'Methodical' : profile.domain === 'Marketing' ? 'Creative' : profile.domain === 'Investment' ? 'Analytical' : profile.domain === 'Business' ? 'High-Intensity' : profile.domain === 'Personal Development' ? 'Supportive' : profile.domain === 'Thought Leadership' ? 'Reflective' : profile.domain === 'Entertainment' ? 'Dynamic' : 'High-Intensity', problem_solving_approach: 'Systematic' },
                     unique_identifiers: { signature_methodologies: ['Framework-Based', 'Data-Driven', 'User-Centric'] }
                 }));
                 
@@ -245,7 +245,7 @@
                 filteredProfiles = allProfiles;
                 displayProfiles();
                 
-                console.log('🚀 VERSION 5.5: All profiles loaded and displayed successfully!');
+                console.log('🚀 VERSION 5.6: All profiles loaded and displayed successfully!');
                 
             } catch (error) {
                 console.error('Error loading profiles:', error);
