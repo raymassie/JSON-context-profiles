@@ -6,10 +6,10 @@
     <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
     <meta http-equiv="Pragma" content="no-cache">
     <meta http-equiv="Expires" content="0">
-    <title>JSON Context Profiles - Interactive Index v5.0 - INSTANT LOADING WITH FULL FILTERS - FIXED DISPLAY</title>
+    <title>JSON Context Profiles - Interactive Index v5.0 - INSTANT LOADING WITH FULL FILTERS - FIXED DISPLAY - REMOVED CONFLICT</title>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js"></script>
     <script>
-        console.log('🚀 VERSION 5.4 LOADED - INSTANT LOADING WITH FULL FILTERS - FIXED DISPLAY ONLY');
+        console.log('🚀 VERSION 5.5 LOADED - INSTANT LOADING WITH FULL FILTERS - FIXED DISPLAY - REMOVED CONFLICT ONLY');
         console.log('This version loads profiles instantly without any network requests');
     </script>
     <style>
@@ -166,7 +166,7 @@
         let filteredProfiles = [];
 
         async function loadProfiles() {
-            console.log('🚀 VERSION 5.4: Loading profiles with instant optimization...');
+            console.log('🚀 VERSION 5.5: Loading profiles with instant optimization...');
             
             try {
                 const essentialProfiles = [
@@ -245,7 +245,7 @@
                 filteredProfiles = allProfiles;
                 displayProfiles();
                 
-                console.log('🚀 VERSION 5.4: All profiles loaded and displayed successfully!');
+                console.log('🚀 VERSION 5.5: All profiles loaded and displayed successfully!');
                 
             } catch (error) {
                 console.error('Error loading profiles:', error);
@@ -538,7 +538,6 @@
         
         console.log('Page loaded with version 5.0 - cache busted at ' + new Date().toISOString());
         
-        document.getElementById('profiles-container').innerHTML = '<div class="loading">Loading profiles... <span id="loading-progress">0%</span></div>';
 
         document.getElementById('bulk-download-btn').addEventListener('click', bulkDownload);
         document.getElementById('clear-filters-btn').addEventListener('click', clearAllFilters);
