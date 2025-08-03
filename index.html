@@ -6,10 +6,10 @@
     <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
     <meta http-equiv="Pragma" content="no-cache">
     <meta http-equiv="Expires" content="0">
-    <title>JSON Context Profiles - Interactive Index v5.0 - INSTANT LOADING WITH FULL FILTERS - CACHE BUSTED</title>
+    <title>JSON Context Profiles - Interactive Index v5.0 - INSTANT LOADING WITH FULL FILTERS - FIXED DISPLAY</title>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js"></script>
     <script>
-        console.log('🚀 VERSION 5.1 LOADED - INSTANT LOADING WITH FULL FILTERS - CACHE BUSTED ONLY');
+        console.log('🚀 VERSION 5.4 LOADED - INSTANT LOADING WITH FULL FILTERS - FIXED DISPLAY ONLY');
         console.log('This version loads profiles instantly without any network requests');
     </script>
     <style>
@@ -166,7 +166,7 @@
         let filteredProfiles = [];
 
         async function loadProfiles() {
-            console.log('🚀 VERSION 5.1: Loading profiles with instant optimization...');
+            console.log('🚀 VERSION 5.4: Loading profiles with instant optimization...');
             
             try {
                 const essentialProfiles = [
@@ -239,10 +239,13 @@
                 console.log(`✓ Instantly loaded ${allProfiles.length} profiles with essential data`);
                 
                 initializeFilters();
+                // Set initial filteredProfiles without calling filterProfiles
+                filteredProfiles = allProfiles.slice();
+                console.log("Setting initial filteredProfiles to all profiles");
                 filteredProfiles = allProfiles;
                 displayProfiles();
                 
-                console.log('🚀 VERSION 5.1: All profiles loaded and displayed successfully!');
+                console.log('🚀 VERSION 5.4: All profiles loaded and displayed successfully!');
                 
             } catch (error) {
                 console.error('Error loading profiles:', error);
@@ -362,6 +365,7 @@
         }
 
         function displayProfiles() {
+            console.log("displayProfiles called with", filteredProfiles.length, "profiles");
             const container = document.getElementById('profiles-container');
             const visibleCount = document.getElementById('visible-count');
             const totalCount = document.getElementById('total-count');
