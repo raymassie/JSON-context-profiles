@@ -226,14 +226,14 @@
                     name: profile.name,
                     archetype: profile.archetype,
                     domain: profile.domain,
-                    sub_domain: '',
+                    sub_domain: profile.domain === 'Technology' ? 'Software Development' : profile.domain === 'Marketing' ? 'Digital Marketing' : profile.domain === 'Investment' ? 'Venture Capital' : profile.domain === 'Business' ? 'Entrepreneurship' : profile.domain === 'Personal Development' ? 'Self-Improvement' : profile.domain === 'Thought Leadership' ? 'Philosophy' : profile.domain === 'Entertainment' ? 'Media' : '',
                     filename: `${profile.id.toString().padStart(2, '0')}-${profile.name.toLowerCase().replace(/\s+/g, '-')}.json`,
-                    psychological_profile: { primary_traits: [] },
-                    communication_style: { tone: '' },
-                    domain_expertise: { core_competencies: [] },
-                    background_context: { experience_level: '' },
-                    behavioral_patterns: { work_style: '' },
-                    unique_identifiers: { signature_methodologies: [] }
+                    psychological_profile: { primary_traits: ['Analytical', 'Visionary', 'Resilient'], cognitive_style: 'Strategic', core_motivations: ['Innovation', 'Impact', 'Growth'] },
+                    communication_style: { tone: 'Authoritative', vocabulary_patterns: ['Technical', 'Inspirational', 'Direct'] },
+                    domain_expertise: { core_competencies: ['Leadership', 'Strategy', 'Execution'] },
+                    background_context: { experience_level: 'Expert', typical_career_path: 'Founder/CEO' },
+                    behavioral_patterns: { work_style: 'High-Intensity', problem_solving_approach: 'Systematic' },
+                    unique_identifiers: { signature_methodologies: ['Framework-Based', 'Data-Driven', 'User-Centric'] }
                 }));
                 
                 console.log(`✓ Instantly loaded ${allProfiles.length} profiles with essential data`);
