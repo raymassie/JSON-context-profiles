@@ -9,7 +9,7 @@
     <title>JSON Context Profiles - Interactive Index v7.0 - INSTANT LOADING WITH FULL FILTERS - FIXED DISPLAY - REMOVED CONFLICT - ADDED VARIETY - SIMPLE CLEAN FILTERING</title>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js"></script>
     <script>
-        console.log('🚀 VERSION 7.0 LOADED - INSTANT LOADING WITH FULL FILTERS - FIXED DISPLAY - REMOVED CONFLICT - ADDED VARIETY - SIMPLE CLEAN FILTERING ONLY');
+        console.log('🚀 VERSION 8.2 LOADED - INSTANT LOADING WITH FULL FILTERS - FIXED DISPLAY - REMOVED CONFLICT - ADDED VARIETY - SIMPLE CLEAN FILTERING ONLY');
         console.log('This version loads profiles instantly without any network requests');
     </script>
     <style>
@@ -61,7 +61,12 @@
 </head>
 <body>
     <div class="container">
+        <div class="sidebar">
         <div class="header">
+            <div class="view-toggle">
+                <button id="grid-view-btn" class="active">Grid View</button>
+                <button id="list-view-btn">List View</button>
+            </div>
             <h1>JSON Context Profiles</h1>
             <p>Interactive index of psychological and behavioral profiles for thought leaders and entrepreneurs</p>
         </div>
@@ -144,7 +149,9 @@
             </div>
         </div>
 
-        <div id="profiles-container">
+        </div>
+        <div class="main-content">
+            <div id="profiles-container">
             <div class="loading">Loading profiles... <span id="loading-progress">0%</span></div>
         </div>
     </div>
@@ -166,7 +173,7 @@
         let filteredProfiles = [];
 
         async function loadProfiles() {
-            console.log('🚀 VERSION 7.0: Loading profiles with instant optimization...');
+            console.log('🚀 VERSION 8.2: Loading profiles with instant optimization...');
             
             try {
                 const essentialProfiles = [
@@ -245,7 +252,7 @@
                 filteredProfiles = allProfiles;
                 displayProfiles();
                 
-                console.log('🚀 VERSION 7.0: All profiles loaded and displayed successfully!');
+                console.log('🚀 VERSION 8.2: All profiles loaded and displayed successfully!');
                 
             } catch (error) {
                 console.error('Error loading profiles:', error);
