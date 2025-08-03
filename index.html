@@ -15,7 +15,14 @@
     <style>
         * { margin: 0; padding: 0; box-sizing: border-box; }
         body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.6; color: #333; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); min-height: 100vh; }
-        .container { max-width: 1400px; margin: 0 auto; padding: 20px; }
+        .container { 
+            max-width: 1800px; 
+            margin: 0 auto; 
+            padding: 20px; 
+            display: grid;
+            grid-template-columns: 350px 1fr; /* Sidebar width and main content */
+            gap: 20px;
+        }
         .header { text-align: center; margin-bottom: 30px; color: white; }
         .header h1 { font-size: 2.5rem; margin-bottom: 10px; text-shadow: 2px 2px 4px rgba(0,0,0,0.3); }
         .header p { font-size: 1.1rem; opacity: 0.9; }
@@ -27,7 +34,9 @@
         .filter-group select:focus, .filter-group input:focus { outline: none; border-color: #667eea; }
         .filter-row { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 15px; margin-bottom: 15px; }
         .search-section { margin-top: 20px; padding-top: 20px; border-top: 1px solid #e1e5e9; }
-        .profiles-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 20px; margin-top: 20px; }
+        .profiles-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; margin-top: 20px; }
+        @media (max-width: 1200px) { .profiles-grid { grid-template-columns: repeat(2, 1fr); } }
+        @media (max-width: 768px) { .profiles-grid { grid-template-columns: 1fr; } }
         .profile-card { background: white; border-radius: 10px; padding: 20px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); transition: transform 0.2s ease, box-shadow 0.2s ease; cursor: pointer; }
         .profile-card:hover { transform: translateY(-2px); box-shadow: 0 6px 12px rgba(0,0,0,0.15); }
         .profile-card.selected { border: 3px solid #667eea; box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1); }
@@ -57,6 +66,8 @@
         .comparison-content { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 15px; }
         .comparison-profile { background: #f8f9fa; padding: 10px; border-radius: 5px; border-left: 3px solid #667eea; }
         @media (max-width: 768px) { .container { padding: 10px; } .header h1 { font-size: 2rem; } .filter-row { grid-template-columns: 1fr; } .profiles-grid { grid-template-columns: 1fr; } }
+        .profiles-list .profile-card { display: flex; align-items: center; margin-bottom: 10px; }
+        .profiles-list .profile-card .profile-name { flex-grow: 1; }
     </style>
 </head>
 <body>
@@ -151,7 +162,7 @@
 
         </div>
         <div class="main-content">
-            <div id="profiles-container">
+            <div id="profiles-container" class="profiles-grid">
             <div class="loading">Loading profiles... <span id="loading-progress">0%</span></div>
         </div>
     </div>
@@ -171,9 +182,10 @@
     <script>
         let allProfiles = [];
         let filteredProfiles = [];
+        let currentView = 'grid';
 
         async function loadProfiles() {
-            console.log('🚀 VERSION 8.2: Loading profiles with instant optimization...');
+            console.log('🚀 VERSION 8.3 LOADED - CORRECTED FILTERS AND UNIQUE IDENTIFIERS');
             
             try {
                 const essentialProfiles = [
@@ -252,7 +264,7 @@
                 filteredProfiles = allProfiles;
                 displayProfiles();
                 
-                console.log('🚀 VERSION 8.2: All profiles loaded and displayed successfully!');
+                console.log('🚀 VERSION 8.3: All profiles loaded and displayed successfully!');
                 
             } catch (error) {
                 console.error('Error loading profiles:', error);
@@ -306,18 +318,20 @@
 
         function filterProfiles() {
             const searchTerm = document.getElementById('search-filter').value.toLowerCase();
-            const archetypeFilter = Array.from(document.getElementById('archetype-filter').selectedOptions).map(option => option.value);
-            const domainFilter = Array.from(document.getElementById('domain-filter').selectedOptions).map(option => option.value);
-            const subdomainFilter = Array.from(document.getElementById('subdomain-filter').selectedOptions).map(option => option.value);
-            const traitFilter = Array.from(document.getElementById('trait-filter').selectedOptions).map(option => option.value);
-            const communicationFilter = Array.from(document.getElementById('communication-filter').selectedOptions).map(option => option.value);
-            const expertiseFilter = Array.from(document.getElementById('expertise-filter').selectedOptions).map(option => option.value);
-            const backgroundFilter = Array.from(document.getElementById('background-filter').selectedOptions).map(option => option.value);
-            const behaviorFilter = Array.from(document.getElementById('behavior-filter').selectedOptions).map(option => option.value);
-            const identifierFilter = Array.from(document.getElementById('identifier-filter').selectedOptions).map(option => option.value);
+            const getFilterValues = (id) => Array.from(document.getElementById(id).selectedOptions).map(option => option.value).filter(v => v !== '');
+
+            const archetypeFilter = getFilterValues('archetype-filter');
+            const domainFilter = getFilterValues('domain-filter');
+            const subdomainFilter = getFilterValues('subdomain-filter');
+            const traitFilter = getFilterValues('trait-filter');
+            const communicationFilter = getFilterValues('communication-filter');
+            const expertiseFilter = getFilterValues('expertise-filter');
+            const backgroundFilter = getFilterValues('background-filter');
+            const behaviorFilter = getFilterValues('behavior-filter');
+            const identifierFilter = getFilterValues('identifier-filter');
 
             filteredProfiles = allProfiles.filter(profile => {
-                if (searchTerm && !profile.name.toLowerCase().includes(searchTerm) && 
+                if (searchTerm && !profile.name.toLowerCase().includes(searchTerm) &&
                     !profile.archetype.toLowerCase().includes(searchTerm) &&
                     !profile.domain.toLowerCase().includes(searchTerm)) {
                     return false;
@@ -335,32 +349,32 @@
                     return false;
                 }
 
-                if (traitFilter.length > 0 && (!profile.psychological_profile?.primary_traits || 
+                if (traitFilter.length > 0 && (!profile.psychological_profile?.primary_traits ||
                     !profile.psychological_profile.primary_traits.some(trait => traitFilter.includes(trait)))) {
                     return false;
                 }
 
-                if (communicationFilter.length > 0 && (!profile.communication_style?.tone || 
+                if (communicationFilter.length > 0 && (!profile.communication_style?.tone ||
                     !communicationFilter.includes(profile.communication_style.tone))) {
                     return false;
                 }
 
-                if (expertiseFilter.length > 0 && (!profile.domain_expertise?.core_competencies || 
+                if (expertiseFilter.length > 0 && (!profile.domain_expertise?.core_competencies ||
                     !profile.domain_expertise.core_competencies.some(expertise => expertiseFilter.includes(expertise)))) {
                     return false;
                 }
 
-                if (backgroundFilter.length > 0 && (!profile.background_context?.experience_level || 
+                if (backgroundFilter.length > 0 && (!profile.background_context?.experience_level ||
                     !backgroundFilter.includes(profile.background_context.experience_level))) {
                     return false;
                 }
 
-                if (behaviorFilter.length > 0 && (!profile.behavioral_patterns?.work_style || 
+                if (behaviorFilter.length > 0 && (!profile.behavioral_patterns?.work_style ||
                     !behaviorFilter.includes(profile.behavioral_patterns.work_style))) {
                     return false;
                 }
 
-                if (identifierFilter.length > 0 && (!profile.unique_identifiers?.signature_methodologies || 
+                if (identifierFilter.length > 0 && (!profile.unique_identifiers?.signature_methodologies ||
                     !profile.unique_identifiers.signature_methodologies.some(identifier => identifierFilter.includes(identifier)))) {
                     return false;
                 }
@@ -368,6 +382,16 @@
                 return true;
             });
 
+            displayProfiles();
+        }
+
+        document.getElementById('grid-view-btn').addEventListener('click', () => switchView('grid'));
+        document.getElementById('list-view-btn').addEventListener('click', () => switchView('list'));
+
+        function switchView(view) {
+            currentView = view;
+            document.getElementById('grid-view-btn').classList.toggle('active', view === 'grid');
+            document.getElementById('list-view-btn').classList.toggle('active', view === 'list');
             displayProfiles();
         }
 
@@ -388,6 +412,20 @@
 
             const fragment = document.createDocumentFragment();
             
+            if (currentView === 'grid') {
+                renderGrid(fragment);
+            } else {
+                renderList(fragment);
+            }
+            
+            container.innerHTML = '';
+            container.appendChild(fragment);
+            document.getElementById('bulk-download-btn').style.display = 'block';
+        }
+
+        function renderGrid(fragment) {
+            const container = document.getElementById('profiles-container');
+            container.className = 'profiles-grid';
             filteredProfiles.forEach(profile => {
                 const profileCard = document.createElement('div');
                 profileCard.className = 'profile-card';
@@ -424,10 +462,31 @@
                 
                 fragment.appendChild(profileCard);
             });
-            
-            container.innerHTML = '';
-            container.appendChild(fragment);
-            document.getElementById('bulk-download-btn').style.display = 'block';
+        }
+
+        function renderList(fragment) {
+            const container = document.getElementById('profiles-container');
+            container.className = 'profiles-list';
+            filteredProfiles.forEach(profile => {
+                const profileCard = document.createElement('div');
+                profileCard.className = 'profile-card';
+                profileCard.setAttribute('data-profile-id', profile.profile_id);
+                profileCard.onclick = () => toggleProfileSelection(profile.profile_id);
+                
+                profileCard.innerHTML = `
+                    <div class="profile-id">#${profile.profile_id}</div>
+                    <div class="profile-name">${profile.name}</div>
+                    <div class="profile-archetype">${profile.archetype}</div>
+                    <div class="profile-domain">${profile.domain}</div>
+                    <div class="profile-actions">
+                        <a href="profiles/${profile.filename}" class="btn btn-primary" download onclick="event.stopPropagation()">Download JSON</a>
+                        <button class="btn btn-secondary" onclick="copyToClipboard('${profile.filename}'); event.stopPropagation()">Copy JSON</button>
+                        <button class="btn btn-secondary" onclick="viewProfile('${profile.filename}'); event.stopPropagation()">View Details</button>
+                    </div>
+                `;
+                
+                fragment.appendChild(profileCard);
+            });
         }
 
         function copyToClipboard(filename) {
