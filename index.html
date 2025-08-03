@@ -6,10 +6,10 @@
     <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
     <meta http-equiv="Pragma" content="no-cache">
     <meta http-equiv="Expires" content="0">
-    <title>JSON Context Profiles - Interactive Index v6.3 - INSTANT LOADING WITH FULL FILTERS - FIXED DISPLAY - REMOVED CONFLICT - ADDED VARIETY - CLEAN FIX FOR ALL FILTERS - FIXED VERSION REFERENCES</title>
+    <title>JSON Context Profiles - Interactive Index v6.4 - INSTANT LOADING WITH FULL FILTERS - FIXED DISPLAY - REMOVED CONFLICT - ADDED VARIETY - CLEAN FIX FOR ALL FILTERS - FIXED VERSION REFERENCES</title>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js"></script>
     <script>
-        console.log('🚀 VERSION 6.3 LOADED - INSTANT LOADING WITH FULL FILTERS - FIXED DISPLAY - REMOVED CONFLICT - ADDED VARIETY - CLEAN FIX FOR ALL FILTERS - FIXED VERSION REFERENCES ONLY');
+        console.log('🚀 VERSION 6.4 LOADED - INSTANT LOADING WITH FULL FILTERS - FIXED DISPLAY - REMOVED CONFLICT - ADDED VARIETY - CLEAN FIX FOR ALL FILTERS - FIXED VERSION REFERENCES ONLY');
         console.log('This version loads profiles instantly without any network requests');
     </script>
     <style>
@@ -166,7 +166,7 @@
         let filteredProfiles = [];
 
         async function loadProfiles() {
-            console.log('🚀 VERSION 6.3: Loading profiles with instant optimization...');
+            console.log('🚀 VERSION 6.4: Loading profiles with instant optimization...');
             
             try {
                 const essentialProfiles = [
@@ -245,7 +245,7 @@
                 filteredProfiles = allProfiles;
                 displayProfiles();
                 
-                console.log('🚀 VERSION 6.3: All profiles loaded and displayed successfully!');
+                console.log('🚀 VERSION 6.4: All profiles loaded and displayed successfully!');
                 
             } catch (error) {
                 console.error('Error loading profiles:', error);
@@ -294,6 +294,12 @@
         }
 
         function getNestedValue(obj, path) {
+            return path.split('.').reduce((current, key) => current function getNestedValue(obj, path) {function getNestedValue(obj, path) { current[key], obj);
+        }
+        
+        function isAllSelected(filterArray) {
+            return filterArray.length === 0 || filterArray.includes('');
+        }
             return path.split('.').reduce((current, key) => current && current[key], obj);
         }
 
@@ -316,15 +322,15 @@
                     return false;
                 }
 
-                if (archetypeFilter.length > 0 && !archetypeFilter.includes(profile.archetype)) {
+                if (!isAllSelected(archetypeFilter) if (archetypeFilter.length > 0 && !archetypeFilter.includes(profile.archetype)) {if (archetypeFilter.length > 0 && !archetypeFilter.includes(profile.archetype)) { !archetypeFilter.includes(profile.archetype)) {
                     return false;
                 }
 
-                if (domainFilter.length > 0 && !domainFilter.includes(profile.domain)) {
+                if (!isAllSelected(domainFilter) if (domainFilter.length > 0 && !domainFilter.includes(profile.domain)) {if (domainFilter.length > 0 && !domainFilter.includes(profile.domain)) { !domainFilter.includes(profile.domain)) {
                     return false;
                 }
 
-                if (subdomainFilter.length > 0 && !subdomainFilter.includes(profile.sub_domain)) {
+                if (!isAllSelected(subdomainFilter) if (subdomainFilter.length > 0 && !subdomainFilter.includes(profile.sub_domain)) {if (subdomainFilter.length > 0 && !subdomainFilter.includes(profile.sub_domain)) { !subdomainFilter.includes(profile.sub_domain)) {
                     return false;
                 }
 
@@ -536,7 +542,7 @@
 
         loadProfiles();
         
-        console.log('Page loaded with version 6.3 - cache busted at ' + new Date().toISOString());
+        console.log('Page loaded with version 6.4 - cache busted at ' + new Date().toISOString());
         
 
         document.getElementById('bulk-download-btn').addEventListener('click', bulkDownload);
