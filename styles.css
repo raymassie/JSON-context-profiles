@@ -933,7 +933,7 @@ body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height
     gap: 2px;
 }
 .trait-tag:hover { 
-    background: #283618; 
+    filter: brightness(0.8);
     transform: scale(1.05);
     box-shadow: 0 2px 4px rgba(0,0,0,0.2);
 }
@@ -941,15 +941,45 @@ body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height
     position: relative;
 }
 .trait-tag.active { 
-    background: #283618; 
+    filter: brightness(0.7);
 }
 
 .clickable-badge.active {
-    background: #283618 !important;
-    color: #ccd5ae !important;
+    filter: brightness(0.7) !important;
     transform: scale(1.05);
     box-shadow: 0 2px 8px rgba(40, 54, 24, 0.3);
 }
+
+/* BEHAVIORAL HUMANISM CATEGORIES - Blues/Teals */
+.trait-tag.cat-bias-awareness { background: #5B8C8E; color: #FFF; }
+.trait-tag.cat-growth-motivation { background: #6C9C9E; color: #000; }
+.trait-tag.cat-cognitive-humanism { background: #3A6C6E; color: #FFF; }
+.trait-tag.cat-humanistic-cognition { background: #2A5C5E; color: #FFF; }
+.trait-tag.cat-human-needs-hierarchy { background: #1A4C4E; color: #FFF; }
+.trait-tag.cat-self-actualization { background: #0A3C3E; color: #FFF; }
+.trait-tag.cat-behavioral-growth { background: #4A7C7E; color: #FFF; }
+
+/* TIER 1 CATEGORIES - Purples/Violets */
+.trait-tag.cat-technology-relationship { background: #7B68A0; color: #FFF; }
+.trait-tag.cat-crisis-response { background: #8B78B0; color: #FFF; }
+.trait-tag.cat-influence-style { background: #9B88C0; color: #000; }
+
+/* TIER 2 CATEGORIES - Warm Oranges */
+.trait-tag.cat-resource-relationship { background: #C17A4F; color: #FFF; }
+.trait-tag.cat-time-orientation { background: #D18A5F; color: #000; }
+.trait-tag.cat-collaboration-enhancement { background: #E19A6F; color: #000; }
+
+/* TRADITIONAL CATEGORIES - Greens */
+.trait-tag.cat-communication-style { background: #606C38; color: #CCD5AE; }
+.trait-tag.cat-behavioral-patterns { background: #708C48; color: #FFF; }
+.trait-tag.cat-psychological-profile { background: #506C28; color: #FFF; }
+.trait-tag.cat-decision-making { background: #607C38; color: #CCD5AE; }
+.trait-tag.cat-learning { background: #709C48; color: #000; }
+.trait-tag.cat-values { background: #507C28; color: #FFF; }
+.trait-tag.cat-domain-expertise { background: #608C38; color: #CCD5AE; }
+.trait-tag.cat-collaboration { background: #70AC48; color: #000; }
+.trait-tag.cat-temporal-context { background: #508C28; color: #FFF; }
+.trait-tag.cat-cultural-context { background: #60AC38; color: #000; }
 .btn-details {
     width: 100%;
     padding: 16px;

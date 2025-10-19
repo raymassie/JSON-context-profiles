@@ -2322,7 +2322,7 @@ Contact: raymassie@gmail.com for commercial licensing
                                         const traits = profile.primary_traits || profile.psychological_profile?.primary_traits;
                                         if (!traits) return '';
                                         const traitArray = Array.isArray(traits) ? traits : traits.split(',').map(t => t.trim());
-                                        return traitArray.map(trait => `<span class="trait-tag clickable-badge" onclick="searchByBadge('${trait.replace(/'/g, "\\'")}', event)" title="Click to find other profiles with this trait">${trait}</span>`).join('');
+                                        return traitArray.map(trait => `<span class="trait-tag cat-psychological-profile clickable-badge" onclick="searchByBadge('${trait.replace(/'/g, "\\'")}', event)" title="Click to find other profiles with this trait">${trait}</span>`).join('');
                                     })()}
                                 </div>
                                 </div>
@@ -2421,87 +2421,158 @@ Contact: raymassie@gmail.com for commercial licensing
         // Hierarchical color system for trait categories
         function getTraitColor(category, level = 'primary') {
             const colorSystem = {
+                // BEHAVIORAL HUMANISM - Blues/Teals
+                'Bias Awareness': {
+                    primary: '#5B8C8E',
+                    secondary: '#6B9C9E',
+                    tertiary: '#7BACAE',
+                    quaternary: '#8BBCBE'
+                },
+                'Growth Motivation': {
+                    primary: '#6C9C9E',
+                    secondary: '#7CACAE',
+                    tertiary: '#8CBCBE',
+                    quaternary: '#9CCCCE'
+                },
+                'Cognitive Humanism': {
+                    primary: '#3A6C6E',
+                    secondary: '#4A7C7E',
+                    tertiary: '#5A8C8E',
+                    quaternary: '#6A9C9E'
+                },
+                'Humanistic Cognition': {
+                    primary: '#2A5C5E',
+                    secondary: '#3A6C6E',
+                    tertiary: '#4A7C7E',
+                    quaternary: '#5A8C8E'
+                },
+                'Human Needs Hierarchy': {
+                    primary: '#1A4C4E',
+                    secondary: '#2A5C5E',
+                    tertiary: '#3A6C6E',
+                    quaternary: '#4A7C7E'
+                },
+                'Self Actualization': {
+                    primary: '#0A3C3E',
+                    secondary: '#1A4C4E',
+                    tertiary: '#2A5C5E',
+                    quaternary: '#3A6C6E'
+                },
+                'Behavioral Growth': {
+                    primary: '#4A7C7E',
+                    secondary: '#5A8C8E',
+                    tertiary: '#6A9C9E',
+                    quaternary: '#7AACAE'
+                },
+                // TIER 1 - Purples/Violets
+                'Technology Relationship': {
+                    primary: '#7B68A0',
+                    secondary: '#8B78B0',
+                    tertiary: '#9B88C0',
+                    quaternary: '#AB98D0'
+                },
+                'Crisis Response': {
+                    primary: '#8B78B0',
+                    secondary: '#9B88C0',
+                    tertiary: '#AB98D0',
+                    quaternary: '#BBA8E0'
+                },
+                'Influence Style': {
+                    primary: '#9B88C0',
+                    secondary: '#AB98D0',
+                    tertiary: '#BBA8E0',
+                    quaternary: '#CBB8F0'
+                },
+                // TIER 2 - Warm Oranges
+                'Resource Relationship': {
+                    primary: '#C17A4F',
+                    secondary: '#D18A5F',
+                    tertiary: '#E19A6F',
+                    quaternary: '#F1AA7F'
+                },
+                'Time Orientation': {
+                    primary: '#D18A5F',
+                    secondary: '#E19A6F',
+                    tertiary: '#F1AA7F',
+                    quaternary: '#FFBA8F'
+                },
+                'Collaboration Enhancement': {
+                    primary: '#E19A6F',
+                    secondary: '#F1AA7F',
+                    tertiary: '#FFBA8F',
+                    quaternary: '#FFCA9F'
+                },
+                // TRADITIONAL - Greens
+                'Communication Style': {
+                    primary: '#606C38',
+                    secondary: '#707C48',
+                    tertiary: '#808C58',
+                    quaternary: '#909C68'
+                },
+                'Behavioral Patterns': {
+                    primary: '#708C48',
+                    secondary: '#809C58',
+                    tertiary: '#90AC68',
+                    quaternary: '#A0BC78'
+                },
+                'Psychological Profile': {
+                    primary: '#506C28',
+                    secondary: '#607C38',
+                    tertiary: '#708C48',
+                    quaternary: '#809C58'
+                },
+                'Decision Making': {
+                    primary: '#607C38',
+                    secondary: '#708C48',
+                    tertiary: '#809C58',
+                    quaternary: '#90AC68'
+                },
+                'Learning': {
+                    primary: '#709C48',
+                    secondary: '#80AC58',
+                    tertiary: '#90BC68',
+                    quaternary: '#A0CC78'
+                },
+                'Values': {
+                    primary: '#507C28',
+                    secondary: '#608C38',
+                    tertiary: '#709C48',
+                    quaternary: '#80AC58'
+                },
+                'Domain Expertise': {
+                    primary: '#608C38',
+                    secondary: '#709C48',
+                    tertiary: '#80AC58',
+                    quaternary: '#90BC68'
+                },
+                'Collaboration': {
+                    primary: '#70AC48',
+                    secondary: '#80BC58',
+                    tertiary: '#90CC68',
+                    quaternary: '#A0DC78'
+                },
+                'Temporal Context': {
+                    primary: '#508C28',
+                    secondary: '#609C38',
+                    tertiary: '#70AC48',
+                    quaternary: '#80BC58'
+                },
+                'Cultural Context': {
+                    primary: '#60AC38',
+                    secondary: '#70BC48',
+                    tertiary: '#80CC58',
+                    quaternary: '#90DC68'
+                },
+                // Keep old category for backward compatibility
                 'Background & Experience': {
                     primary: '#8B4513',
                     secondary: '#A0522D',
                     tertiary: '#CD853F',
                     quaternary: '#DEB887'
-                },
-                'Behavioral Patterns': {
-                    primary: '#B8860B',
-                    secondary: '#DAA520',
-                    tertiary: '#F0E68C',
-                    quaternary: '#FFF8DC'
-                },
-                'Collaboration': {
-                    primary: '#006400',
-                    secondary: '#228B22',
-                    tertiary: '#32CD32',
-                    quaternary: '#90EE90'
-                },
-                'Communication': {
-                    primary: '#008B8B',
-                    secondary: '#20B2AA',
-                    tertiary: '#40E0D0',
-                    quaternary: '#AFEEEE'
-                },
-                'Communication Style': {
-                    primary: '#191970',
-                    secondary: '#4169E1',
-                    tertiary: '#6495ED',
-                    quaternary: '#B0C4DE'
-                },
-                'Cultural Context': {
-                    primary: '#4B0082',
-                    secondary: '#6A5ACD',
-                    tertiary: '#9370DB',
-                    quaternary: '#DDA0DD'
-                },
-                'Domain Expertise': {
-                    primary: '#8B008B',
-                    secondary: '#9932CC',
-                    tertiary: '#BA55D3',
-                    quaternary: '#DDA0DD'
-                },
-                'Learning': {
-                    primary: '#800080',
-                    secondary: '#9400D3',
-                    tertiary: '#DA70D6',
-                    quaternary: '#EE82EE'
-                },
-                'Practical Application': {
-                    primary: '#8B0000',
-                    secondary: '#DC143C',
-                    tertiary: '#F08080',
-                    quaternary: '#FFB6C1'
-                },
-                'Psychological Profile': {
-                    primary: '#B22222',
-                    secondary: '#DC143C',
-                    tertiary: '#F08080',
-                    quaternary: '#FFA07A'
-                },
-                'Temporal Context': {
-                    primary: '#FF4500',
-                    secondary: '#FF6347',
-                    tertiary: '#FF7F50',
-                    quaternary: '#FFA500'
-                },
-                'Unique Identifiers': {
-                    primary: '#DAA520',
-                    secondary: '#F4A460',
-                    tertiary: '#DEB887',
-                    quaternary: '#F5DEB3'
-                },
-                'Values': {
-                    primary: '#556B2F',
-                    secondary: '#6B8E23',
-                    tertiary: '#9ACD32',
-                    quaternary: '#ADFF2F'
                 }
             };
             
-            return colorSystem[category]?.[level] || '#6c757d';
+            return colorSystem[category]?.[level] || '#606C38';
         }
 
         /**
