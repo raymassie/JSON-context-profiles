@@ -849,6 +849,7 @@ body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height
     gap: 16px; 
     width: 100%;
     flex: 1;
+    padding-bottom: 80px;
 }
 .card-fields { 
     display: flex; 
@@ -890,7 +891,7 @@ body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height
 .profile-actions { 
     border-radius: 4px; 
     display: flex; 
-    justify-content: flex-end; 
+    justify-content: center; 
     align-items: center; 
     gap: 0; 
     width: 100%; 
@@ -904,7 +905,7 @@ body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height
     padding: 16px;
 }
 .details {
-    /* No positioning needed - parent handles it */
+    width: 100%;
 }
 
 .btn { 
