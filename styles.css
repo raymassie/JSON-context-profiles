@@ -772,7 +772,7 @@ body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height
 .filter-group select:focus, .filter-group input:focus { outline: none; border: none; }
 .filter-row { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 15px; margin-bottom: 15px; }
 .search-section { margin-top: 20px; padding-top: 20px; border-top: 1px solid #283618; }
-.profiles-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; align-items: start; }
+.profiles-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; align-items: stretch; }
 @media (max-width: 1200px) { .profiles-grid { grid-template-columns: repeat(2, 1fr); } }
 @media (max-width: 768px) { .profiles-grid { grid-template-columns: 1fr; } }
 .profile-card { 
@@ -783,10 +783,10 @@ body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height
     transition: all 0.3s ease; 
     cursor: pointer; 
     border: 1px solid #E9EDC9;
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
     width: 100%;
-    min-height: 300px;
+    height: 100%;
     position: relative;
 }
 .profile-card:hover { 
@@ -806,6 +806,7 @@ body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height
     flex-direction: column; 
     align-items: flex-start; 
     flex-shrink: 0;
+    grid-row: 1;
 }
 .card-name-row { 
     padding-bottom: 4px; 
@@ -843,7 +844,7 @@ body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height
     flex-direction: column; 
     gap: 16px; 
     width: 100%;
-    flex: 1;
+    grid-row: 2;
 }
 .card-fields { 
     display: flex; 
@@ -890,7 +891,7 @@ body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height
     gap: 0; 
     width: 100%; 
     background: #FEFAE0;
-    margin-top: auto;
+    grid-row: 3;
     padding-top: 16px;
 }
 .btn { 
