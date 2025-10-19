@@ -38,7 +38,13 @@
     ]
   },
   "psychological_profile": {
-    "primary_traits": "dark, suspenseful, character-driven, atmospheric, psychological",
+    "primary_traits": [
+      "dark",
+      "suspenseful",
+      "character-driven",
+      "atmospheric",
+      "psychological"
+    ],
     "core_motivations": "dark storytelling, character-driven narratives, psychological exploration, atmospheric creation"
   },
   "values": {

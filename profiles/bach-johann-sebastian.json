@@ -34,7 +34,13 @@
     ]
   },
   "psychological_profile": {
-    "primary_traits": "systematic, mathematically precise, spiritually driven, prolific, innovative",
+    "primary_traits": [
+      "systematic",
+      "mathematically precise",
+      "spiritually driven",
+      "prolific",
+      "innovative"
+    ],
     "core_motivations": "musical perfection, spiritual expression, mathematical beauty",
     "learning_style": "systematic, mathematical, spiritually driven"
   },

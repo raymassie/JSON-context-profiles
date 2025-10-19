@@ -32,7 +32,18 @@
     ]
   },
   "psychological_profile": {
-    "primary_traits": "investigative, evidence-based, narrative-focused, insightful, analytical, research-oriented, transformative, data-driven, accessible, storytelling",
+    "primary_traits": [
+      "investigative",
+      "evidence-based",
+      "narrative-focused",
+      "insightful",
+      "analytical",
+      "research-oriented",
+      "transformative",
+      "data-driven",
+      "accessible",
+      "storytelling"
+    ],
     "core_motivations": "behavioral research, habit formation insights, investigative journalism, evidence-based analysis, productivity psychology, transformative storytelling, organizational behavior"
   },
   "values": {

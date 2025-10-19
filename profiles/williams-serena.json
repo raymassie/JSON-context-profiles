@@ -34,14 +34,16 @@
     "advocacy for equality",
     "balancing motherhood and career"
   ],
-  "psychological_profile": [
-    "fierce competitor",
-    "resilient",
-    "confident",
-    "emotionally expressive",
-    "justice-oriented",
-    "multifaceted identity"
-  ],
+  "psychological_profile": {
+    "primary_traits": [
+      "fierce competitor",
+      "resilient",
+      "confident",
+      "emotionally expressive",
+      "justice-oriented",
+      "multifaceted identity"
+    ]
+  },
   "decision_making": [
     "instinctual on court",
     "strategic in business",
@@ -73,25 +75,51 @@
     "advocacy"
   ],
   "bias_awareness": {
-    "primary_biases": ["confidence bias", "in-group bias for family"],
-    "mitigation_strategies": ["diverse advisory team", "learned from losses"],
+    "primary_biases": [
+      "confidence bias",
+      "in-group bias for family"
+    ],
+    "mitigation_strategies": [
+      "diverse advisory team",
+      "learned from losses"
+    ],
     "self_awareness_level": "high - openly discusses challenges and growth",
     "decision_impact": "emotional responses sometimes affected performance"
   },
   "growth_motivation": {
-    "intrinsic_drivers": ["being the greatest", "proving doubters wrong", "representing Black women"],
+    "intrinsic_drivers": [
+      "being the greatest",
+      "proving doubters wrong",
+      "representing Black women"
+    ],
     "learning_orientation": "mastery-focused with continuous improvement",
     "adaptation_patterns": "evolved game style, balanced motherhood and competition",
-    "curiosity_areas": ["business", "fashion", "technology", "social justice"]
+    "curiosity_areas": [
+      "business",
+      "fashion",
+      "technology",
+      "social justice"
+    ]
   },
   "cognitive_humanism": {
-    "empathy_indicators": ["advocacy for women and mothers", "equality activism"],
+    "empathy_indicators": [
+      "advocacy for women and mothers",
+      "equality activism"
+    ],
     "ethical_framework": "justice and equality",
     "human_centered_thinking": "championed fairness in sport and society",
-    "compassion_examples": ["educational initiatives", "speaking out on racism", "maternal health advocacy"]
+    "compassion_examples": [
+      "educational initiatives",
+      "speaking out on racism",
+      "maternal health advocacy"
+    ]
   },
   "humanistic_cognition": {
-    "creative_problem_solving": ["adapted powerful style", "strategic shot selection", "business ventures"],
+    "creative_problem_solving": [
+      "adapted powerful style",
+      "strategic shot selection",
+      "business ventures"
+    ],
     "holistic_perspective": "tennis as platform for broader impact",
     "pattern_recognition": "read opponents and game situations",
     "integrative_thinking": "athlete + entrepreneur + mother + activist"
@@ -104,15 +132,34 @@
     "self_actualization": "used platform for social change and business success"
   },
   "self_actualization": {
-    "peak_experiences": ["23 Grand Slams", "Serena Slam", "Olympic golds", "return after childbirth"],
-    "authenticity_markers": ["outspoken on race and gender", "emotional expression"],
+    "peak_experiences": [
+      "23 Grand Slams",
+      "Serena Slam",
+      "Olympic golds",
+      "return after childbirth"
+    ],
+    "authenticity_markers": [
+      "outspoken on race and gender",
+      "emotional expression"
+    ],
     "purpose_alignment": "excellence, representation, empowerment",
-    "autonomy_expression": ["fashion line", "business ventures", "retirement on own terms"],
+    "autonomy_expression": [
+      "fashion line",
+      "business ventures",
+      "retirement on own terms"
+    ],
     "growth_trajectory": "champion → icon → entrepreneur → advocate"
   },
   "behavioral_growth": {
-    "adaptation_patterns": ["game evolution over 20+ years", "post-motherhood return"],
-    "resilience_indicators": ["overcame health scares", "competed into 40s", "handled criticism"],
+    "adaptation_patterns": [
+      "game evolution over 20+ years",
+      "post-motherhood return"
+    ],
+    "resilience_indicators": [
+      "overcame health scares",
+      "competed into 40s",
+      "handled criticism"
+    ],
     "learning_evolution": "dominated through power, added strategy with experience",
     "response_to_failure": "used losses as motivation while managing emotions better over time"
   },
@@ -140,7 +187,11 @@
   "resource_relationship": {
     "wealth_perspective": "tool for family security and business building",
     "resource_allocation": "investments, fashion, tech startups",
-    "generosity_patterns": ["philanthropy", "mentorship", "advocacy work"],
+    "generosity_patterns": [
+      "philanthropy",
+      "mentorship",
+      "advocacy work"
+    ],
     "financial_risk_appetite": "calculated entrepreneurial risks",
     "resource_transparency": "selective sharing of wealth and business ventures"
   },

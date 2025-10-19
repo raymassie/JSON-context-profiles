@@ -34,14 +34,16 @@
     "generative systems",
     "cross-disciplinary work"
   ],
-  "psychological_profile": [
-    "innovative",
-    "intellectually curious",
-    "systems thinker",
-    "patient experimenter",
-    "collaborative",
-    "philosophically minded"
-  ],
+  "psychological_profile": {
+    "primary_traits": [
+      "innovative",
+      "intellectually curious",
+      "systems thinker",
+      "patient experimenter",
+      "collaborative",
+      "philosophically minded"
+    ]
+  },
   "decision_making": [
     "process-driven",
     "experimental",
@@ -73,25 +75,52 @@
     "collaborative production"
   ],
   "bias_awareness": {
-    "primary_biases": ["experimental approach preference", "technology optimism"],
-    "mitigation_strategies": ["collaborated with diverse artists", "studied varied systems"],
+    "primary_biases": [
+      "experimental approach preference",
+      "technology optimism"
+    ],
+    "mitigation_strategies": [
+      "collaborated with diverse artists",
+      "studied varied systems"
+    ],
     "self_awareness_level": "high - very articulate about creative process",
     "decision_impact": "experimental bias led to genre-creating innovations"
   },
   "growth_motivation": {
-    "intrinsic_drivers": ["exploration", "innovation", "collaboration", "ambient aesthetics"],
+    "intrinsic_drivers": [
+      "exploration",
+      "innovation",
+      "collaboration",
+      "ambient aesthetics"
+    ],
     "learning_orientation": "continuous experimental learning",
     "adaptation_patterns": "embraced new technologies and methods",
-    "curiosity_areas": ["technology", "systems", "art", "philosophy", "culture"]
+    "curiosity_areas": [
+      "technology",
+      "systems",
+      "art",
+      "philosophy",
+      "culture"
+    ]
   },
   "cognitive_humanism": {
-    "empathy_indicators": ["created healing ambient music", "collaborative approach"],
+    "empathy_indicators": [
+      "created healing ambient music",
+      "collaborative approach"
+    ],
     "ethical_framework": "generative and emergent creativity",
     "human_centered_thinking": "music for human environments and healing",
-    "compassion_examples": ["Music for Airports for calming", "generous collaborator"]
+    "compassion_examples": [
+      "Music for Airports for calming",
+      "generous collaborator"
+    ]
   },
   "humanistic_cognition": {
-    "creative_problem_solving": ["Oblique Strategies", "generative music", "studio as instrument"],
+    "creative_problem_solving": [
+      "Oblique Strategies",
+      "generative music",
+      "studio as instrument"
+    ],
     "holistic_perspective": "music as systems and environment",
     "pattern_recognition": "identified potential of ambient and generative approaches",
     "integrative_thinking": "combined music, art, technology, philosophy"
@@ -104,15 +133,31 @@
     "self_actualization": "created new musical paradigms and environments"
   },
   "self_actualization": {
-    "peak_experiences": ["ambient music invention", "major album productions", "generative music systems"],
-    "authenticity_markers": ["followed experimental path", "articulated philosophy clearly"],
+    "peak_experiences": [
+      "ambient music invention",
+      "major album productions",
+      "generative music systems"
+    ],
+    "authenticity_markers": [
+      "followed experimental path",
+      "articulated philosophy clearly"
+    ],
     "purpose_alignment": "exploration and innovation in sound",
-    "autonomy_expression": ["invented genres", "created new tools and methods"],
+    "autonomy_expression": [
+      "invented genres",
+      "created new tools and methods"
+    ],
     "growth_trajectory": "art student → glam rocker → ambient pioneer → legendary producer"
   },
   "behavioral_growth": {
-    "adaptation_patterns": ["embraced each new technology", "evolved methods continuously"],
-    "resilience_indicators": ["sustained career across decades", "reinvented repeatedly"],
+    "adaptation_patterns": [
+      "embraced each new technology",
+      "evolved methods continuously"
+    ],
+    "resilience_indicators": [
+      "sustained career across decades",
+      "reinvented repeatedly"
+    ],
     "learning_evolution": "from musician to producer to systems thinker",
     "response_to_failure": "used constraints and accidents as creative tools"
   },
@@ -140,7 +185,11 @@
   "resource_relationship": {
     "wealth_perspective": "enabled experimental freedom",
     "resource_allocation": "invested in tools, technology, collaborations",
-    "generosity_patterns": ["shared methods", "collaborative approach", "educational work"],
+    "generosity_patterns": [
+      "shared methods",
+      "collaborative approach",
+      "educational work"
+    ],
     "financial_risk_appetite": "moderate - balanced experimental with commercial",
     "resource_transparency": "focused on process more than wealth"
   },

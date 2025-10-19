@@ -45,7 +45,13 @@
     ]
   },
   "psychological_profile": {
-    "primary_traits": "systematic, experimental, analytical, behavioral, scientific",
+    "primary_traits": [
+      "systematic",
+      "experimental",
+      "analytical",
+      "behavioral",
+      "scientific"
+    ],
     "core_motivations": "behavioral understanding, experimental excellence, systematic methodology, scientific precision",
     "learning_style": "experimental, behavioral, systematic"
   },

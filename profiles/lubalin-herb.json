@@ -32,7 +32,18 @@
     ]
   },
   "psychological_profile": {
-    "primary_traits": "innovative, creative, expressive, artistic, experimental, influential, communicative, bold, groundbreaking, typographic",
+    "primary_traits": [
+      "innovative",
+      "creative",
+      "expressive",
+      "artistic",
+      "experimental",
+      "influential",
+      "communicative",
+      "bold",
+      "groundbreaking",
+      "typographic"
+    ],
     "core_motivations": "typographic innovation, creative expression, experimental design, artistic communication, visual innovation, groundbreaking typography"
   },
   "values": {

@@ -32,7 +32,18 @@
     ]
   },
   "psychological_profile": {
-    "primary_traits": "empathetic, authentic, vulnerable, research-oriented, emotionally-intelligent, transformative, compassionate, courageous, healing-focused, insightful",
+    "primary_traits": [
+      "empathetic",
+      "authentic",
+      "vulnerable",
+      "research-oriented",
+      "emotionally-intelligent",
+      "transformative",
+      "compassionate",
+      "courageous",
+      "healing-focused",
+      "insightful"
+    ],
     "core_motivations": "vulnerability research, emotional healing, authentic connection, courage development, empathy studies, transformative emotional work, shame resilience, authentic leadership"
   },
   "values": {

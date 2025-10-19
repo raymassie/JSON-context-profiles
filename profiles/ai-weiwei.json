@@ -35,14 +35,16 @@
     "collaborative installations",
     "global perspective"
   ],
-  "psychological_profile": [
-    "courageous",
-    "defiant",
-    "empathetic to oppressed",
-    "resilient",
-    "culturally aware",
-    "humanistic"
-  ],
+  "psychological_profile": {
+    "primary_traits": [
+      "courageous",
+      "defiant",
+      "empathetic to oppressed",
+      "resilient",
+      "culturally aware",
+      "humanistic"
+    ]
+  },
   "decision_making": [
     "principle-driven",
     "risk-taking",

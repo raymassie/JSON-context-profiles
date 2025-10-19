@@ -35,14 +35,16 @@
     "contemplative practice",
     "intellectual humility"
   ],
-  "psychological_profile": [
-    "intellectually rigorous",
-    "contemplative",
-    "devoted",
-    "patient",
-    "systematic thinker",
-    "humble"
-  ],
+  "psychological_profile": {
+    "primary_traits": [
+      "intellectually rigorous",
+      "contemplative",
+      "devoted",
+      "patient",
+      "systematic thinker",
+      "humble"
+    ]
+  },
   "decision_making": [
     "reason-based",
     "considers multiple viewpoints",

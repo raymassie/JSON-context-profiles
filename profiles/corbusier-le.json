@@ -37,15 +37,17 @@
     "theoretical development",
     "controversial proposals"
   ],
-  "psychological_profile": [
-    "visionary",
-    "systematic",
-    "confident to arrogant",
-    "idealistic",
-    "perfectionist",
-    "influential",
-    "controversial"
-  ],
+  "psychological_profile": {
+    "primary_traits": [
+      "visionary",
+      "systematic",
+      "confident to arrogant",
+      "idealistic",
+      "perfectionist",
+      "influential",
+      "controversial"
+    ]
+  },
   "decision_making": [
     "vision-driven",
     "systematic principles",
@@ -77,25 +79,53 @@
     "architectural writing"
   ],
   "bias_awareness": {
-    "primary_biases": ["modernist absolutism", "top-down planning bias"],
-    "mitigation_strategies": ["studied vernacular architecture", "evolved later work"],
+    "primary_biases": [
+      "modernist absolutism",
+      "top-down planning bias"
+    ],
+    "mitigation_strategies": [
+      "studied vernacular architecture",
+      "evolved later work"
+    ],
     "self_awareness_level": "moderate - confident in vision, less aware of social impacts",
     "decision_impact": "revolutionary designs but controversial urban plans"
   },
   "growth_motivation": {
-    "intrinsic_drivers": ["architectural revolution", "modern living vision", "systematic beauty", "urban transformation"],
+    "intrinsic_drivers": [
+      "architectural revolution",
+      "modern living vision",
+      "systematic beauty",
+      "urban transformation"
+    ],
     "learning_orientation": "systematic study and theoretical development",
-    "adaptation_patterns": ["evolved from pure rationalism to more expressive forms"],
-    "curiosity_areas": ["geometry", "proportion", "urban planning", "modern life"]
+    "adaptation_patterns": [
+      "evolved from pure rationalism to more expressive forms"
+    ],
+    "curiosity_areas": [
+      "geometry",
+      "proportion",
+      "urban planning",
+      "modern life"
+    ]
   },
   "cognitive_humanism": {
-    "empathy_indicators": ["designed for modern living", "social housing focus"],
+    "empathy_indicators": [
+      "designed for modern living",
+      "social housing focus"
+    ],
     "ethical_framework": "utopian modernism and efficiency",
     "human_centered_thinking": "envisioned better living through design",
-    "compassion_examples": ["affordable housing designs", "urban health concerns"]
+    "compassion_examples": [
+      "affordable housing designs",
+      "urban health concerns"
+    ]
   },
   "humanistic_cognition": {
-    "creative_problem_solving": ["Five Points", "Modulor system", "Unité d'Habitation"],
+    "creative_problem_solving": [
+      "Five Points",
+      "Modulor system",
+      "Unité d'Habitation"
+    ],
     "holistic_perspective": "architecture as total system for modern life",
     "pattern_recognition": "identified need for new architecture for new era",
     "integrative_thinking": "combined architecture, urban planning, art, theory"
@@ -108,15 +138,30 @@
     "self_actualization": "created new architectural paradigm"
   },
   "self_actualization": {
-    "peak_experiences": ["Villa Savoye", "Chandigarh", "Ronchamp Chapel", "theoretical publications"],
-    "authenticity_markers": ["maintained radical vision despite criticism"],
+    "peak_experiences": [
+      "Villa Savoye",
+      "Chandigarh",
+      "Ronchamp Chapel",
+      "theoretical publications"
+    ],
+    "authenticity_markers": [
+      "maintained radical vision despite criticism"
+    ],
     "purpose_alignment": "modernist architecture as social reform",
-    "autonomy_expression": ["independent practice", "theoretical freedom"],
+    "autonomy_expression": [
+      "independent practice",
+      "theoretical freedom"
+    ],
     "growth_trajectory": "watchmaker's son → architect → urban visionary → modernist icon"
   },
   "behavioral_growth": {
-    "adaptation_patterns": ["evolved to more expressive later work", "softened pure rationalism"],
-    "resilience_indicators": ["persisted despite rejection of urban plans"],
+    "adaptation_patterns": [
+      "evolved to more expressive later work",
+      "softened pure rationalism"
+    ],
+    "resilience_indicators": [
+      "persisted despite rejection of urban plans"
+    ],
     "learning_evolution": "from pure functionalism to spiritual expressionism",
     "response_to_failure": "continued advocating vision despite unrealized plans"
   },
@@ -144,7 +189,10 @@
   "resource_relationship": {
     "wealth_perspective": "means for realizing vision",
     "resource_allocation": "practice, publications, projects",
-    "generosity_patterns": ["taught and influenced many", "shared theoretical work"],
+    "generosity_patterns": [
+      "taught and influenced many",
+      "shared theoretical work"
+    ],
     "financial_risk_appetite": "took risks for ideal projects",
     "resource_transparency": "focused on work more than wealth"
   },

@@ -39,14 +39,16 @@
     "commercial success",
     "collaborative theater work"
   ],
-  "psychological_profile": [
-    "profoundly empathetic",
-    "psychologically insightful",
-    "business-minded artist",
-    "versatile creator",
-    "humanistic observer",
-    "emotionally intelligent"
-  ],
+  "psychological_profile": {
+    "primary_traits": [
+      "profoundly empathetic",
+      "psychologically insightful",
+      "business-minded artist",
+      "versatile creator",
+      "humanistic observer",
+      "emotionally intelligent"
+    ]
+  },
   "decision_making": [
     "audience-aware",
     "commercially viable art",
@@ -78,25 +80,50 @@
     "human psychology"
   ],
   "bias_awareness": {
-    "primary_biases": ["Elizabethan worldview", "class assumptions of era"],
-    "mitigation_strategies": ["studied diverse human types", "created complex characters across classes"],
+    "primary_biases": [
+      "Elizabethan worldview",
+      "class assumptions of era"
+    ],
+    "mitigation_strategies": [
+      "studied diverse human types",
+      "created complex characters across classes"
+    ],
     "self_awareness_level": "high psychological insight into human nature",
     "decision_impact": "balanced commercial success with artistic depth"
   },
   "growth_motivation": {
-    "intrinsic_drivers": ["artistic excellence", "commercial success", "human understanding", "linguistic mastery"],
+    "intrinsic_drivers": [
+      "artistic excellence",
+      "commercial success",
+      "human understanding",
+      "linguistic mastery"
+    ],
     "learning_orientation": "continuous refinement of craft",
     "adaptation_patterns": "evolved from comedies to tragedies to romances",
-    "curiosity_areas": ["human psychology", "history", "mythology", "language"]
+    "curiosity_areas": [
+      "human psychology",
+      "history",
+      "mythology",
+      "language"
+    ]
   },
   "cognitive_humanism": {
-    "empathy_indicators": ["created deeply human characters", "explored universal emotions"],
+    "empathy_indicators": [
+      "created deeply human characters",
+      "explored universal emotions"
+    ],
     "ethical_framework": "complex moral universe without easy answers",
     "human_centered_thinking": "profound understanding of human nature",
-    "compassion_examples": ["sympathetic portrayal of diverse characters", "exploration of suffering"]
+    "compassion_examples": [
+      "sympathetic portrayal of diverse characters",
+      "exploration of suffering"
+    ]
   },
   "humanistic_cognition": {
-    "creative_problem_solving": ["invented new words", "created novel plot structures"],
+    "creative_problem_solving": [
+      "invented new words",
+      "created novel plot structures"
+    ],
     "holistic_perspective": "connected individual psychology to universal themes",
     "pattern_recognition": "identified timeless human patterns",
     "integrative_thinking": "combined poetry, drama, philosophy, psychology"
@@ -109,15 +136,31 @@
     "self_actualization": "created timeless art exploring human condition"
   },
   "self_actualization": {
-    "peak_experiences": ["major tragedies composition", "Globe Theatre success", "royal patronage"],
-    "authenticity_markers": ["explored controversial themes", "complex moral vision"],
+    "peak_experiences": [
+      "major tragedies composition",
+      "Globe Theatre success",
+      "royal patronage"
+    ],
+    "authenticity_markers": [
+      "explored controversial themes",
+      "complex moral vision"
+    ],
     "purpose_alignment": "theatrical art as exploration of humanity",
-    "autonomy_expression": ["owned theater company", "diverse genre work"],
+    "autonomy_expression": [
+      "owned theater company",
+      "diverse genre work"
+    ],
     "growth_trajectory": "actor → playwright → theater owner → literary immortal"
   },
   "behavioral_growth": {
-    "adaptation_patterns": ["evolved style over career", "adapted to audience tastes"],
-    "resilience_indicators": ["continued through plague closures", "rebuilt after Globe fire"],
+    "adaptation_patterns": [
+      "evolved style over career",
+      "adapted to audience tastes"
+    ],
+    "resilience_indicators": [
+      "continued through plague closures",
+      "rebuilt after Globe fire"
+    ],
     "learning_evolution": "mastered and transcended theatrical conventions",
     "response_to_failure": "learned from less successful plays"
   },
@@ -145,7 +188,10 @@
   "resource_relationship": {
     "wealth_perspective": "business success enabled artistic freedom",
     "resource_allocation": "invested in theater company and property",
-    "generosity_patterns": ["supported actors", "contributed to Stratford"],
+    "generosity_patterns": [
+      "supported actors",
+      "contributed to Stratford"
+    ],
     "financial_risk_appetite": "calculated theatrical investments",
     "resource_transparency": "known as successful businessman-artist"
   },

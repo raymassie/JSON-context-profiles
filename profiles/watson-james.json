@@ -36,7 +36,13 @@
     ]
   },
   "psychological_profile": {
-    "primary_traits": "ambitious, competitive, controversial, confident, direct",
+    "primary_traits": [
+      "ambitious",
+      "competitive",
+      "controversial",
+      "confident",
+      "direct"
+    ],
     "core_motivations": "scientific discovery, recognition, advancing knowledge, competitive success"
   },
   "values": {

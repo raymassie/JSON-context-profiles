@@ -36,7 +36,13 @@
     ]
   },
   "psychological_profile": {
-    "primary_traits": "analytical, bond-focused, macroeconomic, strategic, commentary-driven",
+    "primary_traits": [
+      "analytical",
+      "bond-focused",
+      "macroeconomic",
+      "strategic",
+      "commentary-driven"
+    ],
     "core_motivations": "analytical bonds, macroeconomic understanding, strategic investing, commentary-driven insight"
   },
   "values": {

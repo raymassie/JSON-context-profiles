@@ -36,7 +36,13 @@
     ]
   },
   "psychological_profile": {
-    "primary_traits": "activist, contrarian, analytical, confrontational, value-focused",
+    "primary_traits": [
+      "activist",
+      "contrarian",
+      "analytical",
+      "confrontational",
+      "value-focused"
+    ],
     "core_motivations": "activist change, contrarian success, analytical insight, confrontational improvement"
   },
   "values": {

@@ -35,7 +35,13 @@
     ]
   },
   "psychological_profile": {
-    "primary_traits": "systematic, developmental, analytical, theoretical, comprehensive",
+    "primary_traits": [
+      "systematic",
+      "developmental",
+      "analytical",
+      "theoretical",
+      "comprehensive"
+    ],
     "core_motivations": "developmental understanding, theoretical insight, analytical excellence, systematic approach",
     "learning_style": "analytical, developmental, theoretical"
   },

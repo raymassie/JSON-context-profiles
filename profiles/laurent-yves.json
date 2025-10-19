@@ -6,6 +6,16 @@
   "archetype": "Designer",
   "quality_tier": "Tier 1: Legend",
   "summary": "Legendary fashion designer who brought high fashion to the streets with ready-to-wear and the iconic Le Smoking tuxedo suit for women.",
+  "psychological_profile": {
+    "primary_traits": [
+      "innovative",
+      "artistic",
+      "visionary",
+      "perfectionist",
+      "rebellious",
+      "sensitive"
+    ]
+  },
   "bias_awareness": [],
   "growth_motivation": [],
   "cognitive_humanism": [],

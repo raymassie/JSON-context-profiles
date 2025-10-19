@@ -4,7 +4,12 @@
   "domain": "Entrepreneurship",
   "sub_domain": "Leadership",
   "psychological_profile": {
-    "primary_traits": "vulnerable, athletic-minded, growth-oriented, relationship-oriented",
+    "primary_traits": [
+      "vulnerable",
+      "athletic-minded",
+      "growth-oriented",
+      "relationship-oriented"
+    ],
     "cognitive_style": "vulnerability integration with achievement focus",
     "core_motivations": [
       "redefining masculine success",

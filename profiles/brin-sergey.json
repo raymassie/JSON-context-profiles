@@ -34,7 +34,18 @@
     ]
   },
   "psychological_profile": {
-    "primary_traits": "mathematical, algorithmic, analytical, collaborative, data-driven, precise, systematic, technical, innovative, research-oriented",
+    "primary_traits": [
+      "mathematical",
+      "algorithmic",
+      "analytical",
+      "collaborative",
+      "data-driven",
+      "precise",
+      "systematic",
+      "technical",
+      "innovative",
+      "research-oriented"
+    ],
     "core_motivations": "algorithmic innovation, mathematical excellence, data-driven solutions, collaborative research, technical precision, systematic development, research advancement"
   },
   "values": {

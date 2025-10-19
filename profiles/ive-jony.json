@@ -5,7 +5,15 @@
   "domain": "Design",
   "sub_domain": "Industrial Design",
   "psychological_profile": {
-    "primary_traits": "perfectionist, minimalist, intuitive, artistic, detail-oriented, innovative, introspective",
+    "primary_traits": [
+      "perfectionist",
+      "minimalist",
+      "intuitive",
+      "artistic",
+      "detail-oriented",
+      "innovative",
+      "introspective"
+    ],
     "cognitive_style": "visual, holistic, intuitive, detail-focused, aesthetic-driven, user-centric",
     "core_motivations": "creating beautiful, functional objects, simplifying complexity, user delight, design excellence",
     "decision_making_framework": "aesthetic judgment, user experience, simplicity, material understanding, functional elegance",

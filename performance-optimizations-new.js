@@ -1,5 +1,4 @@
-
-// PERFORMANCE OPTIMIZATIONS
+// PERFORMANCE OPTIMIZATIONS - Clean version
 // 1. Lazy loading of profile data
 // 2. Index-based filtering
 // 3. Memoized search results
@@ -8,7 +7,7 @@
 // Global variables for performance
 let profileIndexes = {};
 let searchCache = {};
-let filterCache = {};
+// Note: filterCache is declared in index.html as a Map
 
 // Load indexes for faster filtering
 async function loadIndexes() {
@@ -57,7 +56,6 @@ function searchProfilesMemoized(query) {
 }
 
 // Debounced search input
-let searchTimeout;
 function debouncedSearch(query) {
     clearTimeout(searchTimeout);
     searchTimeout = setTimeout(() => {
@@ -103,5 +101,8 @@ function applyQualityFilterOptimized(qualityTier) {
 // Clear cache when filters change
 function clearFilterCache() {
     searchCache = {};
-    filterCache = {};
+    // filterCache is a Map declared in index.html, so we clear it there
+    if (typeof filterCache !== 'undefined' && filterCache.clear) {
+        filterCache.clear();
+    }
 }

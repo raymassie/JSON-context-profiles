@@ -33,7 +33,13 @@
     ]
   },
   "psychological_profile": {
-    "primary_traits": "prodigious, innovative, precise, emotional, systematic",
+    "primary_traits": [
+      "prodigious",
+      "innovative",
+      "precise",
+      "emotional",
+      "systematic"
+    ],
     "core_motivations": "musical perfection, artistic innovation, emotional expression",
     "learning_style": "systematic, intuitive, technically precise"
   },

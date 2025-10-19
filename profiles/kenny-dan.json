@@ -35,7 +35,13 @@
     ]
   },
   "psychological_profile": {
-    "primary_traits": "analytical, strategic, results-oriented, data-driven, systematic",
+    "primary_traits": [
+      "analytical",
+      "strategic",
+      "results-oriented",
+      "data-driven",
+      "systematic"
+    ],
     "core_motivations": "performance optimization, data-driven decisions, marketing roi, systematic improvement"
   },
   "values": {

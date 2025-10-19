@@ -17,7 +17,13 @@
     "The Meditative Mind"
   ],
   "psychological_profile": {
-    "primary_traits": "analytical, insightful, scientifically-rigorous, accessible, integrative",
+    "primary_traits": [
+      "analytical",
+      "insightful",
+      "scientifically-rigorous",
+      "accessible",
+      "integrative"
+    ],
     "core_motivations": [
       "emotional intelligence research",
       "mindfulness science",

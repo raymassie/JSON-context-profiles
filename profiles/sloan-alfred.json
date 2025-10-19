@@ -31,7 +31,13 @@
     ]
   },
   "psychological_profile": {
-    "primary_traits": "systematic, analytical, organizational, strategic, methodical",
+    "primary_traits": [
+      "systematic",
+      "analytical",
+      "organizational",
+      "strategic",
+      "methodical"
+    ],
     "core_motivations": "organizational excellence, strategic understanding, systematic methodology, management innovation",
     "learning_style": "analytical, systematic, organizational"
   },

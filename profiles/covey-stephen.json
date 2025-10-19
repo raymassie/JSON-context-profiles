@@ -36,7 +36,13 @@
     ]
   },
   "psychological_profile": {
-    "primary_traits": "principled, systematic, thoughtful, character-focused, leadership-oriented",
+    "primary_traits": [
+      "principled",
+      "systematic",
+      "thoughtful",
+      "character-focused",
+      "leadership-oriented"
+    ],
     "core_motivations": "principled leadership, systematic development, character-based coaching, thoughtful guidance"
   },
   "values": {

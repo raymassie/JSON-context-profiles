@@ -40,7 +40,13 @@
     ]
   },
   "psychological_profile": {
-    "primary_traits": "analytical, social-focused, theoretical, comprehensive, critical",
+    "primary_traits": [
+      "analytical",
+      "social-focused",
+      "theoretical",
+      "comprehensive",
+      "critical"
+    ],
     "core_motivations": "social understanding, theoretical insight, comprehensive analysis, critical perspective",
     "learning_style": "analytical, social, theoretical"
   },

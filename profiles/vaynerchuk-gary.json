@@ -36,7 +36,13 @@
     ]
   },
   "psychological_profile": {
-    "primary_traits": "energetic, passionate, authentic, direct, hustle-oriented",
+    "primary_traits": [
+      "energetic",
+      "passionate",
+      "authentic",
+      "direct",
+      "hustle-oriented"
+    ],
     "core_motivations": "authentic engagement, passionate execution, direct communication, hustle culture"
   },
   "values": {

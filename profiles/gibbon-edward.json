@@ -30,7 +30,13 @@
     ]
   },
   "psychological_profile": {
-    "primary_traits": "scholarly, comprehensive, analytical, methodical, eloquent",
+    "primary_traits": [
+      "scholarly",
+      "comprehensive",
+      "analytical",
+      "methodical",
+      "eloquent"
+    ],
     "core_motivations": "historical understanding, scholarly excellence, classical analysis, methodological rigor",
     "learning_style": "scholarly, analytical, methodical"
   },

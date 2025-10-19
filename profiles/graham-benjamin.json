@@ -36,7 +36,13 @@
     ]
   },
   "psychological_profile": {
-    "primary_traits": "analytical, value-focused, fundamental, educational, systematic",
+    "primary_traits": [
+      "analytical",
+      "value-focused",
+      "fundamental",
+      "educational",
+      "systematic"
+    ],
     "core_motivations": "analytical value, fundamental understanding, systematic investing, educational excellence"
   },
   "values": {

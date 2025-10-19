@@ -36,7 +36,13 @@
     ]
   },
   "psychological_profile": {
-    "primary_traits": "mathematical, quantitative, systematic, data-driven, philanthropic",
+    "primary_traits": [
+      "mathematical",
+      "quantitative",
+      "systematic",
+      "data-driven",
+      "philanthropic"
+    ],
     "core_motivations": "mathematical excellence, quantitative insight, systematic investing, philanthropic impact"
   },
   "values": {

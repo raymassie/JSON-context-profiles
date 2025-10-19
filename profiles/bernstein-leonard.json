@@ -39,7 +39,13 @@
     ]
   },
   "psychological_profile": {
-    "primary_traits": "passionate, educational, charismatic, sophisticated, innovative",
+    "primary_traits": [
+      "passionate",
+      "educational",
+      "charismatic",
+      "sophisticated",
+      "innovative"
+    ],
     "core_motivations": "musical education, artistic excellence, cultural accessibility",
     "learning_style": "educational, theoretical, passionate"
   },

@@ -5,7 +5,15 @@
   "domain": "Technology",
   "sub_domain": "Music Technology",
   "psychological_profile": {
-    "primary_traits": "visionary, persistent, data-driven, user-focused, innovative, determined, analytical",
+    "primary_traits": [
+      "visionary",
+      "persistent",
+      "data-driven",
+      "user-focused",
+      "innovative",
+      "determined",
+      "analytical"
+    ],
     "cognitive_style": "systematic, user-centric, data-driven, long-term thinking, market disruption focused",
     "core_motivations": "democratizing music access, creating sustainable artist economy, building global platforms, user experience excellence",
     "decision_making_framework": "user data analysis, market research, long-term vision, systematic evaluation, innovation focus",

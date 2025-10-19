@@ -40,16 +40,18 @@
     "mentorship of younger athletes",
     "graceful in adversity"
   ],
-  "psychological_profile": [
-    "supremely confident",
-    "principle-driven",
-    "courageous",
-    "charismatic",
-    "resilient",
-    "empathetic to oppressed",
-    "strategic thinker",
-    "self-aware"
-  ],
+  "psychological_profile": {
+    "primary_traits": [
+      "supremely confident",
+      "principle-driven",
+      "courageous",
+      "charismatic",
+      "resilient",
+      "empathetic to oppressed",
+      "strategic thinker",
+      "self-aware"
+    ]
+  },
   "decision_making": [
     "principle over pragmatism",
     "considers moral implications",
@@ -84,25 +86,53 @@
     "civil rights activism"
   ],
   "bias_awareness": {
-    "primary_biases": ["confidence bias", "confirmation bias when principle-driven"],
-    "mitigation_strategies": ["relied on training team", "strategic advisors", "religious counsel"],
+    "primary_biases": [
+      "confidence bias",
+      "confirmation bias when principle-driven"
+    ],
+    "mitigation_strategies": [
+      "relied on training team",
+      "strategic advisors",
+      "religious counsel"
+    ],
     "self_awareness_level": "high - understood his persona vs. authentic self",
     "decision_impact": "principles sometimes overrode pragmatic considerations"
   },
   "growth_motivation": {
-    "intrinsic_drivers": ["excellence", "justice", "legacy", "faith"],
+    "intrinsic_drivers": [
+      "excellence",
+      "justice",
+      "legacy",
+      "faith"
+    ],
     "learning_orientation": "experiential and observational",
     "adaptation_patterns": "adapted style as physical abilities changed",
-    "curiosity_areas": ["religion", "social justice", "performance psychology"]
+    "curiosity_areas": [
+      "religion",
+      "social justice",
+      "performance psychology"
+    ]
   },
   "cognitive_humanism": {
-    "empathy_indicators": ["championed civil rights", "opposed war", "religious compassion"],
+    "empathy_indicators": [
+      "championed civil rights",
+      "opposed war",
+      "religious compassion"
+    ],
     "ethical_framework": "faith-based moral principles",
     "human_centered_thinking": "fought for dignity of oppressed people",
-    "compassion_examples": ["humanitarian work", "refused to fight Vietnamese", "mentored youth"]
+    "compassion_examples": [
+      "humanitarian work",
+      "refused to fight Vietnamese",
+      "mentored youth"
+    ]
   },
   "humanistic_cognition": {
-    "creative_problem_solving": ["rope-a-dope strategy", "psychological tactics", "media manipulation"],
+    "creative_problem_solving": [
+      "rope-a-dope strategy",
+      "psychological tactics",
+      "media manipulation"
+    ],
     "holistic_perspective": "saw boxing as platform for larger social impact",
     "pattern_recognition": "anticipated opponent strategies and public sentiment",
     "integrative_thinking": "combined athletics, activism, entertainment, religion"
@@ -115,15 +145,30 @@
     "self_actualization": "used platform for social justice and religious expression"
   },
   "self_actualization": {
-    "peak_experiences": ["Olympic gold", "championship victories", "religious conversion", "return from exile"],
-    "authenticity_markers": ["changed name to reflect authentic self", "refused draft despite consequences"],
+    "peak_experiences": [
+      "Olympic gold",
+      "championship victories",
+      "religious conversion",
+      "return from exile"
+    ],
+    "authenticity_markers": [
+      "changed name to reflect authentic self",
+      "refused draft despite consequences"
+    ],
     "purpose_alignment": "transcended sports to become voice for oppressed",
     "autonomy_expression": "defied boxing establishment, government, public opinion",
     "growth_trajectory": "athlete → activist → global humanitarian icon"
   },
   "behavioral_growth": {
-    "adaptation_patterns": ["evolved fighting style with age", "maintained influence despite Parkinson's"],
-    "resilience_indicators": ["comeback from exile", "overcame draft conviction", "dignity with illness"],
+    "adaptation_patterns": [
+      "evolved fighting style with age",
+      "maintained influence despite Parkinson's"
+    ],
+    "resilience_indicators": [
+      "comeback from exile",
+      "overcame draft conviction",
+      "dignity with illness"
+    ],
     "learning_evolution": "from brash youth to wise elder statesman",
     "response_to_failure": "used losses as motivation and learning opportunities"
   },

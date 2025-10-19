@@ -34,7 +34,18 @@
     ]
   },
   "psychological_profile": {
-    "primary_traits": "innovative, technical, algorithmic, systematic, data-driven, precise, strategic, transformative, engineering-focused, visionary",
+    "primary_traits": [
+      "innovative",
+      "technical",
+      "algorithmic",
+      "systematic",
+      "data-driven",
+      "precise",
+      "strategic",
+      "transformative",
+      "engineering-focused",
+      "visionary"
+    ],
     "core_motivations": "technical innovation, algorithmic excellence, systematic engineering, data-driven solutions, transformative technology, engineering precision, collaborative research"
   },
   "values": {

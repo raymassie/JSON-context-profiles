@@ -37,7 +37,13 @@
     ]
   },
   "psychological_profile": {
-    "primary_traits": "experimental, optimization-focused, research-oriented, systematic, lifestyle-oriented",
+    "primary_traits": [
+      "experimental",
+      "optimization-focused",
+      "research-oriented",
+      "systematic",
+      "lifestyle-oriented"
+    ],
     "core_motivations": "experimental optimization, research-backed coaching, lifestyle-focused guidance, systematic improvement"
   },
   "values": {

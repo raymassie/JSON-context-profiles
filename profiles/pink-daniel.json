@@ -33,7 +33,18 @@
     ]
   },
   "psychological_profile": {
-    "primary_traits": "research-oriented, insightful, motivational, analytical, evidence-based, inspiring, transformative, data-driven, accessible, thought-provoking",
+    "primary_traits": [
+      "research-oriented",
+      "insightful",
+      "motivational",
+      "analytical",
+      "evidence-based",
+      "inspiring",
+      "transformative",
+      "data-driven",
+      "accessible",
+      "thought-provoking"
+    ],
     "core_motivations": "behavioral research, evidence-based insights, motivational psychology, transformative thinking, performance improvement, organizational development"
   },
   "values": {

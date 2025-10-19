@@ -35,14 +35,16 @@
     "voluntary institutionalization",
     "prolific output"
   ],
-  "psychological_profile": [
-    "manages mental illness through art",
-    "visionary",
-    "introspective",
-    "resilient",
-    "emotionally honest",
-    "transcendent perspective"
-  ],
+  "psychological_profile": {
+    "primary_traits": [
+      "manages mental illness through art",
+      "visionary",
+      "introspective",
+      "resilient",
+      "emotionally honest",
+      "transcendent perspective"
+    ]
+  },
   "decision_making": [
     "intuitive",
     "artistic vision-driven",

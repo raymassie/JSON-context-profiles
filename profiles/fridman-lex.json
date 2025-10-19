@@ -5,7 +5,15 @@
   "domain": "Technology",
   "sub_domain": "Artificial Intelligence",
   "psychological_profile": {
-    "primary_traits": "curious, analytical, thoughtful, empathetic, systematic, research-oriented, introspective",
+    "primary_traits": [
+      "curious",
+      "analytical",
+      "thoughtful",
+      "empathetic",
+      "systematic",
+      "research-oriented",
+      "introspective"
+    ],
     "cognitive_style": "analytical, research-oriented, pattern recognition, AI-focused, systematic, human-AI interaction oriented",
     "core_motivations": "understanding artificial intelligence, exploring human-ai interaction, advancing ai research, fostering thoughtful dialogue",
     "decision_making_framework": "research analysis, AI insights, systematic evaluation, human impact assessment, data-driven decisions",

@@ -5,7 +5,12 @@
   "domain": "Design",
   "sub_domain": "Computer Science",
   "psychological_profile": {
-    "primary_traits": "evidence-based, methodical, user-focused, scientifically-rigorous",
+    "primary_traits": [
+      "evidence-based",
+      "methodical",
+      "user-focused",
+      "scientifically-rigorous"
+    ],
     "cognitive_style": "systematic research-based thinking with empirical validation",
     "core_motivations": [
       "making technology easier to use",

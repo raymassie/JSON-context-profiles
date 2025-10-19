@@ -38,7 +38,13 @@
     ]
   },
   "psychological_profile": {
-    "primary_traits": "independent, creative, enigmatic, authentic, rebellious",
+    "primary_traits": [
+      "independent",
+      "creative",
+      "enigmatic",
+      "authentic",
+      "rebellious"
+    ],
     "core_motivations": "artistic expression, social commentary, musical innovation",
     "learning_style": "self-directed, intuitive, experiential"
   },

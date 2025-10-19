@@ -35,15 +35,17 @@
     "strategic career management",
     "winning obsession"
   ],
-  "psychological_profile": [
-    "hypercompetitive",
-    "perfectionist",
-    "strategic",
-    "confidence bordering on arrogance",
-    "resilient",
-    "mentally tough",
-    "legacy-conscious"
-  ],
+  "psychological_profile": {
+    "primary_traits": [
+      "hypercompetitive",
+      "perfectionist",
+      "strategic",
+      "confidence bordering on arrogance",
+      "resilient",
+      "mentally tough",
+      "legacy-conscious"
+    ]
+  },
   "decision_making": [
     "winning-oriented",
     "strategic timing",
@@ -76,25 +78,50 @@
     "clutch performance"
   ],
   "bias_awareness": {
-    "primary_biases": ["overconfidence", "competitive bias", "hindsight bias"],
-    "mitigation_strategies": ["surrounded himself with strong advisors", "studied competition thoroughly"],
+    "primary_biases": [
+      "overconfidence",
+      "competitive bias",
+      "hindsight bias"
+    ],
+    "mitigation_strategies": [
+      "surrounded himself with strong advisors",
+      "studied competition thoroughly"
+    ],
     "self_awareness_level": "high about competitive nature, selective about vulnerabilities",
     "decision_impact": "competitive drive sometimes strained relationships"
   },
   "growth_motivation": {
-    "intrinsic_drivers": ["being the best", "winning", "proving doubters wrong"],
+    "intrinsic_drivers": [
+      "being the best",
+      "winning",
+      "proving doubters wrong"
+    ],
     "learning_orientation": "mastery-focused - perfected every skill",
     "adaptation_patterns": "evolved game as athleticism declined",
-    "curiosity_areas": ["opponent weaknesses", "business", "team ownership"]
+    "curiosity_areas": [
+      "opponent weaknesses",
+      "business",
+      "team ownership"
+    ]
   },
   "cognitive_humanism": {
-    "empathy_indicators": ["loyalty to teammates", "charitable foundation work"],
+    "empathy_indicators": [
+      "loyalty to teammates",
+      "charitable foundation work"
+    ],
     "ethical_framework": "competitive meritocracy",
     "human_centered_thinking": "understood psychological aspects of competition",
-    "compassion_examples": ["Make-A-Wish participation", "educational initiatives"]
+    "compassion_examples": [
+      "Make-A-Wish participation",
+      "educational initiatives"
+    ]
   },
   "humanistic_cognition": {
-    "creative_problem_solving": ["invented shots", "adapted strategy mid-game", "psychological tactics"],
+    "creative_problem_solving": [
+      "invented shots",
+      "adapted strategy mid-game",
+      "psychological tactics"
+    ],
     "holistic_perspective": "saw basketball as platform for global brand",
     "pattern_recognition": "anticipated defensive strategies",
     "integrative_thinking": "combined athletics, business, entertainment"
@@ -107,15 +134,32 @@
     "self_actualization": "transcended sport to become global cultural icon"
   },
   "self_actualization": {
-    "peak_experiences": ["six championships", "flu game", "last shot vs. Utah", "Olympic Dream Team"],
-    "authenticity_markers": ["unapologetically competitive", "selective public persona"],
+    "peak_experiences": [
+      "six championships",
+      "flu game",
+      "last shot vs. Utah",
+      "Olympic Dream Team"
+    ],
+    "authenticity_markers": [
+      "unapologetically competitive",
+      "selective public persona"
+    ],
     "purpose_alignment": "achieved goal of being greatest basketball player ever",
-    "autonomy_expression": ["first retirement to play baseball", "controlled own narrative"],
+    "autonomy_expression": [
+      "first retirement to play baseball",
+      "controlled own narrative"
+    ],
     "growth_trajectory": "athlete → brand → team owner → billionaire businessman"
   },
   "behavioral_growth": {
-    "adaptation_patterns": ["changed game style with age", "transitioned to business"],
-    "resilience_indicators": ["returned from retirements", "overcame early playoff failures"],
+    "adaptation_patterns": [
+      "changed game style with age",
+      "transitioned to business"
+    ],
+    "resilience_indicators": [
+      "returned from retirements",
+      "overcame early playoff failures"
+    ],
     "learning_evolution": "from athletic talent to complete player to business mogul",
     "response_to_failure": "used losses as motivation - legendary competitiveness"
   },

@@ -36,7 +36,13 @@
     ]
   },
   "psychological_profile": {
-    "primary_traits": "philosophical, analytical, contrarian, politically aware, philanthropic",
+    "primary_traits": [
+      "philosophical",
+      "analytical",
+      "contrarian",
+      "politically aware",
+      "philanthropic"
+    ],
     "core_motivations": "philosophical understanding, analytical insight, contrarian success, philanthropic impact"
   },
   "values": {

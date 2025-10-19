@@ -40,7 +40,13 @@
     ]
   },
   "psychological_profile": {
-    "primary_traits": "ecological, philosophical, observant, systematic, reflective",
+    "primary_traits": [
+      "ecological",
+      "philosophical",
+      "observant",
+      "systematic",
+      "reflective"
+    ],
     "core_motivations": "ecological understanding, environmental conservation, philosophical insight, systematic observation",
     "learning_style": "observational, ecological, philosophical"
   },

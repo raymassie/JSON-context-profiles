@@ -31,7 +31,18 @@
     ]
   },
   "psychological_profile": {
-    "primary_traits": "empathetic, growth-oriented, inclusive, collaborative, strategic, innovative, authentic, transformative, customer-focused, cultural",
+    "primary_traits": [
+      "empathetic",
+      "growth-oriented",
+      "inclusive",
+      "collaborative",
+      "strategic",
+      "innovative",
+      "authentic",
+      "transformative",
+      "customer-focused",
+      "cultural"
+    ],
     "core_motivations": "cultural transformation, inclusive growth, customer success, strategic innovation, empathetic leadership, growth mindset development, collaborative excellence"
   },
   "values": {

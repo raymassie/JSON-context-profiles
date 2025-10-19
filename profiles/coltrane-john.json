@@ -41,7 +41,13 @@
     ]
   },
   "psychological_profile": {
-    "primary_traits": "spiritual, innovative, transcendent, experimental, dedicated",
+    "primary_traits": [
+      "spiritual",
+      "innovative",
+      "transcendent",
+      "experimental",
+      "dedicated"
+    ],
     "core_motivations": "spiritual expression, musical transcendence, harmonic innovation",
     "learning_style": "experimental, spiritual, innovative"
   },

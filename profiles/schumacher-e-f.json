@@ -36,7 +36,13 @@
     ]
   },
   "psychological_profile": {
-    "primary_traits": "philosophical, sustainable, analytical, practical, thoughtful",
+    "primary_traits": [
+      "philosophical",
+      "sustainable",
+      "analytical",
+      "practical",
+      "thoughtful"
+    ],
     "core_motivations": "sustainable development, philosophical understanding, practical solutions, thoughtful analysis",
     "learning_style": "philosophical, sustainable, practical"
   },

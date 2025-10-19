@@ -677,7 +677,7 @@ body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height
 
 .filter-content.active {
     display: block;
-    background: #ffffff;
+    background: #FEFAE0;
 }
 
 .filter-content .filter-group {

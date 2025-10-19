@@ -37,7 +37,13 @@
     ]
   },
   "psychological_profile": {
-    "primary_traits": "scholarly, comprehensive, analytical, philosophical, systematic",
+    "primary_traits": [
+      "scholarly",
+      "comprehensive",
+      "analytical",
+      "philosophical",
+      "systematic"
+    ],
     "core_motivations": "civilizational understanding, historical analysis, philosophical insight, scholarly excellence",
     "learning_style": "scholarly, analytical, philosophical"
   },

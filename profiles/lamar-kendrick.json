@@ -35,15 +35,17 @@
     "selective collaborations",
     "cultural preservation"
   ],
-  "psychological_profile": [
-    "introspective",
-    "socially conscious",
-    "perfectionistic",
-    "thoughtful",
-    "empathetic",
-    "culturally rooted",
-    "artistically driven"
-  ],
+  "psychological_profile": {
+    "primary_traits": [
+      "introspective",
+      "socially conscious",
+      "perfectionistic",
+      "thoughtful",
+      "empathetic",
+      "culturally rooted",
+      "artistically driven"
+    ]
+  },
   "decision_making": [
     "artistic integrity-focused",
     "thorough deliberation",
@@ -75,25 +77,54 @@
     "poetic devices"
   ],
   "bias_awareness": {
-    "primary_biases": ["introspection bias", "cultural perspective"],
-    "mitigation_strategies": ["diverse perspectives in music", "therapy", "introspection"],
+    "primary_biases": [
+      "introspection bias",
+      "cultural perspective"
+    ],
+    "mitigation_strategies": [
+      "diverse perspectives in music",
+      "therapy",
+      "introspection"
+    ],
     "self_awareness_level": "extremely high - openly examines own biases",
     "decision_impact": "self-awareness fuels artistic depth"
   },
   "growth_motivation": {
-    "intrinsic_drivers": ["artistic excellence", "truth-telling", "cultural impact", "personal growth"],
+    "intrinsic_drivers": [
+      "artistic excellence",
+      "truth-telling",
+      "cultural impact",
+      "personal growth"
+    ],
     "learning_orientation": "mastery and meaning-focused",
     "adaptation_patterns": "evolves sound while maintaining artistic core",
-    "curiosity_areas": ["psychology", "culture", "spirituality", "history"]
+    "curiosity_areas": [
+      "psychology",
+      "culture",
+      "spirituality",
+      "history"
+    ]
   },
   "cognitive_humanism": {
-    "empathy_indicators": ["community focus", "vulnerable storytelling", "social advocacy"],
+    "empathy_indicators": [
+      "community focus",
+      "vulnerable storytelling",
+      "social advocacy"
+    ],
     "ethical_framework": "cultural responsibility and personal integrity",
     "human_centered_thinking": "centers marginalized experiences",
-    "compassion_examples": ["Compton charity work", "mental health advocacy", "cultural education"]
+    "compassion_examples": [
+      "Compton charity work",
+      "mental health advocacy",
+      "cultural education"
+    ]
   },
   "humanistic_cognition": {
-    "creative_problem_solving": ["innovative album concepts", "genre-blending", "narrative structures"],
+    "creative_problem_solving": [
+      "innovative album concepts",
+      "genre-blending",
+      "narrative structures"
+    ],
     "holistic_perspective": "music as cultural documentation and therapy",
     "pattern_recognition": "connects personal, cultural, and universal themes",
     "integrative_thinking": "combines poetry, music, therapy, activism"
@@ -106,15 +137,34 @@
     "self_actualization": "uses platform for cultural healing and truth-telling"
   },
   "self_actualization": {
-    "peak_experiences": ["Pulitzer Prize", "To Pimp a Butterfly creation", "Super Bowl performance"],
-    "authenticity_markers": ["vulnerable lyrics", "therapy discussions", "cultural honesty"],
+    "peak_experiences": [
+      "Pulitzer Prize",
+      "To Pimp a Butterfly creation",
+      "Super Bowl performance"
+    ],
+    "authenticity_markers": [
+      "vulnerable lyrics",
+      "therapy discussions",
+      "cultural honesty"
+    ],
     "purpose_alignment": "artistic excellence and cultural healing",
-    "autonomy_expression": ["independent thinking", "long album cycles", "selective appearances"],
+    "autonomy_expression": [
+      "independent thinking",
+      "long album cycles",
+      "selective appearances"
+    ],
     "growth_trajectory": "rapper → poet → cultural healer → Pulitzer laureate"
   },
   "behavioral_growth": {
-    "adaptation_patterns": ["sound evolution", "increasing vulnerability", "therapy integration"],
-    "resilience_indicators": ["overcame gang environment", "maintained integrity in industry"],
+    "adaptation_patterns": [
+      "sound evolution",
+      "increasing vulnerability",
+      "therapy integration"
+    ],
+    "resilience_indicators": [
+      "overcame gang environment",
+      "maintained integrity in industry"
+    ],
     "learning_evolution": "storyteller to self-examiner to cultural therapist",
     "response_to_failure": "uses challenges for artistic depth"
   },
@@ -142,7 +192,11 @@
   "resource_relationship": {
     "wealth_perspective": "means to artistic freedom and community support",
     "resource_allocation": "Compton community investments, artistic projects",
-    "generosity_patterns": ["community programs", "education", "quiet philanthropy"],
+    "generosity_patterns": [
+      "community programs",
+      "education",
+      "quiet philanthropy"
+    ],
     "financial_risk_appetite": "moderate - prioritizes artistic integrity over commercial success",
     "resource_transparency": "private about wealth, public about community commitment"
   },

@@ -45,7 +45,13 @@
     ]
   },
   "psychological_profile": {
-    "primary_traits": "mathematical, systematic, analytical, revolutionary, comprehensive",
+    "primary_traits": [
+      "mathematical",
+      "systematic",
+      "analytical",
+      "revolutionary",
+      "comprehensive"
+    ],
     "core_motivations": "mathematical understanding, analytical excellence, revolutionary insight, systematic methodology",
     "learning_style": "analytical, mathematical, systematic"
   },

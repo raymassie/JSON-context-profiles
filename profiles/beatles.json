@@ -42,7 +42,13 @@
     ]
   },
   "psychological_profile": {
-    "primary_traits": "creative, innovative, collaborative, rebellious, perfectionist",
+    "primary_traits": [
+      "creative",
+      "innovative",
+      "collaborative",
+      "rebellious",
+      "perfectionist"
+    ],
     "core_motivations": "musical innovation, artistic expression, cultural impact",
     "learning_style": "experimental, collaborative, intuitive"
   },

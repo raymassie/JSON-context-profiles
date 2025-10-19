@@ -38,7 +38,13 @@
     ]
   },
   "psychological_profile": {
-    "primary_traits": "charismatic, passionate, rebellious, emotional, authentic",
+    "primary_traits": [
+      "charismatic",
+      "passionate",
+      "rebellious",
+      "emotional",
+      "authentic"
+    ],
     "core_motivations": "musical expression, cultural fusion, emotional connection",
     "learning_style": "experiential, intuitive, performance-based"
   },

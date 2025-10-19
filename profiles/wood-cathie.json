@@ -5,7 +5,15 @@
   "domain": "Finance",
   "sub_domain": "Innovation Investing",
   "psychological_profile": {
-    "primary_traits": "visionary, contrarian, analytical, determined, innovative, risk-tolerant, future-focused",
+    "primary_traits": [
+      "visionary",
+      "contrarian",
+      "analytical",
+      "determined",
+      "innovative",
+      "risk-tolerant",
+      "future-focused"
+    ],
     "cognitive_style": "forward-thinking, innovation-focused, contrarian, data-driven, disruption-oriented, long-term thinking",
     "core_motivations": "identifying disruptive innovation, transforming industries, long-term wealth creation, technological advancement",
     "decision_making_framework": "innovation analysis, disruption potential, long-term vision, contrarian thinking, technological trends",

@@ -37,15 +37,17 @@
     "literacy advocacy",
     "mountain roots loyalty"
   ],
-  "psychological_profile": [
-    "resilient",
-    "empathetic",
-    "business-savvy",
-    "authentic",
-    "generous",
-    "self-aware",
-    "optimistic"
-  ],
+  "psychological_profile": {
+    "primary_traits": [
+      "resilient",
+      "empathetic",
+      "business-savvy",
+      "authentic",
+      "generous",
+      "self-aware",
+      "optimistic"
+    ]
+  },
   "decision_making": [
     "values-driven",
     "business-minded",
@@ -78,25 +80,56 @@
     "brand building"
   ],
   "bias_awareness": {
-    "primary_biases": ["optimism bias", "loyalty to roots"],
-    "mitigation_strategies": ["business advisors", "diverse collaborations"],
+    "primary_biases": [
+      "optimism bias",
+      "loyalty to roots"
+    ],
+    "mitigation_strategies": [
+      "business advisors",
+      "diverse collaborations"
+    ],
     "self_awareness_level": "extremely high - self-aware about image and reality",
     "decision_impact": "authenticity strengthened career longevity"
   },
   "growth_motivation": {
-    "intrinsic_drivers": ["helping others", "creativity", "family", "literacy", "success"],
+    "intrinsic_drivers": [
+      "helping others",
+      "creativity",
+      "family",
+      "literacy",
+      "success"
+    ],
     "learning_orientation": "experiential and adaptive",
-    "adaptation_patterns": ["evolved career across music, film, business, philanthropy"],
-    "curiosity_areas": ["business", "education", "entertainment", "community development"]
+    "adaptation_patterns": [
+      "evolved career across music, film, business, philanthropy"
+    ],
+    "curiosity_areas": [
+      "business",
+      "education",
+      "entertainment",
+      "community development"
+    ]
   },
   "cognitive_humanism": {
-    "empathy_indicators": ["literacy program", "COVID vaccine funding", "disaster relief"],
+    "empathy_indicators": [
+      "literacy program",
+      "COVID vaccine funding",
+      "disaster relief"
+    ],
     "ethical_framework": "Christian values and mountain ethics",
     "human_centered_thinking": "focused on helping children and communities",
-    "compassion_examples": ["Imagination Library", "employee support", "disaster relief"]
+    "compassion_examples": [
+      "Imagination Library",
+      "employee support",
+      "disaster relief"
+    ]
   },
   "humanistic_cognition": {
-    "creative_problem_solving": ["Dollywood creation", "literacy program", "business innovations"],
+    "creative_problem_solving": [
+      "Dollywood creation",
+      "literacy program",
+      "business innovations"
+    ],
     "holistic_perspective": "music as platform for broader impact",
     "pattern_recognition": "identified needs and opportunities",
     "integrative_thinking": "combined music, business, philanthropy, education"
@@ -109,15 +142,33 @@
     "self_actualization": "used success to help others and preserve heritage"
   },
   "self_actualization": {
-    "peak_experiences": ["hit songs", "Dollywood opening", "Imagination Library milestone", "cultural icon status"],
-    "authenticity_markers": ["maintained true self despite fame", "honest about image"],
+    "peak_experiences": [
+      "hit songs",
+      "Dollywood opening",
+      "Imagination Library milestone",
+      "cultural icon status"
+    ],
+    "authenticity_markers": [
+      "maintained true self despite fame",
+      "honest about image"
+    ],
     "purpose_alignment": "entertainment and helping others, especially children",
-    "autonomy_expression": ["business ownership", "creative control", "philanthropic focus"],
+    "autonomy_expression": [
+      "business ownership",
+      "creative control",
+      "philanthropic focus"
+    ],
     "growth_trajectory": "poor mountain girl → country star → business mogul → philanthropist icon"
   },
   "behavioral_growth": {
-    "adaptation_patterns": ["evolved across decades and formats", "built diversified empire"],
-    "resilience_indicators": ["overcame poverty", "sustained success across generations"],
+    "adaptation_patterns": [
+      "evolved across decades and formats",
+      "built diversified empire"
+    ],
+    "resilience_indicators": [
+      "overcame poverty",
+      "sustained success across generations"
+    ],
     "learning_evolution": "from musician to complete entertainment and business leader",
     "response_to_failure": "persisted with optimism and hard work"
   },
@@ -133,7 +184,11 @@
     "failure_recovery": "resilient with humor and persistence",
     "uncertainty_tolerance": "high - comfortable with risks",
     "pressure_performance": "delivered consistently over decades",
-    "crisis_leadership": ["disaster relief", "COVID response", "community support"]
+    "crisis_leadership": [
+      "disaster relief",
+      "COVID response",
+      "community support"
+    ]
   },
   "influence_style": {
     "persuasion_approach": "authentic warmth and generosity",
@@ -145,7 +200,11 @@
   "resource_relationship": {
     "wealth_perspective": "tool for helping others and preserving heritage",
     "resource_allocation": "Dollywood, Imagination Library, community support",
-    "generosity_patterns": ["200+ million books gifted", "employee benefits", "disaster relief"],
+    "generosity_patterns": [
+      "200+ million books gifted",
+      "employee benefits",
+      "disaster relief"
+    ],
     "financial_risk_appetite": "calculated - built sustainable businesses",
     "resource_transparency": "open about using wealth for good"
   },

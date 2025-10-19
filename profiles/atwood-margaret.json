@@ -39,7 +39,13 @@
     ]
   },
   "psychological_profile": {
-    "primary_traits": "literary, environmental, prophetic, dystopian, eloquent",
+    "primary_traits": [
+      "literary",
+      "environmental",
+      "prophetic",
+      "dystopian",
+      "eloquent"
+    ],
     "core_motivations": "environmental awareness, literary expression, dystopian warning, ecological consciousness",
     "learning_style": "literary, environmental, dystopian awareness"
   },

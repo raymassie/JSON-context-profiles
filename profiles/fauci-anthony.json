@@ -30,7 +30,13 @@
     }
   },
   "psychological_profile": {
-    "primary_traits": "analytical, patient, dedicated, scientific, compassionate",
+    "primary_traits": [
+      "analytical",
+      "patient",
+      "dedicated",
+      "scientific",
+      "compassionate"
+    ],
     "core_motivations": [
       "public health",
       "scientific truth",

@@ -33,7 +33,13 @@
     ]
   },
   "psychological_profile": {
-    "primary_traits": "analytical, psychological, innovative, theoretical, introspective",
+    "primary_traits": [
+      "analytical",
+      "psychological",
+      "innovative",
+      "theoretical",
+      "introspective"
+    ],
     "core_motivations": "psychological understanding, theoretical innovation, analytical insight, introspective exploration",
     "learning_style": "analytical, psychological, theoretical"
   },

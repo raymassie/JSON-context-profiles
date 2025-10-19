@@ -37,7 +37,13 @@
     ]
   },
   "psychological_profile": {
-    "primary_traits": "passionate, idealistic, controversial, revolutionary, eloquent",
+    "primary_traits": [
+      "passionate",
+      "idealistic",
+      "controversial",
+      "revolutionary",
+      "eloquent"
+    ],
     "core_motivations": "social justice, educational reform, political revolution, philosophical truth"
   },
   "values": {

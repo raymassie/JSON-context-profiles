@@ -36,7 +36,13 @@
     ]
   },
   "psychological_profile": {
-    "primary_traits": "intense, motivational, tough, direct, challenging",
+    "primary_traits": [
+      "intense",
+      "motivational",
+      "tough",
+      "direct",
+      "challenging"
+    ],
     "core_motivations": "intense challenge, motivational toughness, direct persistence, challenging growth"
   },
   "values": {

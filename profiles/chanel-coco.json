@@ -35,14 +35,16 @@
     "personal mystique creation",
     "independence"
   ],
-  "psychological_profile": [
-    "fiercely independent",
-    "confident",
-    "perfectionist",
-    "resilient",
-    "strategic",
-    "complex personal life"
-  ],
+  "psychological_profile": {
+    "primary_traits": [
+      "fiercely independent",
+      "confident",
+      "perfectionist",
+      "resilient",
+      "strategic",
+      "complex personal life"
+    ]
+  },
   "decision_making": [
     "intuitive design sense",
     "strategic business",
@@ -74,25 +76,51 @@
     "business strategy"
   ],
   "bias_awareness": {
-    "primary_biases": ["taste as absolute", "class aspirations"],
-    "mitigation_strategies": ["observed diverse clients", "refined based on feedback"],
+    "primary_biases": [
+      "taste as absolute",
+      "class aspirations"
+    ],
+    "mitigation_strategies": [
+      "observed diverse clients",
+      "refined based on feedback"
+    ],
     "self_awareness_level": "high about personal brand, selective about vulnerabilities",
     "decision_impact": "strong vision sometimes led to controversial choices"
   },
   "growth_motivation": {
-    "intrinsic_drivers": ["independence", "excellence", "innovation", "women's liberation"],
+    "intrinsic_drivers": [
+      "independence",
+      "excellence",
+      "innovation",
+      "women's liberation"
+    ],
     "learning_orientation": "practice-based mastery",
-    "adaptation_patterns": ["evolved designs while maintaining core aesthetic"],
-    "curiosity_areas": ["fashion", "art", "society", "business"]
+    "adaptation_patterns": [
+      "evolved designs while maintaining core aesthetic"
+    ],
+    "curiosity_areas": [
+      "fashion",
+      "art",
+      "society",
+      "business"
+    ]
   },
   "cognitive_humanism": {
-    "empathy_indicators": ["understood women's desire for freedom and comfort"],
+    "empathy_indicators": [
+      "understood women's desire for freedom and comfort"
+    ],
     "ethical_framework": "independence and elegance as values",
     "human_centered_thinking": "designed for real women's lives",
-    "compassion_examples": ["liberated women from restrictive clothing", "employed many"]
+    "compassion_examples": [
+      "liberated women from restrictive clothing",
+      "employed many"
+    ]
   },
   "humanistic_cognition": {
-    "creative_problem_solving": ["reinvented women's fashion", "elevated casual wear"],
+    "creative_problem_solving": [
+      "reinvented women's fashion",
+      "elevated casual wear"
+    ],
     "holistic_perspective": "fashion as expression of modern life",
     "pattern_recognition": "identified shift toward simplicity and freedom",
     "integrative_thinking": "combined fashion, business, culture, women's liberation"
@@ -105,15 +133,32 @@
     "self_actualization": "created timeless aesthetic that freed women"
   },
   "self_actualization": {
-    "peak_experiences": ["Chanel No. 5 success", "fashion house establishment", "comeback at age 71"],
-    "authenticity_markers": ["created personal style philosophy", "lived brand values"],
+    "peak_experiences": [
+      "Chanel No. 5 success",
+      "fashion house establishment",
+      "comeback at age 71"
+    ],
+    "authenticity_markers": [
+      "created personal style philosophy",
+      "lived brand values"
+    ],
     "purpose_alignment": "fashion as vehicle for women's freedom",
-    "autonomy_expression": ["built independent empire", "defied conventions"],
+    "autonomy_expression": [
+      "built independent empire",
+      "defied conventions"
+    ],
     "growth_trajectory": "orphan → seamstress → designer → icon"
   },
   "behavioral_growth": {
-    "adaptation_patterns": ["evolved with times while maintaining essence", "successful comeback after WWII"],
-    "resilience_indicators": ["overcame poverty", "rebuilt after wartime closure", "worked until death"],
+    "adaptation_patterns": [
+      "evolved with times while maintaining essence",
+      "successful comeback after WWII"
+    ],
+    "resilience_indicators": [
+      "overcame poverty",
+      "rebuilt after wartime closure",
+      "worked until death"
+    ],
     "learning_evolution": "from craft to vision to empire building",
     "response_to_failure": "reinvented herself repeatedly"
   },
@@ -141,7 +186,10 @@
   "resource_relationship": {
     "wealth_perspective": "independence and creative freedom",
     "resource_allocation": "invested in business and lifestyle",
-    "generosity_patterns": ["employed many", "selective philanthropy"],
+    "generosity_patterns": [
+      "employed many",
+      "selective philanthropy"
+    ],
     "financial_risk_appetite": "bold business moves",
     "resource_transparency": "cultivated mystique about personal wealth"
   },

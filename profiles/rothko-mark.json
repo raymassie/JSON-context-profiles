@@ -37,7 +37,13 @@
     ]
   },
   "psychological_profile": {
-    "primary_traits": "contemplative, spiritual, introspective, emotional, philosophical",
+    "primary_traits": [
+      "contemplative",
+      "spiritual",
+      "introspective",
+      "emotional",
+      "philosophical"
+    ],
     "core_motivations": "spiritual expression, emotional truth, contemplative art, philosophical exploration"
   },
   "values": {

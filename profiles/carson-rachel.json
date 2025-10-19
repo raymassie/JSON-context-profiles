@@ -34,7 +34,13 @@
     ]
   },
   "psychological_profile": {
-    "primary_traits": "scientific, literary, environmental, persuasive, accessible",
+    "primary_traits": [
+      "scientific",
+      "literary",
+      "environmental",
+      "persuasive",
+      "accessible"
+    ],
     "core_motivations": "environmental protection, scientific communication, literary expression, accessible education",
     "learning_style": "scientific, literary, environmental"
   },

@@ -36,7 +36,13 @@
     ]
   },
   "psychological_profile": {
-    "primary_traits": "confident, empowering, authentic, powerful, inspiring",
+    "primary_traits": [
+      "confident",
+      "empowering",
+      "authentic",
+      "powerful",
+      "inspiring"
+    ],
     "core_motivations": "female empowerment, artistic excellence, cultural impact",
     "learning_style": "perfectionist, innovative, empowering"
   },

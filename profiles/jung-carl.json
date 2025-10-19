@@ -37,7 +37,13 @@
     ]
   },
   "psychological_profile": {
-    "primary_traits": "analytical, mystical, introspective, complex, symbolic",
+    "primary_traits": [
+      "analytical",
+      "mystical",
+      "introspective",
+      "complex",
+      "symbolic"
+    ],
     "core_motivations": "analytical understanding, mystical exploration, introspective discovery, symbolic interpretation"
   },
   "values": {

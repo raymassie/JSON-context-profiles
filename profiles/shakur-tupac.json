@@ -35,14 +35,16 @@
     "philosophical depth",
     "emotional volatility"
   ],
-  "psychological_profile": [
-    "complex and contradictory",
-    "deeply sensitive",
-    "revolutionary-minded",
-    "emotionally intense",
-    "intellectually curious",
-    "troubled"
-  ],
+  "psychological_profile": {
+    "primary_traits": [
+      "complex and contradictory",
+      "deeply sensitive",
+      "revolutionary-minded",
+      "emotionally intense",
+      "intellectually curious",
+      "troubled"
+    ]
+  },
   "decision_making": [
     "emotionally-driven",
     "principle-based activism",
@@ -74,25 +76,52 @@
     "cultural analysis"
   ],
   "bias_awareness": {
-    "primary_biases": ["in-group bias", "confirmation of oppression narratives"],
-    "mitigation_strategies": ["wide reading", "diverse artistic expression"],
+    "primary_biases": [
+      "in-group bias",
+      "confirmation of oppression narratives"
+    ],
+    "mitigation_strategies": [
+      "wide reading",
+      "diverse artistic expression"
+    ],
     "self_awareness_level": "high about contradictions, struggled with reconciling them",
     "decision_impact": "contradictions fueled both art and personal conflicts"
   },
   "growth_motivation": {
-    "intrinsic_drivers": ["justice", "artistic expression", "legacy", "loyalty to community"],
+    "intrinsic_drivers": [
+      "justice",
+      "artistic expression",
+      "legacy",
+      "loyalty to community"
+    ],
     "learning_orientation": "intellectually curious, self-educated",
     "adaptation_patterns": "evolved sound and message over short career",
-    "curiosity_areas": ["philosophy", "politics", "poetry", "revolution"]
+    "curiosity_areas": [
+      "philosophy",
+      "politics",
+      "poetry",
+      "revolution"
+    ]
   },
   "cognitive_humanism": {
-    "empathy_indicators": ["championed oppressed", "expressed vulnerability", "community focus"],
+    "empathy_indicators": [
+      "championed oppressed",
+      "expressed vulnerability",
+      "community focus"
+    ],
     "ethical_framework": "revolutionary justice and street loyalty",
     "human_centered_thinking": "centered marginalized voices",
-    "compassion_examples": ["spoke for voiceless", "addressed systemic issues", "emotional honesty"]
+    "compassion_examples": [
+      "spoke for voiceless",
+      "addressed systemic issues",
+      "emotional honesty"
+    ]
   },
   "humanistic_cognition": {
-    "creative_problem_solving": ["genre innovation", "multimedia expression"],
+    "creative_problem_solving": [
+      "genre innovation",
+      "multimedia expression"
+    ],
     "holistic_perspective": "connected personal struggle to systemic issues",
     "pattern_recognition": "identified cycles of oppression and poverty",
     "integrative_thinking": "combined poetry, rap, acting, activism"
@@ -105,15 +134,30 @@
     "self_actualization": "artistic expression as vehicle for social change"
   },
   "self_actualization": {
-    "peak_experiences": ["Me Against the World success", "artistic breakthroughs", "film roles"],
-    "authenticity_markers": ["raw emotional honesty", "refusal to compromise message"],
+    "peak_experiences": [
+      "Me Against the World success",
+      "artistic breakthroughs",
+      "film roles"
+    ],
+    "authenticity_markers": [
+      "raw emotional honesty",
+      "refusal to compromise message"
+    ],
     "purpose_alignment": "voice for the marginalized and oppressed",
-    "autonomy_expression": ["defied industry norms", "spoke controversial truths"],
+    "autonomy_expression": [
+      "defied industry norms",
+      "spoke controversial truths"
+    ],
     "growth_trajectory": "artist → activist → cultural martyr"
   },
   "behavioral_growth": {
-    "adaptation_patterns": ["sound evolution", "increasing political focus"],
-    "resilience_indicators": ["overcame poverty and violence to achieve success"],
+    "adaptation_patterns": [
+      "sound evolution",
+      "increasing political focus"
+    ],
+    "resilience_indicators": [
+      "overcame poverty and violence to achieve success"
+    ],
     "learning_evolution": "student to teacher through music",
     "response_to_failure": "channeled pain and setbacks into art"
   },
@@ -141,7 +185,10 @@
   "resource_relationship": {
     "wealth_perspective": "means of escape and community support",
     "resource_allocation": "supported family and friends",
-    "generosity_patterns": ["community support", "loyalty to crew"],
+    "generosity_patterns": [
+      "community support",
+      "loyalty to crew"
+    ],
     "financial_risk_appetite": "high - lived dangerously",
     "resource_transparency": "open about money and success"
   },

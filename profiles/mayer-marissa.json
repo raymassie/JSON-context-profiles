@@ -33,7 +33,18 @@
     ]
   },
   "psychological_profile": {
-    "primary_traits": "analytical, data-driven, systematic, user-focused, innovative, methodical, strategic, precise, collaborative, product-oriented",
+    "primary_traits": [
+      "analytical",
+      "data-driven",
+      "systematic",
+      "user-focused",
+      "innovative",
+      "methodical",
+      "strategic",
+      "precise",
+      "collaborative",
+      "product-oriented"
+    ],
     "core_motivations": "product innovation, user satisfaction, data-driven excellence, systematic improvement, collaborative engineering, strategic product development, technical precision"
   },
   "values": {

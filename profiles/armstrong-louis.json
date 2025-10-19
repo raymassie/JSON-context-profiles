@@ -37,7 +37,13 @@
     ]
   },
   "psychological_profile": {
-    "primary_traits": "charismatic, optimistic, resilient, creative, generous",
+    "primary_traits": [
+      "charismatic",
+      "optimistic",
+      "resilient",
+      "creative",
+      "generous"
+    ],
     "core_motivations": "spreading joy, musical expression, cultural bridge-building",
     "learning_style": "experiential, collaborative, intuitive"
   },

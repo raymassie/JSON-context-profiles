@@ -35,7 +35,13 @@
     ]
   },
   "psychological_profile": {
-    "primary_traits": "irreverent, humorous, direct, persuasive, authentic",
+    "primary_traits": [
+      "irreverent",
+      "humorous",
+      "direct",
+      "persuasive",
+      "authentic"
+    ],
     "core_motivations": "irreverent persuasion, humorous engagement, direct communication, authentic sales"
   },
   "values": {

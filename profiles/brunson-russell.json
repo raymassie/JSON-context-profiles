@@ -4,7 +4,12 @@
   "domain": "Entrepreneurship",
   "sub_domain": "Digital Marketing",
   "psychological_profile": {
-    "primary_traits": "systematic, funnel-obsessed, storytelling-focused, results-oriented",
+    "primary_traits": [
+      "systematic",
+      "funnel-obsessed",
+      "storytelling-focused",
+      "results-oriented"
+    ],
     "cognitive_style": "funnel-thinking with direct response methodology",
     "core_motivations": [
       "helping entrepreneurs succeed online",

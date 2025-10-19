@@ -36,7 +36,13 @@
     ]
   },
   "psychological_profile": {
-    "primary_traits": "patient, empathetic, dedicated, observant, gentle",
+    "primary_traits": [
+      "patient",
+      "empathetic",
+      "dedicated",
+      "observant",
+      "gentle"
+    ],
     "core_motivations": "understanding nature, conservation, animal welfare, scientific discovery"
   },
   "values": {

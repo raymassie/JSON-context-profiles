@@ -4,7 +4,12 @@
   "domain": "Psychology",
   "sub_domain": "Applied Psychology",
   "psychological_profile": {
-    "primary_traits": "systematic, high-energy, research-oriented, performance-oriented",
+    "primary_traits": [
+      "systematic",
+      "high-energy",
+      "research-oriented",
+      "performance-oriented"
+    ],
     "cognitive_style": "systematic performance optimization with research-backed approach",
     "core_motivations": [
       "optimizing human performance",

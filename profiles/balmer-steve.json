@@ -30,7 +30,18 @@
     ]
   },
   "psychological_profile": {
-    "primary_traits": "energetic, competitive, results-oriented, data-driven, strategic, performance-oriented, motivational, passionate, systematic, business-focused",
+    "primary_traits": [
+      "energetic",
+      "competitive",
+      "results-oriented",
+      "data-driven",
+      "strategic",
+      "performance-oriented",
+      "motivational",
+      "passionate",
+      "systematic",
+      "business-focused"
+    ],
     "core_motivations": "business success, competitive excellence, performance optimization, results achievement, systematic improvement, motivational leadership, operational excellence"
   },
   "values": {

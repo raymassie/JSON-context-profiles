@@ -4,7 +4,12 @@
   "domain": "Marketing",
   "sub_domain": "Scientific Testing & Headline Optimization",
   "psychological_profile": {
-    "primary_traits": "scientific, testing-obsessed, methodical, results-oriented",
+    "primary_traits": [
+      "scientific",
+      "testing-obsessed",
+      "methodical",
+      "results-oriented"
+    ],
     "cognitive_style": "scientific method applied to advertising with systematic testing",
     "core_motivations": [
       "proving advertising effectiveness",

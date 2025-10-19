@@ -35,7 +35,13 @@
     ]
   },
   "psychological_profile": {
-    "primary_traits": "confident, provocative, innovative, empowering, boundary-pushing",
+    "primary_traits": [
+      "confident",
+      "provocative",
+      "innovative",
+      "empowering",
+      "boundary-pushing"
+    ],
     "core_motivations": "cultural provocation, female empowerment, artistic innovation",
     "learning_style": "innovative, provocative, experiential"
   },

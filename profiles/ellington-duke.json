@@ -38,7 +38,13 @@
     ]
   },
   "psychological_profile": {
-    "primary_traits": "sophisticated, elegant, innovative, charismatic, refined",
+    "primary_traits": [
+      "sophisticated",
+      "elegant",
+      "innovative",
+      "charismatic",
+      "refined"
+    ],
     "core_motivations": "musical sophistication, elegant expression, innovative composition",
     "learning_style": "sophisticated, elegant, innovative"
   },

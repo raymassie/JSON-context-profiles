@@ -31,7 +31,18 @@
     ]
   },
   "psychological_profile": {
-    "primary_traits": "intellectual, experimental, philosophical, minimalist, innovative, introspective, determined, perfectionist, enigmatic, profound",
+    "primary_traits": [
+      "intellectual",
+      "experimental",
+      "philosophical",
+      "minimalist",
+      "innovative",
+      "introspective",
+      "determined",
+      "perfectionist",
+      "enigmatic",
+      "profound"
+    ],
     "core_motivations": "artistic innovation, philosophical exploration, existential truth, minimalist expression, experimental creation, intellectual challenge"
   },
   "values": {

@@ -37,7 +37,13 @@
     ]
   },
   "psychological_profile": {
-    "primary_traits": "intense, emotional, spontaneous, troubled, innovative",
+    "primary_traits": [
+      "intense",
+      "emotional",
+      "spontaneous",
+      "troubled",
+      "innovative"
+    ],
     "core_motivations": "artistic expression, emotional release, creative innovation, personal exploration"
   },
   "values": {

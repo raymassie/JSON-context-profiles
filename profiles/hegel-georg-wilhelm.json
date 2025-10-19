@@ -37,7 +37,13 @@
     ]
   },
   "psychological_profile": {
-    "primary_traits": "intellectual, analytical, comprehensive, philosophical, dialectical",
+    "primary_traits": [
+      "intellectual",
+      "analytical",
+      "comprehensive",
+      "philosophical",
+      "dialectical"
+    ],
     "core_motivations": "systematic understanding, philosophical truth, dialectical reasoning, absolute knowledge"
   },
   "values": {

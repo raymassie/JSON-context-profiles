@@ -38,7 +38,13 @@
     ]
   },
   "psychological_profile": {
-    "primary_traits": "spiritual, mystical, innovative, transcendent, dedicated",
+    "primary_traits": [
+      "spiritual",
+      "mystical",
+      "innovative",
+      "transcendent",
+      "dedicated"
+    ],
     "core_motivations": "spiritual expression, mystical exploration, musical transcendence",
     "learning_style": "spiritual, mystical, innovative"
   },

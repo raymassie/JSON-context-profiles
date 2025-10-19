@@ -32,7 +32,18 @@
     ]
   },
   "psychological_profile": {
-    "primary_traits": "narrative-focused, counterintuitive, insightful, engaging, research-oriented, storytelling, analytical, thought-provoking, accessible, transformative",
+    "primary_traits": [
+      "narrative-focused",
+      "counterintuitive",
+      "insightful",
+      "engaging",
+      "research-oriented",
+      "storytelling",
+      "analytical",
+      "thought-provoking",
+      "accessible",
+      "transformative"
+    ],
     "core_motivations": "social science research, counterintuitive insights, narrative storytelling, behavioral psychology, thought leadership, transformative understanding, research-based analysis"
   },
   "values": {

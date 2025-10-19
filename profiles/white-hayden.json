@@ -24,7 +24,13 @@
     ]
   },
   "psychological_profile": {
-    "primary_traits": "analytical, narrative-focused, theoretical, innovative, literary",
+    "primary_traits": [
+      "analytical",
+      "narrative-focused",
+      "theoretical",
+      "innovative",
+      "literary"
+    ],
     "core_motivations": "narrative understanding, theoretical innovation, analytical insight, literary methodology",
     "learning_style": "analytical, narrative, theoretical"
   },

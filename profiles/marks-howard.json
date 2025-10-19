@@ -5,7 +5,15 @@
   "domain": "Finance",
   "sub_domain": "Value Investing",
   "psychological_profile": {
-    "primary_traits": "contrarian, analytical, patient, risk-aware, philosophical, disciplined, thoughtful",
+    "primary_traits": [
+      "contrarian",
+      "analytical",
+      "patient",
+      "risk-aware",
+      "philosophical",
+      "disciplined",
+      "thoughtful"
+    ],
     "cognitive_style": "systematic, contrarian, risk-focused, long-term thinking, market cycle awareness",
     "core_motivations": "preserving capital, finding mispriced assets, understanding market cycles, teaching investment principles",
     "decision_making_framework": "risk assessment, market cycle analysis, contrarian thinking, value identification, patience",

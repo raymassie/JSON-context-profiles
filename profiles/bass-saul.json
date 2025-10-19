@@ -33,7 +33,18 @@
     ]
   },
   "psychological_profile": {
-    "primary_traits": "innovative, cinematic, experimental, narrative-focused, visual, influential, creative, dynamic, determined, visionary",
+    "primary_traits": [
+      "innovative",
+      "cinematic",
+      "experimental",
+      "narrative-focused",
+      "visual",
+      "influential",
+      "creative",
+      "dynamic",
+      "determined",
+      "visionary"
+    ],
     "core_motivations": "visual storytelling, cinematic innovation, narrative design, motion graphics, experimental expression, lasting visual impact"
   },
   "values": {

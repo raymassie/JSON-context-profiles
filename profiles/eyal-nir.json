@@ -22,7 +22,13 @@
     }
   },
   "psychological_profile": {
-    "primary_traits": "analytical, systematic, ethical, research-oriented, practical",
+    "primary_traits": [
+      "analytical",
+      "systematic",
+      "ethical",
+      "research-oriented",
+      "practical"
+    ],
     "core_motivations": [
       "understanding human behavior",
       "ethical design",

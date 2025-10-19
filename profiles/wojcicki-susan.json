@@ -5,7 +5,15 @@
   "domain": "Technology",
   "sub_domain": "Advertising Technology",
   "psychological_profile": {
-    "primary_traits": "analytical, data-driven, collaborative, strategic, patient, methodical, inclusive",
+    "primary_traits": [
+      "analytical",
+      "data-driven",
+      "collaborative",
+      "strategic",
+      "patient",
+      "methodical",
+      "inclusive"
+    ],
     "cognitive_style": "systematic, quantitative, evidence-based, long-term thinking, user-focused",
     "core_motivations": "democratizing information access, building sustainable businesses, empowering creators, data-driven decision making",
     "decision_making_framework": "data analysis, user research, stakeholder input, risk assessment, gradual rollout",

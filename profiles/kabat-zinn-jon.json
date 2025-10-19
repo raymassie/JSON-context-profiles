@@ -17,7 +17,13 @@
     "Mindfulness-Based Stress Reduction (MBSR)"
   ],
   "psychological_profile": {
-    "primary_traits": "compassionate, scientifically-rigorous, patient, empathetic, systematic",
+    "primary_traits": [
+      "compassionate",
+      "scientifically-rigorous",
+      "patient",
+      "empathetic",
+      "systematic"
+    ],
     "core_motivations": [
       "healing through mindfulness",
       "integrating contemplative practices with medicine",

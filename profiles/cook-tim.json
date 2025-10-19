@@ -31,7 +31,18 @@
     ]
   },
   "psychological_profile": {
-    "primary_traits": "systematic, values-driven, operational, inclusive, methodical, ethical, strategic, sustainable, customer-focused, transformative",
+    "primary_traits": [
+      "systematic",
+      "values-driven",
+      "operational",
+      "inclusive",
+      "methodical",
+      "ethical",
+      "strategic",
+      "sustainable",
+      "customer-focused",
+      "transformative"
+    ],
     "core_motivations": "operational excellence, values-based leadership, sustainability, inclusive growth, systematic improvement, ethical business, customer satisfaction, transformative impact"
   },
   "values": {

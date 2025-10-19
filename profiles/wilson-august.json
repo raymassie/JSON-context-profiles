@@ -36,14 +36,16 @@
     "character complexity",
     "historical documentation"
   ],
-  "psychological_profile": [
-    "culturally grounded",
-    "historically conscious",
-    "empathetic",
-    "determined",
-    "authentic voice",
-    "visionary"
-  ],
+  "psychological_profile": {
+    "primary_traits": [
+      "culturally grounded",
+      "historically conscious",
+      "empathetic",
+      "determined",
+      "authentic voice",
+      "visionary"
+    ]
+  },
   "decision_making": [
     "cultural authenticity focus",
     "artistic integrity",
@@ -75,25 +77,50 @@
     "decade-specific research"
   ],
   "bias_awareness": {
-    "primary_biases": ["cultural perspective focus"],
-    "mitigation_strategies": ["deep historical research", "authentic character development"],
+    "primary_biases": [
+      "cultural perspective focus"
+    ],
+    "mitigation_strategies": [
+      "deep historical research",
+      "authentic character development"
+    ],
     "self_awareness_level": "high about cultural position and mission",
     "decision_impact": "commitment to Black stories shaped entire career"
   },
   "growth_motivation": {
-    "intrinsic_drivers": ["cultural preservation", "artistic excellence", "historical documentation", "community voice"],
+    "intrinsic_drivers": [
+      "cultural preservation",
+      "artistic excellence",
+      "historical documentation",
+      "community voice"
+    ],
     "learning_orientation": "self-directed historical and cultural education",
     "adaptation_patterns": "refined cycle approach over decades",
-    "curiosity_areas": ["Black history", "blues music", "cultural traditions", "theater craft"]
+    "curiosity_areas": [
+      "Black history",
+      "blues music",
+      "cultural traditions",
+      "theater craft"
+    ]
   },
   "cognitive_humanism": {
-    "empathy_indicators": ["deep character understanding", "community focus", "historical empathy"],
+    "empathy_indicators": [
+      "deep character understanding",
+      "community focus",
+      "historical empathy"
+    ],
     "ethical_framework": "cultural truth-telling and dignity",
     "human_centered_thinking": "centered Black humanity and experience",
-    "compassion_examples": ["complex sympathetic characters", "explored suffering and resilience"]
+    "compassion_examples": [
+      "complex sympathetic characters",
+      "explored suffering and resilience"
+    ]
   },
   "humanistic_cognition": {
-    "creative_problem_solving": ["decade-by-decade cycle structure", "blues-inspired dramaturgy"],
+    "creative_problem_solving": [
+      "decade-by-decade cycle structure",
+      "blues-inspired dramaturgy"
+    ],
     "holistic_perspective": "connected individual stories to collective history",
     "pattern_recognition": "identified recurring themes across Black American experience",
     "integrative_thinking": "combined history, music, theater, cultural preservation"
@@ -106,15 +133,31 @@
     "self_actualization": "preserved and elevated Black cultural heritage"
   },
   "self_actualization": {
-    "peak_experiences": ["Pulitzer Prizes", "Pittsburgh Cycle completion", "Broadway success"],
-    "authenticity_markers": ["refused to compromise cultural specificity", "maintained artistic vision"],
+    "peak_experiences": [
+      "Pulitzer Prizes",
+      "Pittsburgh Cycle completion",
+      "Broadway success"
+    ],
+    "authenticity_markers": [
+      "refused to compromise cultural specificity",
+      "maintained artistic vision"
+    ],
     "purpose_alignment": "dedicated career to Black cultural preservation",
-    "autonomy_expression": ["self-educated path", "refused dilution of vision"],
+    "autonomy_expression": [
+      "self-educated path",
+      "refused dilution of vision"
+    ],
     "growth_trajectory": "dropout → poet → playwright → cultural chronicler"
   },
   "behavioral_growth": {
-    "adaptation_patterns": ["refined dramatic craft over cycle", "deepened historical understanding"],
-    "resilience_indicators": ["overcame poverty and racism", "persisted with vision"],
+    "adaptation_patterns": [
+      "refined dramatic craft over cycle",
+      "deepened historical understanding"
+    ],
+    "resilience_indicators": [
+      "overcame poverty and racism",
+      "persisted with vision"
+    ],
     "learning_evolution": "from poetry to mastery of dramatic form",
     "response_to_failure": "maintained vision despite early struggles"
   },
@@ -142,7 +185,10 @@
   "resource_relationship": {
     "wealth_perspective": "success enabled artistic mission",
     "resource_allocation": "invested in theatrical productions and cultural work",
-    "generosity_patterns": ["mentored younger artists", "supported Black theater"],
+    "generosity_patterns": [
+      "mentored younger artists",
+      "supported Black theater"
+    ],
     "financial_risk_appetite": "focused on artistic integrity over commercial success",
     "resource_transparency": "maintained connection to community despite success"
   },

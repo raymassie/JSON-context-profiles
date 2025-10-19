@@ -36,7 +36,13 @@
     ]
   },
   "psychological_profile": {
-    "primary_traits": "conversational, storytelling, persuasive, engaging, sales-oriented",
+    "primary_traits": [
+      "conversational",
+      "storytelling",
+      "persuasive",
+      "engaging",
+      "sales-oriented"
+    ],
     "core_motivations": "storytelling persuasion, conversational engagement, sales optimization, copywriting education"
   },
   "values": {

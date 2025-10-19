@@ -32,7 +32,18 @@
     ]
   },
   "psychological_profile": {
-    "primary_traits": "experimental, intuitive, rebellious, expressive, innovative, emotional, authentic, unconventional, creative, disruptive",
+    "primary_traits": [
+      "experimental",
+      "intuitive",
+      "rebellious",
+      "expressive",
+      "innovative",
+      "emotional",
+      "authentic",
+      "unconventional",
+      "creative",
+      "disruptive"
+    ],
     "core_motivations": "experimental expression, typographic innovation, emotional communication, design rebellion, authentic creativity, unconventional aesthetics"
   },
   "values": {

@@ -36,7 +36,13 @@
     ]
   },
   "psychological_profile": {
-    "primary_traits": "analytical, introverted, creative, persistent, independent",
+    "primary_traits": [
+      "analytical",
+      "introverted",
+      "creative",
+      "persistent",
+      "independent"
+    ],
     "core_motivations": "truth-seeking, problem-solving, intellectual challenge, scientific advancement"
   },
   "values": {

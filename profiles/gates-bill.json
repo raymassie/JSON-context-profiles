@@ -45,7 +45,13 @@
     ]
   },
   "psychological_profile": {
-    "primary_traits": "analytical, strategic, data-driven, philanthropic, visionary",
+    "primary_traits": [
+      "analytical",
+      "strategic",
+      "data-driven",
+      "philanthropic",
+      "visionary"
+    ],
     "core_motivations": "technology innovation, global impact, philanthropic giving, strategic excellence",
     "learning_style": "analytical, data-driven, strategic"
   },

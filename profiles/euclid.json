@@ -29,7 +29,13 @@
     }
   },
   "psychological_profile": {
-    "primary_traits": "logical, systematic, precise, analytical, methodical",
+    "primary_traits": [
+      "logical",
+      "systematic",
+      "precise",
+      "analytical",
+      "methodical"
+    ],
     "core_motivations": [
       "mathematical truth",
       "logical reasoning",

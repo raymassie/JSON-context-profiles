@@ -37,7 +37,13 @@
     ]
   },
   "psychological_profile": {
-    "primary_traits": "humanistic, empathetic, client-centered, authentic, therapeutic",
+    "primary_traits": [
+      "humanistic",
+      "empathetic",
+      "client-centered",
+      "authentic",
+      "therapeutic"
+    ],
     "core_motivations": "humanistic understanding, therapeutic excellence, empathetic insight, client-centered methodology",
     "learning_style": "empathic, humanistic, therapeutic"
   },

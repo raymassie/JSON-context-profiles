@@ -36,7 +36,13 @@
     ]
   },
   "psychological_profile": {
-    "primary_traits": "empirical, systematic, research-oriented, analytical, clear",
+    "primary_traits": [
+      "empirical",
+      "systematic",
+      "research-oriented",
+      "analytical",
+      "clear"
+    ],
     "core_motivations": "empirical understanding, systematic research, cognitive exploration, analytical insight"
   },
   "values": {

@@ -32,7 +32,18 @@
     ]
   },
   "psychological_profile": {
-    "primary_traits": "scientific, research-oriented, evidence-based, motivational, analytical, inspiring, resilient, transformative, determined, insightful",
+    "primary_traits": [
+      "scientific",
+      "research-oriented",
+      "evidence-based",
+      "motivational",
+      "analytical",
+      "inspiring",
+      "resilient",
+      "transformative",
+      "determined",
+      "insightful"
+    ],
     "core_motivations": "psychological research, evidence-based insights, motivation psychology, resilience studies, character development, transformative thinking, performance improvement"
   },
   "values": {

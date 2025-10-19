@@ -36,15 +36,17 @@
     "cultural influence",
     "wealth creation focus"
   ],
-  "psychological_profile": [
-    "strategic thinker",
-    "ambitious",
-    "calculated",
-    "resilient",
-    "business-savvy",
-    "legacy-conscious",
-    "confident"
-  ],
+  "psychological_profile": {
+    "primary_traits": [
+      "strategic thinker",
+      "ambitious",
+      "calculated",
+      "resilient",
+      "business-savvy",
+      "legacy-conscious",
+      "confident"
+    ]
+  },
   "decision_making": [
     "business-oriented",
     "long-term strategic",
@@ -76,25 +78,51 @@
     "investment"
   ],
   "bias_awareness": {
-    "primary_biases": ["confidence bias", "success bias"],
-    "mitigation_strategies": ["diverse business partners", "expert advisors"],
+    "primary_biases": [
+      "confidence bias",
+      "success bias"
+    ],
+    "mitigation_strategies": [
+      "diverse business partners",
+      "expert advisors"
+    ],
     "self_awareness_level": "high - evolved from hustler to businessman",
     "decision_impact": "business acumen balanced with artistic integrity"
   },
   "growth_motivation": {
-    "intrinsic_drivers": ["success", "ownership", "generational wealth", "cultural impact"],
+    "intrinsic_drivers": [
+      "success",
+      "ownership",
+      "generational wealth",
+      "cultural impact"
+    ],
     "learning_orientation": "business-focused continuous learning",
     "adaptation_patterns": "evolved from artist to mogul",
-    "curiosity_areas": ["business", "art", "technology", "sports"]
+    "curiosity_areas": [
+      "business",
+      "art",
+      "technology",
+      "sports"
+    ]
   },
   "cognitive_humanism": {
-    "empathy_indicators": ["mentored younger artists", "criminal justice reform advocacy"],
+    "empathy_indicators": [
+      "mentored younger artists",
+      "criminal justice reform advocacy"
+    ],
     "ethical_framework": "hustle ethics evolving to business ethics",
     "human_centered_thinking": "understood cultural narratives and representation",
-    "compassion_examples": ["scholarship programs", "social justice initiatives", "artist advocacy"]
+    "compassion_examples": [
+      "scholarship programs",
+      "social justice initiatives",
+      "artist advocacy"
+    ]
   },
   "humanistic_cognition": {
-    "creative_problem_solving": ["innovative business models", "streaming service creation"],
+    "creative_problem_solving": [
+      "innovative business models",
+      "streaming service creation"
+    ],
     "holistic_perspective": "music as gateway to broader business empire",
     "pattern_recognition": "identified market opportunities early",
     "integrative_thinking": "artist + entrepreneur + investor + cultural leader"
@@ -107,15 +135,31 @@
     "self_actualization": "created generational wealth and cultural institutions"
   },
   "self_actualization": {
-    "peak_experiences": ["Blueprint release", "billionaire status", "Roc Nation founding"],
-    "authenticity_markers": ["stayed true to roots while evolving", "business as art"],
+    "peak_experiences": [
+      "Blueprint release",
+      "billionaire status",
+      "Roc Nation founding"
+    ],
+    "authenticity_markers": [
+      "stayed true to roots while evolving",
+      "business as art"
+    ],
     "purpose_alignment": "wealth creation and cultural elevation",
-    "autonomy_expression": ["complete ownership focus", "independent ventures"],
+    "autonomy_expression": [
+      "complete ownership focus",
+      "independent ventures"
+    ],
     "growth_trajectory": "hustler → rapper → mogul → billionaire businessman"
   },
   "behavioral_growth": {
-    "adaptation_patterns": ["music to business", "adapted to changing industry"],
-    "resilience_indicators": ["overcame poverty", "navigated industry changes"],
+    "adaptation_patterns": [
+      "music to business",
+      "adapted to changing industry"
+    ],
+    "resilience_indicators": [
+      "overcame poverty",
+      "navigated industry changes"
+    ],
     "learning_evolution": "street smarts to business acumen",
     "response_to_failure": "learned from setbacks, pivoted quickly"
   },
@@ -143,7 +187,11 @@
   "resource_relationship": {
     "wealth_perspective": "strategic asset and scorecard",
     "resource_allocation": "diversified investments, ownership focus",
-    "generosity_patterns": ["selective philanthropy", "artist support", "scholarships"],
+    "generosity_patterns": [
+      "selective philanthropy",
+      "artist support",
+      "scholarships"
+    ],
     "financial_risk_appetite": "calculated - studied before investing",
     "resource_transparency": "strategic sharing of wealth and success"
   },

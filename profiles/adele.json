@@ -33,7 +33,13 @@
     ]
   },
   "psychological_profile": {
-    "primary_traits": "authentic, vulnerable, powerful, emotional, relatable",
+    "primary_traits": [
+      "authentic",
+      "vulnerable",
+      "powerful",
+      "emotional",
+      "relatable"
+    ],
     "core_motivations": "emotional expression, personal connection, musical authenticity",
     "learning_style": "experiential, emotional, authentic"
   },

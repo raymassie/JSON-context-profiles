@@ -36,14 +36,16 @@
     "spiritual seeking",
     "championed underdogs"
   ],
-  "psychological_profile": [
-    "complex and contradictory",
-    "empathetic to outcasts",
-    "spiritually searching",
-    "struggled with demons",
-    "authentic",
-    "morally conscious"
-  ],
+  "psychological_profile": {
+    "primary_traits": [
+      "complex and contradictory",
+      "empathetic to outcasts",
+      "spiritually searching",
+      "struggled with demons",
+      "authentic",
+      "morally conscious"
+    ]
+  },
   "decision_making": [
     "values-driven",
     "empathy for marginalized",
@@ -75,25 +77,55 @@
     "cultural commentary"
   ],
   "bias_awareness": {
-    "primary_biases": ["empathy for outcasts", "redemption narrative"],
-    "mitigation_strategies": ["listened to diverse voices", "acknowledged failures"],
+    "primary_biases": [
+      "empathy for outcasts",
+      "redemption narrative"
+    ],
+    "mitigation_strategies": [
+      "listened to diverse voices",
+      "acknowledged failures"
+    ],
     "self_awareness_level": "high - openly discussed struggles and contradictions",
     "decision_impact": "empathy drove prison performances and advocacy"
   },
   "growth_motivation": {
-    "intrinsic_drivers": ["redemption", "artistic truth", "helping forgotten people", "spiritual growth"],
+    "intrinsic_drivers": [
+      "redemption",
+      "artistic truth",
+      "helping forgotten people",
+      "spiritual growth"
+    ],
     "learning_orientation": "experiential - learned through pain and recovery",
-    "adaptation_patterns": ["reinvented sound late in career", "evolved spiritually"],
-    "curiosity_areas": ["spirituality", "justice", "human suffering", "redemption"]
+    "adaptation_patterns": [
+      "reinvented sound late in career",
+      "evolved spiritually"
+    ],
+    "curiosity_areas": [
+      "spirituality",
+      "justice",
+      "human suffering",
+      "redemption"
+    ]
   },
   "cognitive_humanism": {
-    "empathy_indicators": ["prison performances", "championed marginalized", "authentic vulnerability"],
+    "empathy_indicators": [
+      "prison performances",
+      "championed marginalized",
+      "authentic vulnerability"
+    ],
     "ethical_framework": "Christian redemption and social justice",
     "human_centered_thinking": "saw dignity in prisoners and outcasts",
-    "compassion_examples": ["prison concerts", "advocacy for forgotten", "honest about struggles"]
+    "compassion_examples": [
+      "prison concerts",
+      "advocacy for forgotten",
+      "honest about struggles"
+    ]
   },
   "humanistic_cognition": {
-    "creative_problem_solving": ["prison concert innovation", "late career reinvention"],
+    "creative_problem_solving": [
+      "prison concert innovation",
+      "late career reinvention"
+    ],
     "holistic_perspective": "connected personal struggle to universal themes",
     "pattern_recognition": "identified with society's forgotten",
     "integrative_thinking": "combined country, gospel, rock, spirituality, social commentary"
@@ -106,15 +138,32 @@
     "self_actualization": "found redemption and helped others through music"
   },
   "self_actualization": {
-    "peak_experiences": ["At Folsom Prison", "June Carter marriage", "American Recordings revival", "spiritual moments"],
-    "authenticity_markers": ["wore black for the poor and beaten down", "honest about failures"],
+    "peak_experiences": [
+      "At Folsom Prison",
+      "June Carter marriage",
+      "American Recordings revival",
+      "spiritual moments"
+    ],
+    "authenticity_markers": [
+      "wore black for the poor and beaten down",
+      "honest about failures"
+    ],
     "purpose_alignment": "music as vehicle for redemption and truth",
-    "autonomy_expression": ["defied industry norms", "championed controversial causes"],
+    "autonomy_expression": [
+      "defied industry norms",
+      "championed controversial causes"
+    ],
     "growth_trajectory": "poor farmer's son → country star → troubled icon → redeemed elder statesman"
   },
   "behavioral_growth": {
-    "adaptation_patterns": ["overcame addiction", "late career artistic renaissance"],
-    "resilience_indicators": ["recovered from addiction multiple times", "reinvented in 90s"],
+    "adaptation_patterns": [
+      "overcame addiction",
+      "late career artistic renaissance"
+    ],
+    "resilience_indicators": [
+      "recovered from addiction multiple times",
+      "reinvented in 90s"
+    ],
     "learning_evolution": "from rebel to redeemed sage",
     "response_to_failure": "channeled pain into art and sought redemption"
   },
@@ -142,7 +191,10 @@
   "resource_relationship": {
     "wealth_perspective": "means to support family and causes",
     "resource_allocation": "supported family, gave to causes, lived modestly by star standards",
-    "generosity_patterns": ["performed for prisoners", "supported struggling musicians"],
+    "generosity_patterns": [
+      "performed for prisoners",
+      "supported struggling musicians"
+    ],
     "financial_risk_appetite": "struggled with management at times",
     "resource_transparency": "honest about money troubles and recovery"
   },

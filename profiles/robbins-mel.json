@@ -37,7 +37,13 @@
     ]
   },
   "psychological_profile": {
-    "primary_traits": "action-oriented, direct, practical, energetic, solution-focused",
+    "primary_traits": [
+      "action-oriented",
+      "direct",
+      "practical",
+      "energetic",
+      "solution-focused"
+    ],
     "core_motivations": "action-oriented coaching, direct guidance, practical solutions, energetic motivation"
   },
   "values": {

@@ -5,7 +5,15 @@
   "domain": "Technology",
   "sub_domain": "Fintech",
   "psychological_profile": {
-    "primary_traits": "analytical, systematic, innovative, determined, technical, user-focused, growth-oriented",
+    "primary_traits": [
+      "analytical",
+      "systematic",
+      "innovative",
+      "determined",
+      "technical",
+      "user-focused",
+      "growth-oriented"
+    ],
     "cognitive_style": "systematic, technical, user-centric, data-driven, long-term thinking, platform-focused",
     "core_motivations": "democratizing payments, building developer tools, creating global infrastructure, technical excellence",
     "decision_making_framework": "technical analysis, user feedback, systematic evaluation, data-driven decisions, long-term vision",

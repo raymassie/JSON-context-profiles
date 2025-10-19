@@ -34,14 +34,16 @@
     "empowering women's fashion",
     "ready-to-wear pioneering"
   ],
-  "psychological_profile": [
-    "visionary",
-    "sensitive",
-    "perfectionistic",
-    "introverted genius",
-    "culturally sophisticated",
-    "struggled with anxiety"
-  ],
+  "psychological_profile": {
+    "primary_traits": [
+      "visionary",
+      "sensitive",
+      "perfectionistic",
+      "introverted genius",
+      "culturally sophisticated",
+      "struggled with anxiety"
+    ]
+  },
   "decision_making": [
     "artistically driven",
     "cultural inspiration",
@@ -73,27 +75,57 @@
     "brand building"
   ],
   "bias_awareness": {
-    "primary_biases": ["artistic vision as absolute", "cultural elite perspective"],
-    "mitigation_strategies": ["business partner Pierre Bergé", "diverse inspirations"],
+    "primary_biases": [
+      "artistic vision as absolute",
+      "cultural elite perspective"
+    ],
+    "mitigation_strategies": [
+      "business partner Pierre Bergé",
+      "diverse inspirations"
+    ],
     "self_awareness_level": "high about artistic vision, struggled with personal demons",
     "decision_impact": "sensitivity both fueled creativity and caused personal struggles"
   },
   "growth_motivation": {
-    "intrinsic_drivers": ["artistic expression", "women's liberation", "beauty creation", "innovation"],
+    "intrinsic_drivers": [
+      "artistic expression",
+      "women's liberation",
+      "beauty creation",
+      "innovation"
+    ],
     "learning_orientation": "artistically curious, culturally educated",
-    "adaptation_patterns": ["evolved while maintaining core aesthetic"],
-    "curiosity_areas": ["art", "culture", "history", "global influences"]
+    "adaptation_patterns": [
+      "evolved while maintaining core aesthetic"
+    ],
+    "curiosity_areas": [
+      "art",
+      "culture",
+      "history",
+      "global influences"
+    ]
   },
   "cognitive_humanism": {
-    "empathy_indicators": ["designed for women's confidence and freedom"],
+    "empathy_indicators": [
+      "designed for women's confidence and freedom"
+    ],
     "ethical_framework": "beauty and empowerment as values",
     "human_centered_thinking": "understood women's desire for power dressing",
-    "compassion_examples": ["empowered women through fashion", "employed diverse team"]
+    "compassion_examples": [
+      "empowered women through fashion",
+      "employed diverse team"
+    ]
   },
   "humanistic_cognition": {
-    "creative_problem_solving": ["Le Smoking tuxedo", "art-into-fashion", "ready-to-wear luxury"],
+    "creative_problem_solving": [
+      "Le Smoking tuxedo",
+      "art-into-fashion",
+      "ready-to-wear luxury"
+    ],
     "holistic_perspective": "fashion as cultural expression and empowerment",
-    "pattern_recognition": ["identified women's changing roles", "saw fashion evolution"],
+    "pattern_recognition": [
+      "identified women's changing roles",
+      "saw fashion evolution"
+    ],
     "integrative_thinking": "combined art, fashion, culture, women's liberation"
   },
   "human_needs_hierarchy": {
@@ -104,15 +136,32 @@
     "self_actualization": "expressed artistic vision and empowered women"
   },
   "self_actualization": {
-    "peak_experiences": ["Le Smoking creation", "YSL brand launch", "major collections", "artistic triumphs"],
-    "authenticity_markers": ["maintained artistic integrity", "honest about struggles"],
+    "peak_experiences": [
+      "Le Smoking creation",
+      "YSL brand launch",
+      "major collections",
+      "artistic triumphs"
+    ],
+    "authenticity_markers": [
+      "maintained artistic integrity",
+      "honest about struggles"
+    ],
     "purpose_alignment": "fashion as art and women's empowerment",
-    "autonomy_expression": ["built independent house", "controlled creative vision"],
+    "autonomy_expression": [
+      "built independent house",
+      "controlled creative vision"
+    ],
     "growth_trajectory": "prodigy → Dior successor → independent visionary → icon"
   },
   "behavioral_growth": {
-    "adaptation_patterns": ["evolved designs while maintaining vision", "adapted to ready-to-wear"],
-    "resilience_indicators": ["overcame anxiety to create", "maintained output despite struggles"],
+    "adaptation_patterns": [
+      "evolved designs while maintaining vision",
+      "adapted to ready-to-wear"
+    ],
+    "resilience_indicators": [
+      "overcame anxiety to create",
+      "maintained output despite struggles"
+    ],
     "learning_evolution": "from technical mastery to artistic vision to cultural icon",
     "response_to_failure": "channeled struggles into creativity"
   },
@@ -140,7 +189,10 @@
   "resource_relationship": {
     "wealth_perspective": "enabled artistic freedom and lifestyle",
     "resource_allocation": "art collection, creative investments",
-    "generosity_patterns": ["Pierre Bergé Foundation work", "cultural contributions"],
+    "generosity_patterns": [
+      "Pierre Bergé Foundation work",
+      "cultural contributions"
+    ],
     "financial_risk_appetite": "took creative risks with business partner's support",
     "resource_transparency": "private about finances, public about art patronage"
   },
@@ -159,4 +211,3 @@
     "delegation_approach": "relied heavily on Pierre Bergé for business"
   }
 }
-

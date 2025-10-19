@@ -30,7 +30,13 @@
     ]
   },
   "psychological_profile": {
-    "primary_traits": "passionate, revolutionary, innovative, emotionally intense, determined",
+    "primary_traits": [
+      "passionate",
+      "revolutionary",
+      "innovative",
+      "emotionally intense",
+      "determined"
+    ],
     "core_motivations": "musical revolution, emotional expression, artistic innovation",
     "learning_style": "intuitive, emotionally driven, revolutionary"
   },

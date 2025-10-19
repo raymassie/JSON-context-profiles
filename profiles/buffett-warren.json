@@ -41,7 +41,13 @@
     ]
   },
   "psychological_profile": {
-    "primary_traits": "patient, disciplined, humble, analytical, wise",
+    "primary_traits": [
+      "patient",
+      "disciplined",
+      "humble",
+      "analytical",
+      "wise"
+    ],
     "core_motivations": "value creation, long-term wealth building, business education",
     "learning_style": "analytical, patient, continuous learning"
   },

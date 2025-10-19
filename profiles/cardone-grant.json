@@ -22,7 +22,13 @@
     }
   },
   "psychological_profile": {
-    "primary_traits": "high energy, aggressive, motivational, ambitious, persuasive",
+    "primary_traits": [
+      "high energy",
+      "aggressive",
+      "motivational",
+      "ambitious",
+      "persuasive"
+    ],
     "core_motivations": [
       "success",
       "wealth creation",

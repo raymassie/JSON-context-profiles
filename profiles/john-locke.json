@@ -33,14 +33,16 @@
     "extensive correspondence",
     "practical philosophy"
   ],
-  "psychological_profile": [
-    "empiricist",
-    "rational",
-    "liberty-oriented",
-    "practical",
-    "tolerant",
-    "systematic"
-  ],
+  "psychological_profile": {
+    "primary_traits": [
+      "empiricist",
+      "rational",
+      "liberty-oriented",
+      "practical",
+      "tolerant",
+      "systematic"
+    ]
+  },
   "decision_making": [
     "evidence-based",
     "reasoned deliberation",

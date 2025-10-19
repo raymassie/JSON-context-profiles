@@ -6,6 +6,16 @@
   "archetype": "Visionary",
   "quality_tier": "Tier 1: Legend",
   "summary": "Baptist minister and civil rights leader whose nonviolent activism transformed American society and inspired global human rights movements.",
+  "psychological_profile": {
+    "primary_traits": [
+      "visionary",
+      "courageous",
+      "eloquent",
+      "principled",
+      "compassionate",
+      "strategic"
+    ]
+  },
   "bias_awareness": [],
   "growth_motivation": [],
   "cognitive_humanism": [],

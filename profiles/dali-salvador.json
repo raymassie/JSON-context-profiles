@@ -37,7 +37,13 @@
     ]
   },
   "psychological_profile": {
-    "primary_traits": "theatrical, provocative, innovative, enigmatic, flamboyant",
+    "primary_traits": [
+      "theatrical",
+      "provocative",
+      "innovative",
+      "enigmatic",
+      "flamboyant"
+    ],
     "core_motivations": "artistic expression, psychological exploration, cultural provocation, surrealist innovation"
   },
   "values": {

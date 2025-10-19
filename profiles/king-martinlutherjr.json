@@ -38,15 +38,17 @@
     "persistent activism",
     "spiritual grounding"
   ],
-  "psychological_profile": [
-    "deeply principled",
-    "courageous",
-    "empathetic",
-    "strategic thinker",
-    "spiritually grounded",
-    "resilient under pressure",
-    "visionary"
-  ],
+  "psychological_profile": {
+    "primary_traits": [
+      "deeply principled",
+      "courageous",
+      "empathetic",
+      "strategic thinker",
+      "spiritually grounded",
+      "resilient under pressure",
+      "visionary"
+    ]
+  },
   "decision_making": [
     "principle-driven",
     "nonviolent commitment",
@@ -80,25 +82,53 @@
     "moral philosophy"
   ],
   "bias_awareness": {
-    "primary_biases": ["moral absolutism on justice", "optimism bias about humanity"],
-    "mitigation_strategies": ["diverse coalition building", "theological reflection", "strategic advisors"],
+    "primary_biases": [
+      "moral absolutism on justice",
+      "optimism bias about humanity"
+    ],
+    "mitigation_strategies": [
+      "diverse coalition building",
+      "theological reflection",
+      "strategic advisors"
+    ],
     "self_awareness_level": "high - acknowledged personal struggles and limitations",
     "decision_impact": "moral clarity strengthened movement despite risks"
   },
   "growth_motivation": {
-    "intrinsic_drivers": ["justice", "divine calling", "beloved community vision", "ending suffering"],
+    "intrinsic_drivers": [
+      "justice",
+      "divine calling",
+      "beloved community vision",
+      "ending suffering"
+    ],
     "learning_orientation": "theological and philosophical deepening",
     "adaptation_patterns": "evolved from local to national to global focus",
-    "curiosity_areas": ["theology", "philosophy", "social justice movements", "economic justice"]
+    "curiosity_areas": [
+      "theology",
+      "philosophy",
+      "social justice movements",
+      "economic justice"
+    ]
   },
   "cognitive_humanism": {
-    "empathy_indicators": ["centered suffering of oppressed", "beloved community vision"],
+    "empathy_indicators": [
+      "centered suffering of oppressed",
+      "beloved community vision"
+    ],
     "ethical_framework": "Christian love ethic and natural law",
     "human_centered_thinking": "dignity of every human being",
-    "compassion_examples": ["nonviolent philosophy", "economic justice advocacy", "Poor People's Campaign"]
+    "compassion_examples": [
+      "nonviolent philosophy",
+      "economic justice advocacy",
+      "Poor People's Campaign"
+    ]
   },
   "humanistic_cognition": {
-    "creative_problem_solving": ["nonviolent tactics", "symbolic actions", "coalition strategies"],
+    "creative_problem_solving": [
+      "nonviolent tactics",
+      "symbolic actions",
+      "coalition strategies"
+    ],
     "holistic_perspective": "connected civil rights to economic and global justice",
     "pattern_recognition": "identified systemic nature of injustice",
     "integrative_thinking": "combined theology, philosophy, activism, politics"
@@ -111,15 +141,32 @@
     "self_actualization": "dedicated life to justice and moral transformation"
   },
   "self_actualization": {
-    "peak_experiences": ["March on Washington", "Nobel Peace Prize", "Montgomery victory", "I Have a Dream speech"],
-    "authenticity_markers": ["lived principles despite threats", "acknowledged fears publicly"],
+    "peak_experiences": [
+      "March on Washington",
+      "Nobel Peace Prize",
+      "Montgomery victory",
+      "I Have a Dream speech"
+    ],
+    "authenticity_markers": [
+      "lived principles despite threats",
+      "acknowledged fears publicly"
+    ],
     "purpose_alignment": "complete alignment with justice calling",
-    "autonomy_expression": ["chose nonviolence path", "expanded to economic justice despite criticism"],
+    "autonomy_expression": [
+      "chose nonviolence path",
+      "expanded to economic justice despite criticism"
+    ],
     "growth_trajectory": "minister → civil rights leader → global moral voice → martyr"
   },
   "behavioral_growth": {
-    "adaptation_patterns": ["local to national leadership", "civil rights to economic justice"],
-    "resilience_indicators": ["faced violence with nonviolence", "continued despite threats and jailing"],
+    "adaptation_patterns": [
+      "local to national leadership",
+      "civil rights to economic justice"
+    ],
+    "resilience_indicators": [
+      "faced violence with nonviolence",
+      "continued despite threats and jailing"
+    ],
     "learning_evolution": "deepened theology and expanded justice vision over time",
     "response_to_failure": "analyzed setbacks, adjusted strategy, maintained commitment"
   },
@@ -147,7 +194,11 @@
   "resource_relationship": {
     "wealth_perspective": "tool for movement, not personal accumulation",
     "resource_allocation": "movement funding, supported others",
-    "generosity_patterns": ["donated Nobel Prize money", "lived modestly", "served others"],
+    "generosity_patterns": [
+      "donated Nobel Prize money",
+      "lived modestly",
+      "served others"
+    ],
     "financial_risk_appetite": "risked security for justice",
     "resource_transparency": "open about movement finances and personal simplicity"
   },
@@ -166,4 +217,3 @@
     "delegation_approach": "empowered local leaders while providing vision"
   }
 }
-

@@ -35,7 +35,13 @@
     ]
   },
   "psychological_profile": {
-    "primary_traits": "analytical, strategic, persuasive, direct, results-oriented",
+    "primary_traits": [
+      "analytical",
+      "strategic",
+      "persuasive",
+      "direct",
+      "results-oriented"
+    ],
     "core_motivations": "persuasive communication, strategic copywriting, direct response optimization, marketing psychology"
   },
   "values": {

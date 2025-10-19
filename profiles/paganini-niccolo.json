@@ -32,7 +32,13 @@
     ]
   },
   "psychological_profile": {
-    "primary_traits": "virtuosic, dramatic, technically innovative, perfectionist, showman-like",
+    "primary_traits": [
+      "virtuosic",
+      "dramatic",
+      "technically innovative",
+      "perfectionist",
+      "showman-like"
+    ],
     "core_motivations": "technical virtuosity, dramatic expression, innovative technique",
     "learning_style": "technical, virtuosic, innovative"
   },

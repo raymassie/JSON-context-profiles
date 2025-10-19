@@ -30,7 +30,13 @@
     ]
   },
   "psychological_profile": {
-    "primary_traits": "strategic, analytical, transformational, global, results-oriented",
+    "primary_traits": [
+      "strategic",
+      "analytical",
+      "transformational",
+      "global",
+      "results-oriented"
+    ],
     "core_motivations": "industrial transformation, global expansion, strategic excellence",
     "learning_style": "strategic, analytical, global perspective"
   },

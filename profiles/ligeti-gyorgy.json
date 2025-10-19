@@ -36,7 +36,13 @@
     ]
   },
   "psychological_profile": {
-    "primary_traits": "experimental, innovative, theoretically complex, avant-garde, boundary-pushing",
+    "primary_traits": [
+      "experimental",
+      "innovative",
+      "theoretically complex",
+      "avant-garde",
+      "boundary-pushing"
+    ],
     "core_motivations": "musical experimentation, theoretical innovation, avant-garde exploration",
     "learning_style": "experimental, theoretical, avant-garde"
   },

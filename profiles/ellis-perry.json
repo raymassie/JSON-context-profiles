@@ -24,7 +24,13 @@
     }
   },
   "psychological_profile": {
-    "primary_traits": "creative, innovative, trend-setting, visionary, energetic",
+    "primary_traits": [
+      "creative",
+      "innovative",
+      "trend-setting",
+      "visionary",
+      "energetic"
+    ],
     "core_motivations": [
       "creative expression",
       "fashion innovation",

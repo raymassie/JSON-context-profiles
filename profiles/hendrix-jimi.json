@@ -36,7 +36,13 @@
     ]
   },
   "psychological_profile": {
-    "primary_traits": "innovative, creative, experimental, transcendent, rebellious",
+    "primary_traits": [
+      "innovative",
+      "creative",
+      "experimental",
+      "transcendent",
+      "rebellious"
+    ],
     "core_motivations": "musical innovation, sonic exploration, artistic expression",
     "learning_style": "experimental, intuitive, self-taught"
   },

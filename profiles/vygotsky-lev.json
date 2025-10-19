@@ -30,7 +30,13 @@
     ]
   },
   "psychological_profile": {
-    "primary_traits": "theoretical, developmental, analytical, cultural, systematic",
+    "primary_traits": [
+      "theoretical",
+      "developmental",
+      "analytical",
+      "cultural",
+      "systematic"
+    ],
     "core_motivations": "developmental understanding, theoretical insight, cultural analysis, systematic methodology",
     "learning_style": "theoretical, developmental, cultural"
   },

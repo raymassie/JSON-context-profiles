@@ -4,7 +4,12 @@
   "domain": "Writing",
   "sub_domain": "Leadership",
   "psychological_profile": {
-    "primary_traits": "purpose-driven, inspiring, empathetic, optimistic",
+    "primary_traits": [
+      "purpose-driven",
+      "inspiring",
+      "empathetic",
+      "optimistic"
+    ],
     "cognitive_style": "purpose-first thinking with leadership development focus",
     "core_motivations": [
       "inspiring leadership",

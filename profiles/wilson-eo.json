@@ -37,7 +37,13 @@
     ]
   },
   "psychological_profile": {
-    "primary_traits": "scholarly, passionate, systematic, comprehensive, authoritative",
+    "primary_traits": [
+      "scholarly",
+      "passionate",
+      "systematic",
+      "comprehensive",
+      "authoritative"
+    ],
     "core_motivations": "scientific discovery, biodiversity conservation, knowledge synthesis, environmental protection"
   },
   "values": {

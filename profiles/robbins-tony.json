@@ -37,7 +37,13 @@
     ]
   },
   "psychological_profile": {
-    "primary_traits": "energetic, motivational, passionate, confident, transformative",
+    "primary_traits": [
+      "energetic",
+      "motivational",
+      "passionate",
+      "confident",
+      "transformative"
+    ],
     "core_motivations": "energetic transformation, motivational impact, passionate coaching, confident leadership"
   },
   "values": {

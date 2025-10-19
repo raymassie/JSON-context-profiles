@@ -40,7 +40,13 @@
     ]
   },
   "psychological_profile": {
-    "primary_traits": "authentic, passionate, hardworking, relatable, storytelling",
+    "primary_traits": [
+      "authentic",
+      "passionate",
+      "hardworking",
+      "relatable",
+      "storytelling"
+    ],
     "core_motivations": "working-class expression, american storytelling, musical authenticity",
     "learning_style": "experiential, authentic, working-class"
   },

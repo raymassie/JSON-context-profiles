@@ -37,15 +37,17 @@
     "digital technology embrace",
     "global practice"
   ],
-  "psychological_profile": [
-    "visionary genius",
-    "confident",
-    "determined",
-    "pioneering spirit",
-    "demanding",
-    "fearless",
-    "perfectionist"
-  ],
+  "psychological_profile": {
+    "primary_traits": [
+      "visionary genius",
+      "confident",
+      "determined",
+      "pioneering spirit",
+      "demanding",
+      "fearless",
+      "perfectionist"
+    ]
+  },
   "decision_making": [
     "vision-driven",
     "geometric logic",
@@ -77,25 +79,55 @@
     "large-scale projects"
   ],
   "bias_awareness": {
-    "primary_biases": ["aesthetic conviction", "technological optimism"],
-    "mitigation_strategies": ["collaborated with engineers", "studied contexts"],
+    "primary_biases": [
+      "aesthetic conviction",
+      "technological optimism"
+    ],
+    "mitigation_strategies": [
+      "collaborated with engineers",
+      "studied contexts"
+    ],
     "self_awareness_level": "high about vision, aware of gender barriers faced",
     "decision_impact": "uncompromising vision led to iconic but sometimes controversial buildings"
   },
   "growth_motivation": {
-    "intrinsic_drivers": ["innovation", "breaking barriers", "geometric exploration", "excellence"],
+    "intrinsic_drivers": [
+      "innovation",
+      "breaking barriers",
+      "geometric exploration",
+      "excellence"
+    ],
     "learning_orientation": "continuous formal and technological exploration",
-    "adaptation_patterns": ["embraced digital design tools", "evolved forms over career"],
-    "curiosity_areas": ["geometry", "technology", "materials", "spatial experience"]
+    "adaptation_patterns": [
+      "embraced digital design tools",
+      "evolved forms over career"
+    ],
+    "curiosity_areas": [
+      "geometry",
+      "technology",
+      "materials",
+      "spatial experience"
+    ]
   },
   "cognitive_humanism": {
-    "empathy_indicators": ["created public spaces", "cultural buildings", "mentored women"],
+    "empathy_indicators": [
+      "created public spaces",
+      "cultural buildings",
+      "mentored women"
+    ],
     "ethical_framework": "innovation and excellence as social contribution",
     "human_centered_thinking": "designed for human spatial experience",
-    "compassion_examples": ["mentored younger architects", "championed women in architecture"]
+    "compassion_examples": [
+      "mentored younger architects",
+      "championed women in architecture"
+    ]
   },
   "humanistic_cognition": {
-    "creative_problem_solving": ["parametric design solutions", "structural innovations", "fluid forms"],
+    "creative_problem_solving": [
+      "parametric design solutions",
+      "structural innovations",
+      "fluid forms"
+    ],
     "holistic_perspective": "architecture as total spatial and cultural experience",
     "pattern_recognition": "identified potential of digital design",
     "integrative_thinking": "combined mathematics, art, technology, architecture"
@@ -108,15 +140,31 @@
     "self_actualization": "transformed architectural possibilities"
   },
   "self_actualization": {
-    "peak_experiences": ["Pritzker Prize", "major buildings completion", "parametric breakthroughs"],
-    "authenticity_markers": ["maintained radical vision despite criticism", "never compromised"],
+    "peak_experiences": [
+      "Pritzker Prize",
+      "major buildings completion",
+      "parametric breakthroughs"
+    ],
+    "authenticity_markers": [
+      "maintained radical vision despite criticism",
+      "never compromised"
+    ],
     "purpose_alignment": "push architectural boundaries and break gender barriers",
-    "autonomy_expression": ["independent practice", "uncompromising vision"],
+    "autonomy_expression": [
+      "independent practice",
+      "uncompromising vision"
+    ],
     "growth_trajectory": "math student → AA radical → paper architect → built visionary → legend"
   },
   "behavioral_growth": {
-    "adaptation_patterns": ["evolved from unbuilt to major commissions", "mastered digital tools"],
-    "resilience_indicators": ["persisted through \"paper architect\" period", "overcame gender barriers"],
+    "adaptation_patterns": [
+      "evolved from unbuilt to major commissions",
+      "mastered digital tools"
+    ],
+    "resilience_indicators": [
+      "persisted through \"paper architect\" period",
+      "overcame gender barriers"
+    ],
     "learning_evolution": "from theoretical provocations to built masterworks",
     "response_to_failure": "used criticism as fuel for innovation"
   },
@@ -144,7 +192,10 @@
   "resource_relationship": {
     "wealth_perspective": "enabled realization of vision",
     "resource_allocation": "practice investment, large-scale projects",
-    "generosity_patterns": ["mentored women architects", "taught and lectured"],
+    "generosity_patterns": [
+      "mentored women architects",
+      "taught and lectured"
+    ],
     "financial_risk_appetite": "took risks for ideal projects",
     "resource_transparency": "focused on work more than wealth display"
   },

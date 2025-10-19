@@ -33,7 +33,13 @@
     }
   },
   "psychological_profile": {
-    "primary_traits": "analytical, diplomatic, inspiring, strategic, empathetic",
+    "primary_traits": [
+      "analytical",
+      "diplomatic",
+      "inspiring",
+      "strategic",
+      "empathetic"
+    ],
     "core_motivations": [
       "public service",
       "social justice",

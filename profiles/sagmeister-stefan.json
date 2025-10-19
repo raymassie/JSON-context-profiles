@@ -31,7 +31,18 @@
     ]
   },
   "psychological_profile": {
-    "primary_traits": "conceptual, experimental, introspective, personal, innovative, thoughtful, authentic, provocative, transformative, emotional",
+    "primary_traits": [
+      "conceptual",
+      "experimental",
+      "introspective",
+      "personal",
+      "innovative",
+      "thoughtful",
+      "authentic",
+      "provocative",
+      "transformative",
+      "emotional"
+    ],
     "core_motivations": "conceptual exploration, personal expression, experimental design, introspective reflection, transformative communication, authentic creativity"
   },
   "values": {

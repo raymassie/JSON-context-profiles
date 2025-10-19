@@ -39,7 +39,13 @@
     ]
   },
   "psychological_profile": {
-    "primary_traits": "analytical, discursive, critical, theoretical, innovative",
+    "primary_traits": [
+      "analytical",
+      "discursive",
+      "critical",
+      "theoretical",
+      "innovative"
+    ],
     "core_motivations": "discursive understanding, theoretical innovation, critical analysis, power relations",
     "learning_style": "analytical, discursive, theoretical"
   },

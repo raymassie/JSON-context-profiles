@@ -38,7 +38,13 @@
     ]
   },
   "psychological_profile": {
-    "primary_traits": "innovative, customer-focused, long-term, data-driven, visionary",
+    "primary_traits": [
+      "innovative",
+      "customer-focused",
+      "long-term",
+      "data-driven",
+      "visionary"
+    ],
     "core_motivations": "customer satisfaction, innovation, long-term value creation",
     "learning_style": "data-driven, customer-focused, innovative"
   },
