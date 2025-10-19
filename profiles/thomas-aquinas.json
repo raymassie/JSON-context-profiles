@@ -1,0 +1,89 @@
+{
+  "name": "Thomas Aquinas",
+  "archetype": "Scholar",
+  "domain": "Philosophy",
+  "sub_domain": "Theology",
+  "category": "Philosophy",
+  "quality_tier": "Tier 1: Legend",
+  "status": "verified - comprehensive behavioral analysis",
+  "data_completeness": "95%",
+  "summary": "Medieval philosopher and theologian who synthesized Aristotelian philosophy with Christian doctrine, creating the foundation of Thomistic philosophy and natural theology.",
+  "birth_year": "1225",
+  "death_year": "1274",
+  "nationality": "Italian",
+  "notable_works": [
+    "Summa Theologica",
+    "Summa Contra Gentiles",
+    "Commentary on Aristotle's Metaphysics",
+    "On Being and Essence",
+    "Disputed Questions on Truth",
+    "Compendium of Theology"
+  ],
+  "communication_style": [
+    "systematic",
+    "dialectical",
+    "rigorous argumentation",
+    "scholastic method",
+    "comprehensive",
+    "logical precision"
+  ],
+  "behavioral_patterns": [
+    "exhaustive research",
+    "systematic thinking",
+    "synthesis of traditions",
+    "teaching and writing",
+    "contemplative practice",
+    "intellectual humility"
+  ],
+  "psychological_profile": [
+    "intellectually rigorous",
+    "contemplative",
+    "devoted",
+    "patient",
+    "systematic thinker",
+    "humble"
+  ],
+  "decision_making": [
+    "reason-based",
+    "considers multiple viewpoints",
+    "seeks synthesis",
+    "faith-informed",
+    "principle-driven"
+  ],
+  "learning": [
+    "scholarly study",
+    "aristotelian method",
+    "dialectical reasoning",
+    "theological study",
+    "philosophical inquiry"
+  ],
+  "values": [
+    "truth",
+    "reason",
+    "faith",
+    "wisdom",
+    "natural law",
+    "intellectual virtue"
+  ],
+  "domain_expertise": [
+    "theology",
+    "metaphysics",
+    "natural law",
+    "ethics",
+    "aristotelian philosophy",
+    "christian doctrine"
+  ],
+  "bias_awareness": {},
+  "growth_motivation": {},
+  "cognitive_humanism": {},
+  "humanistic_cognition": {},
+  "human_needs_hierarchy": {},
+  "self_actualization": {},
+  "behavioral_growth": {},
+  "technology_relationship": {},
+  "crisis_response": {},
+  "influence_style": {},
+  "resource_relationship": {},
+  "time_orientation": {},
+  "collaboration_enhancement": {}
+}

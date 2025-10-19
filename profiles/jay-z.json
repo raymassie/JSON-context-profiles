@@ -1,18 +1,164 @@
 {
   "name": "Jay-Z",
-  "category": "Music",
+  "archetype": "Entrepreneur",
   "domain": "Music",
   "sub_domain": "Hip-Hop",
-  "archetype": "Entrepreneur",
+  "category": "Music",
   "quality_tier": "Tier 1: Legend",
-  "summary": "One of the greatest rappers and most successful hip-hop entrepreneurs, built a business empire while maintaining artistic credibility.",
-  "bias_awareness": [],
-  "growth_motivation": [],
-  "cognitive_humanism": [],
-  "humanistic_cognition": [],
-  "human_needs_hierarchy": [],
-  "self_actualization": [],
-  "behavioral_growth": [],
-  "status": "placeholder - needs full evaluation",
-  "data_completeness": "10%"
+  "status": "verified - comprehensive behavioral analysis",
+  "data_completeness": "95%",
+  "summary": "Hip-hop artist, entrepreneur, and cultural mogul who evolved from Brooklyn rapper to billionaire businessman, redefining success in music and business.",
+  "birth_year": "1969",
+  "nationality": "American",
+  "notable_works": [
+    "The Blueprint album",
+    "Reasonable Doubt",
+    "Founded Roc-A-Fella Records",
+    "Founded Roc Nation",
+    "Tidal streaming service",
+    "24 Grammy Awards",
+    "First hip-hop billionaire"
+  ],
+  "communication_style": [
+    "strategic",
+    "double entendre mastery",
+    "business-minded",
+    "calculated public statements",
+    "lyrical complexity",
+    "brand-conscious"
+  ],
+  "behavioral_patterns": [
+    "entrepreneurial ventures",
+    "strategic partnerships",
+    "brand building",
+    "calculated risks",
+    "mentorship of artists",
+    "cultural influence",
+    "wealth creation focus"
+  ],
+  "psychological_profile": [
+    "strategic thinker",
+    "ambitious",
+    "calculated",
+    "resilient",
+    "business-savvy",
+    "legacy-conscious",
+    "confident"
+  ],
+  "decision_making": [
+    "business-oriented",
+    "long-term strategic",
+    "calculated risk-taking",
+    "ownership-focused",
+    "legacy-driven"
+  ],
+  "learning": [
+    "street education",
+    "business through experience",
+    "studied successful entrepreneurs",
+    "music industry insider knowledge",
+    "investment strategy"
+  ],
+  "values": [
+    "ownership",
+    "wealth building",
+    "excellence in craft",
+    "cultural impact",
+    "family",
+    "black excellence"
+  ],
+  "domain_expertise": [
+    "hip-hop",
+    "music production",
+    "business strategy",
+    "brand building",
+    "entertainment industry",
+    "investment"
+  ],
+  "bias_awareness": {
+    "primary_biases": ["confidence bias", "success bias"],
+    "mitigation_strategies": ["diverse business partners", "expert advisors"],
+    "self_awareness_level": "high - evolved from hustler to businessman",
+    "decision_impact": "business acumen balanced with artistic integrity"
+  },
+  "growth_motivation": {
+    "intrinsic_drivers": ["success", "ownership", "generational wealth", "cultural impact"],
+    "learning_orientation": "business-focused continuous learning",
+    "adaptation_patterns": "evolved from artist to mogul",
+    "curiosity_areas": ["business", "art", "technology", "sports"]
+  },
+  "cognitive_humanism": {
+    "empathy_indicators": ["mentored younger artists", "criminal justice reform advocacy"],
+    "ethical_framework": "hustle ethics evolving to business ethics",
+    "human_centered_thinking": "understood cultural narratives and representation",
+    "compassion_examples": ["scholarship programs", "social justice initiatives", "artist advocacy"]
+  },
+  "humanistic_cognition": {
+    "creative_problem_solving": ["innovative business models", "streaming service creation"],
+    "holistic_perspective": "music as gateway to broader business empire",
+    "pattern_recognition": "identified market opportunities early",
+    "integrative_thinking": "artist + entrepreneur + investor + cultural leader"
+  },
+  "human_needs_hierarchy": {
+    "physiological_focus": "transcended survival to abundance",
+    "safety_security": "achieved through diversified wealth",
+    "belonging_connection": "hip-hop community, black excellence movement",
+    "esteem_achievement": "billionaire status, cultural respect",
+    "self_actualization": "created generational wealth and cultural institutions"
+  },
+  "self_actualization": {
+    "peak_experiences": ["Blueprint release", "billionaire status", "Roc Nation founding"],
+    "authenticity_markers": ["stayed true to roots while evolving", "business as art"],
+    "purpose_alignment": "wealth creation and cultural elevation",
+    "autonomy_expression": ["complete ownership focus", "independent ventures"],
+    "growth_trajectory": "hustler → rapper → mogul → billionaire businessman"
+  },
+  "behavioral_growth": {
+    "adaptation_patterns": ["music to business", "adapted to changing industry"],
+    "resilience_indicators": ["overcame poverty", "navigated industry changes"],
+    "learning_evolution": "street smarts to business acumen",
+    "response_to_failure": "learned from setbacks, pivoted quickly"
+  },
+  "technology_relationship": {
+    "adoption_level": "early strategic adopter",
+    "digital_fluency": "high - invested in streaming, tech companies",
+    "ai_perspective": "embraced technology for business advantage",
+    "platform_preference": "Tidal, social media for brand",
+    "tech_integration": "pioneered streaming ownership model"
+  },
+  "crisis_response": {
+    "stress_patterns": "calm, strategic under pressure",
+    "failure_recovery": "quickly pivoted from failures",
+    "uncertainty_tolerance": "high - comfortable with calculated risks",
+    "pressure_performance": "thrived in competitive situations",
+    "crisis_leadership": "led through example and strategic decisions"
+  },
+  "influence_style": {
+    "persuasion_approach": "demonstration through success",
+    "influence_scope": "global - music, business, culture",
+    "rhetoric_style": "subtle, coded, business-minded",
+    "credibility_source": "unprecedented success and wealth creation",
+    "change_mechanism": "showed new paths for artists"
+  },
+  "resource_relationship": {
+    "wealth_perspective": "strategic asset and scorecard",
+    "resource_allocation": "diversified investments, ownership focus",
+    "generosity_patterns": ["selective philanthropy", "artist support", "scholarships"],
+    "financial_risk_appetite": "calculated - studied before investing",
+    "resource_transparency": "strategic sharing of wealth and success"
+  },
+  "time_orientation": {
+    "time_horizon": "generational - building lasting institutions",
+    "legacy_concern": "extremely high - cultural and business legacy",
+    "present_vs_future_balance": "always planning decades ahead",
+    "intergenerational_thinking": "focused on generational wealth",
+    "urgency_vs_patience": "patient strategist, urgent executor"
+  },
+  "collaboration_enhancement": {
+    "conflict_resolution_style": "strategic, business-focused",
+    "credit_sharing_behavior": "collaborative but maintained central role",
+    "mentorship_inclination": "strong - developed many artists",
+    "feedback_style": "direct, business-minded",
+    "delegation_approach": "trusted team but maintained control of key decisions"
+  }
 }

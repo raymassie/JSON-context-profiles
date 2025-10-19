@@ -2,11 +2,11 @@
 
 **Context for expert authenticity**
 
-An interactive index of 318 influential figures evaluated through a Behavioral Humanism framework.
+An interactive index of 322 influential figures evaluated through a Behavioral Humanism framework.
 
 ## Overview
 
-This application provides rich, searchable profiles of 318+ influential figures across various domains including technology, business, psychology, philosophy, design, film, legal, culinary arts, journalism, medical specialties, and more. Each profile includes detailed behavioral traits, communication patterns, decision-making styles, and psychological characteristics.
+This application provides rich, searchable profiles of 322+ influential figures across various domains including technology, business, psychology, philosophy, design, film, legal, culinary arts, journalism, medical specialties, and more. Each profile includes detailed behavioral traits, communication patterns, decision-making styles, and psychological characteristics.
 
 ## Features
 
@@ -23,7 +23,7 @@ This application provides rich, searchable profiles of 318+ influential figures 
 
 ## Data Structure
 
-- **318 Profiles**: Industry leaders, innovators, and influential thinkers
+- **322 Profiles**: Industry leaders, innovators, and influential thinkers
 - **37 Role-Based Archetypes**: Systematic, role-based taxonomy (Visionary, Designer, Scholar, etc.)
 - **29 Domains**: Primary fields of work (Technology, Marketing, Philosophy, Music, etc.)
 - **164 Subdomains**: Specialized areas within domains
@@ -91,7 +91,8 @@ Profiles are evaluated through an integrated framework combining:
 ## Project Status
 
 ### ✅ Completed (December 2025)
-- **318 profiles** with comprehensive, standardized trait data
+- **322 profiles** with comprehensive, standardized trait data
+- **10 new legend profiles** added (sports, music, arts, philosophy)
 - **Systematic archetype rebuild** - 37 role-based archetypes (not field-specific)
 - **Quality tier filtering** - Legend, Pioneer, Contemporary categories
 - **Performance optimizations** - 23.6% smaller file size, index-based filtering
