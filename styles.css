@@ -845,7 +845,6 @@ body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height
     gap: 16px; 
     width: 100%;
     flex: 1;
-    flex-grow: 1;
 }
 .card-fields { 
     display: flex; 
@@ -893,7 +892,7 @@ body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height
     width: 100%; 
     background: #FEFAE0;
     margin-top: auto;
-    margin-bottom: 0;
+    padding-top: 16px;
 }
 .btn { 
     padding: 8px; 
