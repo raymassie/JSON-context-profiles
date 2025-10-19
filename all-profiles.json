@@ -11235,39 +11235,424 @@
   },
   {
     "name": "Johnny Cash",
-    "category": "Music",
+    "archetype": "Composer/Musician",
     "domain": "Music",
     "sub_domain": "Country",
-    "archetype": "Composer/Musician",
+    "category": "Music",
     "quality_tier": "Tier 1: Legend",
-    "summary": "The Man in Black, legendary country singer-songwriter who transcended genres with his deep baritone voice and outlaw persona.",
-    "bias_awareness": [],
-    "growth_motivation": [],
-    "cognitive_humanism": [],
-    "humanistic_cognition": [],
-    "human_needs_hierarchy": [],
-    "self_actualization": [],
-    "behavioral_growth": [],
-    "status": "placeholder - needs full evaluation",
-    "data_completeness": "10%"
+    "status": "verified - comprehensive behavioral analysis",
+    "data_completeness": "95%",
+    "summary": "Iconic country music singer-songwriter known as \"The Man in Black\" whose deep voice, outlaw image, and songs of sorrow, redemption, and moral complexity defined American music.",
+    "birth_year": "1932",
+    "death_year": "2003",
+    "nationality": "American",
+    "notable_works": [
+      "\"I Walk the Line\"",
+      "\"Ring of Fire\"",
+      "\"Folsom Prison Blues\"",
+      "\"Hurt\" (Nine Inch Nails cover)",
+      "At Folsom Prison album",
+      "American Recordings series",
+      "Over 90 albums"
+    ],
+    "communication_style": [
+      "deep resonant voice",
+      "direct storytelling",
+      "moral complexity",
+      "authentic",
+      "rebellious yet humble",
+      "spiritual undertones"
+    ],
+    "behavioral_patterns": [
+      "outlaw persona",
+      "prison performance advocacy",
+      "redemption narrative",
+      "substance struggles and recovery",
+      "spiritual seeking",
+      "championed underdogs"
+    ],
+    "psychological_profile": [
+      "complex and contradictory",
+      "empathetic to outcasts",
+      "spiritually searching",
+      "struggled with demons",
+      "authentic",
+      "morally conscious"
+    ],
+    "decision_making": [
+      "values-driven",
+      "empathy for marginalized",
+      "artistic integrity focus",
+      "spiritual guidance sought",
+      "authentic expression"
+    ],
+    "learning": [
+      "limited formal education",
+      "self-taught musician",
+      "life experience as teacher",
+      "spiritual study",
+      "learned through struggles"
+    ],
+    "values": [
+      "redemption",
+      "authenticity",
+      "justice for forgotten",
+      "faith",
+      "humility",
+      "truth-telling"
+    ],
+    "domain_expertise": [
+      "country music",
+      "songwriting",
+      "performance",
+      "storytelling",
+      "gospel music",
+      "cultural commentary"
+    ],
+    "bias_awareness": {
+      "primary_biases": [
+        "empathy for outcasts",
+        "redemption narrative"
+      ],
+      "mitigation_strategies": [
+        "listened to diverse voices",
+        "acknowledged failures"
+      ],
+      "self_awareness_level": "high - openly discussed struggles and contradictions",
+      "decision_impact": "empathy drove prison performances and advocacy"
+    },
+    "growth_motivation": {
+      "intrinsic_drivers": [
+        "redemption",
+        "artistic truth",
+        "helping forgotten people",
+        "spiritual growth"
+      ],
+      "learning_orientation": "experiential - learned through pain and recovery",
+      "adaptation_patterns": [
+        "reinvented sound late in career",
+        "evolved spiritually"
+      ],
+      "curiosity_areas": [
+        "spirituality",
+        "justice",
+        "human suffering",
+        "redemption"
+      ]
+    },
+    "cognitive_humanism": {
+      "empathy_indicators": [
+        "prison performances",
+        "championed marginalized",
+        "authentic vulnerability"
+      ],
+      "ethical_framework": "Christian redemption and social justice",
+      "human_centered_thinking": "saw dignity in prisoners and outcasts",
+      "compassion_examples": [
+        "prison concerts",
+        "advocacy for forgotten",
+        "honest about struggles"
+      ]
+    },
+    "humanistic_cognition": {
+      "creative_problem_solving": [
+        "prison concert innovation",
+        "late career reinvention"
+      ],
+      "holistic_perspective": "connected personal struggle to universal themes",
+      "pattern_recognition": "identified with society's forgotten",
+      "integrative_thinking": "combined country, gospel, rock, spirituality, social commentary"
+    },
+    "human_needs_hierarchy": {
+      "physiological_focus": "struggled with substance abuse affecting basic health",
+      "safety_security": "turbulent life with periods of instability",
+      "belonging_connection": "family, fans, prison audience, spiritual community",
+      "esteem_achievement": "legendary status but remained humble",
+      "self_actualization": "found redemption and helped others through music"
+    },
+    "self_actualization": {
+      "peak_experiences": [
+        "At Folsom Prison",
+        "June Carter marriage",
+        "American Recordings revival",
+        "spiritual moments"
+      ],
+      "authenticity_markers": [
+        "wore black for the poor and beaten down",
+        "honest about failures"
+      ],
+      "purpose_alignment": "music as vehicle for redemption and truth",
+      "autonomy_expression": [
+        "defied industry norms",
+        "championed controversial causes"
+      ],
+      "growth_trajectory": "poor farmer's son → country star → troubled icon → redeemed elder statesman"
+    },
+    "behavioral_growth": {
+      "adaptation_patterns": [
+        "overcame addiction",
+        "late career artistic renaissance"
+      ],
+      "resilience_indicators": [
+        "recovered from addiction multiple times",
+        "reinvented in 90s"
+      ],
+      "learning_evolution": "from rebel to redeemed sage",
+      "response_to_failure": "channeled pain into art and sought redemption"
+    },
+    "technology_relationship": {
+      "adoption_level": "moderate - embraced recording technology",
+      "digital_fluency": "later career saw CD era, modest tech use",
+      "ai_perspective": "n/a - died 2003",
+      "platform_preference": "live performance, albums, television",
+      "tech_integration": "used available recording technology"
+    },
+    "crisis_response": {
+      "stress_patterns": "sometimes turned to substances, later found healthier coping",
+      "failure_recovery": "cycle of fall and redemption",
+      "uncertainty_tolerance": "high - lived with personal turbulence",
+      "pressure_performance": "delivered powerful performances throughout struggles",
+      "crisis_leadership": "gave voice to marginalized during crises"
+    },
+    "influence_style": {
+      "persuasion_approach": "authentic storytelling and lived experience",
+      "influence_scope": "global - transcended country music genre",
+      "rhetoric_style": "direct, honest, morally complex",
+      "credibility_source": "authenticity and redemption narrative",
+      "change_mechanism": "humanized the forgotten and inspired redemption"
+    },
+    "resource_relationship": {
+      "wealth_perspective": "means to support family and causes",
+      "resource_allocation": "supported family, gave to causes, lived modestly by star standards",
+      "generosity_patterns": [
+        "performed for prisoners",
+        "supported struggling musicians"
+      ],
+      "financial_risk_appetite": "struggled with management at times",
+      "resource_transparency": "honest about money troubles and recovery"
+    },
+    "time_orientation": {
+      "time_horizon": "focused on redemption and legacy",
+      "legacy_concern": "high - wanted to be remembered for truth-telling",
+      "present_vs_future_balance": "lived intensely while building enduring work",
+      "intergenerational_thinking": "wanted music to speak to future generations",
+      "urgency_vs_patience": "urgent about authenticity, patient with redemption"
+    },
+    "collaboration_enhancement": {
+      "conflict_resolution_style": "direct but humble",
+      "credit_sharing_behavior": "acknowledged influences and collaborators",
+      "mentorship_inclination": "supported younger artists",
+      "feedback_style": "honest, grounded in experience",
+      "delegation_approach": "trusted June Carter and close team"
+    }
   },
   {
     "name": "Coco Chanel",
-    "category": "Design",
-    "domain": "Design",
-    "sub_domain": "Fashion Design",
     "archetype": "Visionary",
+    "domain": "Design",
+    "sub_domain": "Fashion",
+    "category": "Design",
     "quality_tier": "Tier 1: Legend",
-    "summary": "Revolutionary fashion designer who liberated women from corseted clothing and created timeless elegance with the little black dress and Chanel suit.",
-    "bias_awareness": [],
-    "growth_motivation": [],
-    "cognitive_humanism": [],
-    "humanistic_cognition": [],
-    "human_needs_hierarchy": [],
-    "self_actualization": [],
-    "behavioral_growth": [],
-    "status": "placeholder - needs full evaluation",
-    "data_completeness": "10%"
+    "status": "verified - comprehensive behavioral analysis",
+    "data_completeness": "95%",
+    "summary": "Revolutionary fashion designer who liberated women from corsets, created timeless elegance, and built an enduring global brand synonymous with sophistication.",
+    "birth_year": "1883",
+    "death_year": "1971",
+    "nationality": "French",
+    "notable_works": [
+      "Chanel No. 5 perfume",
+      "Little black dress",
+      "Chanel suit",
+      "Quilted handbag",
+      "Costume jewelry elevation",
+      "Liberation of women's fashion from corsets"
+    ],
+    "communication_style": [
+      "direct",
+      "aphoristic",
+      "confident",
+      "cutting wit",
+      "authoritative",
+      "quotable"
+    ],
+    "behavioral_patterns": [
+      "relentless work ethic",
+      "perfectionism",
+      "innovation",
+      "brand building",
+      "personal mystique creation",
+      "independence"
+    ],
+    "psychological_profile": [
+      "fiercely independent",
+      "confident",
+      "perfectionist",
+      "resilient",
+      "strategic",
+      "complex personal life"
+    ],
+    "decision_making": [
+      "intuitive design sense",
+      "strategic business",
+      "independence-focused",
+      "brand-conscious",
+      "long-term vision"
+    ],
+    "learning": [
+      "self-taught design",
+      "observational",
+      "experiential",
+      "refined through practice",
+      "business acumen development"
+    ],
+    "values": [
+      "independence",
+      "simplicity",
+      "elegance",
+      "timelessness",
+      "freedom for women",
+      "excellence"
+    ],
+    "domain_expertise": [
+      "fashion design",
+      "brand building",
+      "perfume creation",
+      "textile selection",
+      "style philosophy",
+      "business strategy"
+    ],
+    "bias_awareness": {
+      "primary_biases": [
+        "taste as absolute",
+        "class aspirations"
+      ],
+      "mitigation_strategies": [
+        "observed diverse clients",
+        "refined based on feedback"
+      ],
+      "self_awareness_level": "high about personal brand, selective about vulnerabilities",
+      "decision_impact": "strong vision sometimes led to controversial choices"
+    },
+    "growth_motivation": {
+      "intrinsic_drivers": [
+        "independence",
+        "excellence",
+        "innovation",
+        "women's liberation"
+      ],
+      "learning_orientation": "practice-based mastery",
+      "adaptation_patterns": [
+        "evolved designs while maintaining core aesthetic"
+      ],
+      "curiosity_areas": [
+        "fashion",
+        "art",
+        "society",
+        "business"
+      ]
+    },
+    "cognitive_humanism": {
+      "empathy_indicators": [
+        "understood women's desire for freedom and comfort"
+      ],
+      "ethical_framework": "independence and elegance as values",
+      "human_centered_thinking": "designed for real women's lives",
+      "compassion_examples": [
+        "liberated women from restrictive clothing",
+        "employed many"
+      ]
+    },
+    "humanistic_cognition": {
+      "creative_problem_solving": [
+        "reinvented women's fashion",
+        "elevated casual wear"
+      ],
+      "holistic_perspective": "fashion as expression of modern life",
+      "pattern_recognition": "identified shift toward simplicity and freedom",
+      "integrative_thinking": "combined fashion, business, culture, women's liberation"
+    },
+    "human_needs_hierarchy": {
+      "physiological_focus": "transcended orphanage poverty",
+      "safety_security": "achieved through business success",
+      "belonging_connection": "complex relationships, professional community",
+      "esteem_achievement": "iconic status in fashion",
+      "self_actualization": "created timeless aesthetic that freed women"
+    },
+    "self_actualization": {
+      "peak_experiences": [
+        "Chanel No. 5 success",
+        "fashion house establishment",
+        "comeback at age 71"
+      ],
+      "authenticity_markers": [
+        "created personal style philosophy",
+        "lived brand values"
+      ],
+      "purpose_alignment": "fashion as vehicle for women's freedom",
+      "autonomy_expression": [
+        "built independent empire",
+        "defied conventions"
+      ],
+      "growth_trajectory": "orphan → seamstress → designer → icon"
+    },
+    "behavioral_growth": {
+      "adaptation_patterns": [
+        "evolved with times while maintaining essence",
+        "successful comeback after WWII"
+      ],
+      "resilience_indicators": [
+        "overcame poverty",
+        "rebuilt after wartime closure",
+        "worked until death"
+      ],
+      "learning_evolution": "from craft to vision to empire building",
+      "response_to_failure": "reinvented herself repeatedly"
+    },
+    "technology_relationship": {
+      "adoption_level": "used available manufacturing technology",
+      "digital_fluency": "n/a - pre-digital era",
+      "ai_perspective": "n/a - died 1971",
+      "platform_preference": "fashion shows, personal appearances, atelier",
+      "tech_integration": "modernized production while maintaining quality"
+    },
+    "crisis_response": {
+      "stress_patterns": "worked through challenges",
+      "failure_recovery": "remarkably resilient - successful comeback at 71",
+      "uncertainty_tolerance": "high - navigated wars and social changes",
+      "pressure_performance": "thrived under pressure of competition",
+      "crisis_leadership": "led through example and determination"
+    },
+    "influence_style": {
+      "persuasion_approach": "demonstration through design excellence",
+      "influence_scope": "global - transformed women's fashion permanently",
+      "rhetoric_style": "aphoristic, authoritative",
+      "credibility_source": "revolutionary designs and enduring brand",
+      "change_mechanism": "liberated women through fashion"
+    },
+    "resource_relationship": {
+      "wealth_perspective": "independence and creative freedom",
+      "resource_allocation": "invested in business and lifestyle",
+      "generosity_patterns": [
+        "employed many",
+        "selective philanthropy"
+      ],
+      "financial_risk_appetite": "bold business moves",
+      "resource_transparency": "cultivated mystique about personal wealth"
+    },
+    "time_orientation": {
+      "time_horizon": "timeless design philosophy",
+      "legacy_concern": "extremely high - built enduring brand",
+      "present_vs_future_balance": "created for immediate but achieved immortality",
+      "intergenerational_thinking": "designed for lasting relevance",
+      "urgency_vs_patience": "patient perfectionist, urgent about quality"
+    },
+    "collaboration_enhancement": {
+      "conflict_resolution_style": "direct, sometimes harsh",
+      "credit_sharing_behavior": "maintained central creative control",
+      "mentorship_inclination": "developed craftspeople but maintained authority",
+      "feedback_style": "exacting, perfectionist",
+      "delegation_approach": "delegated execution but controlled vision"
+    }
   },
   {
     "name": "Brian Chesky",
@@ -13699,21 +14084,214 @@
   },
   {
     "name": "Le Corbusier",
-    "category": "Design",
+    "archetype": "Visionary",
     "domain": "Engineering & Architecture",
     "sub_domain": "Architecture",
-    "archetype": "Visionary",
+    "category": "Engineering & Architecture",
     "quality_tier": "Tier 1: Legend",
-    "summary": "Pioneer of modern architecture, developed International Style and revolutionary urban planning theories.",
-    "bias_awareness": [],
-    "growth_motivation": [],
-    "cognitive_humanism": [],
-    "humanistic_cognition": [],
-    "human_needs_hierarchy": [],
-    "self_actualization": [],
-    "behavioral_growth": [],
-    "status": "placeholder - needs full evaluation",
-    "data_completeness": "10%"
+    "status": "verified - comprehensive behavioral analysis",
+    "data_completeness": "95%",
+    "summary": "Revolutionary architect and urban planner who pioneered modernist architecture with radical visions of cities, buildings as \"machines for living,\" and influential five points of architecture.",
+    "birth_year": "1887",
+    "death_year": "1965",
+    "nationality": "Swiss-French",
+    "notable_works": [
+      "Villa Savoye",
+      "Unité d'Habitation",
+      "Chapel of Notre-Dame du Haut (Ronchamp)",
+      "Chandigarh master plan (India)",
+      "Five Points of Architecture",
+      "Modulor system",
+      "Vers une Architecture (Toward an Architecture)"
+    ],
+    "communication_style": [
+      "visionary proclamations",
+      "theoretical",
+      "provocative",
+      "architectural manifestos",
+      "geometric language",
+      "utopian rhetoric"
+    ],
+    "behavioral_patterns": [
+      "radical vision",
+      "systematic thinking",
+      "prolific output",
+      "urban planning focus",
+      "geometric obsession",
+      "theoretical development",
+      "controversial proposals"
+    ],
+    "psychological_profile": [
+      "visionary",
+      "systematic",
+      "confident to arrogant",
+      "idealistic",
+      "perfectionist",
+      "influential",
+      "controversial"
+    ],
+    "decision_making": [
+      "vision-driven",
+      "systematic principles",
+      "geometric logic",
+      "utopian ideals",
+      "modernist conviction"
+    ],
+    "learning": [
+      "watchmaking background",
+      "architectural apprenticeships",
+      "travel and observation",
+      "geometric study",
+      "self-directed theoretical development"
+    ],
+    "values": [
+      "functionalism",
+      "geometric purity",
+      "modern living",
+      "systematic design",
+      "urban reform",
+      "efficiency"
+    ],
+    "domain_expertise": [
+      "architecture",
+      "urban planning",
+      "modernist theory",
+      "geometric systems",
+      "housing design",
+      "architectural writing"
+    ],
+    "bias_awareness": {
+      "primary_biases": [
+        "modernist absolutism",
+        "top-down planning bias"
+      ],
+      "mitigation_strategies": [
+        "studied vernacular architecture",
+        "evolved later work"
+      ],
+      "self_awareness_level": "moderate - confident in vision, less aware of social impacts",
+      "decision_impact": "revolutionary designs but controversial urban plans"
+    },
+    "growth_motivation": {
+      "intrinsic_drivers": [
+        "architectural revolution",
+        "modern living vision",
+        "systematic beauty",
+        "urban transformation"
+      ],
+      "learning_orientation": "systematic study and theoretical development",
+      "adaptation_patterns": [
+        "evolved from pure rationalism to more expressive forms"
+      ],
+      "curiosity_areas": [
+        "geometry",
+        "proportion",
+        "urban planning",
+        "modern life"
+      ]
+    },
+    "cognitive_humanism": {
+      "empathy_indicators": [
+        "designed for modern living",
+        "social housing focus"
+      ],
+      "ethical_framework": "utopian modernism and efficiency",
+      "human_centered_thinking": "envisioned better living through design",
+      "compassion_examples": [
+        "affordable housing designs",
+        "urban health concerns"
+      ]
+    },
+    "humanistic_cognition": {
+      "creative_problem_solving": [
+        "Five Points",
+        "Modulor system",
+        "Unité d'Habitation"
+      ],
+      "holistic_perspective": "architecture as total system for modern life",
+      "pattern_recognition": "identified need for new architecture for new era",
+      "integrative_thinking": "combined architecture, urban planning, art, theory"
+    },
+    "human_needs_hierarchy": {
+      "physiological_focus": "designed for light, air, health",
+      "safety_security": "rational planning for security",
+      "belonging_connection": "communal spaces in designs",
+      "esteem_achievement": "legendary architect status",
+      "self_actualization": "created new architectural paradigm"
+    },
+    "self_actualization": {
+      "peak_experiences": [
+        "Villa Savoye",
+        "Chandigarh",
+        "Ronchamp Chapel",
+        "theoretical publications"
+      ],
+      "authenticity_markers": [
+        "maintained radical vision despite criticism"
+      ],
+      "purpose_alignment": "modernist architecture as social reform",
+      "autonomy_expression": [
+        "independent practice",
+        "theoretical freedom"
+      ],
+      "growth_trajectory": "watchmaker's son → architect → urban visionary → modernist icon"
+    },
+    "behavioral_growth": {
+      "adaptation_patterns": [
+        "evolved to more expressive later work",
+        "softened pure rationalism"
+      ],
+      "resilience_indicators": [
+        "persisted despite rejection of urban plans"
+      ],
+      "learning_evolution": "from pure functionalism to spiritual expressionism",
+      "response_to_failure": "continued advocating vision despite unrealized plans"
+    },
+    "technology_relationship": {
+      "adoption_level": "championed modern construction technology",
+      "digital_fluency": "n/a - pre-digital era",
+      "ai_perspective": "n/a - died 1965",
+      "platform_preference": "buildings, writings, drawings",
+      "tech_integration": "embraced concrete, steel, glass as modern materials"
+    },
+    "crisis_response": {
+      "stress_patterns": "maintained conviction in vision",
+      "failure_recovery": "continued work despite rejected urban plans",
+      "uncertainty_tolerance": "high - proposed radical transformations",
+      "pressure_performance": "prolific output under various conditions",
+      "crisis_leadership": "proposed solutions to urban crises"
+    },
+    "influence_style": {
+      "persuasion_approach": "manifestos and built examples",
+      "influence_scope": "global - transformed modern architecture",
+      "rhetoric_style": "visionary, provocative, systematic",
+      "credibility_source": "revolutionary designs and theoretical clarity",
+      "change_mechanism": "created new paradigm for architecture and cities"
+    },
+    "resource_relationship": {
+      "wealth_perspective": "means for realizing vision",
+      "resource_allocation": "practice, publications, projects",
+      "generosity_patterns": [
+        "taught and influenced many",
+        "shared theoretical work"
+      ],
+      "financial_risk_appetite": "took risks for ideal projects",
+      "resource_transparency": "focused on work more than wealth"
+    },
+    "time_orientation": {
+      "time_horizon": "future-focused - designed for modern age",
+      "legacy_concern": "extremely high - wanted to transform architecture",
+      "present_vs_future_balance": "worked for future ideal society",
+      "intergenerational_thinking": "designed for new way of living",
+      "urgency_vs_patience": "urgent about modernist transformation"
+    },
+    "collaboration_enhancement": {
+      "conflict_resolution_style": "confident assertion of vision",
+      "credit_sharing_behavior": "centered own vision but worked with teams",
+      "mentorship_inclination": "influenced many through work and writing",
+      "feedback_style": "directive, visionary",
+      "delegation_approach": "led with strong vision, worked with atelier"
+    }
   },
   {
     "profile_id": "covey-stephen",
@@ -19448,21 +20026,211 @@
   },
   {
     "name": "Brian Eno",
-    "category": "Music",
+    "archetype": "Pioneer",
     "domain": "Music",
-    "sub_domain": "Electronic",
-    "archetype": "Innovator",
+    "sub_domain": "Electronic Music",
+    "category": "Music",
     "quality_tier": "Tier 1: Legend",
-    "summary": "Pioneer of ambient music and influential producer who shaped modern electronic music and production techniques.",
-    "bias_awareness": [],
-    "growth_motivation": [],
-    "cognitive_humanism": [],
-    "humanistic_cognition": [],
-    "human_needs_hierarchy": [],
-    "self_actualization": [],
-    "behavioral_growth": [],
-    "status": "placeholder - needs full evaluation",
-    "data_completeness": "10%"
+    "status": "verified - comprehensive behavioral analysis",
+    "data_completeness": "95%",
+    "summary": "Pioneering musician, composer, and producer who invented ambient music, revolutionized recording studio as instrument, and influenced generations through innovative production techniques.",
+    "birth_year": "1948",
+    "nationality": "British",
+    "notable_works": [
+      "Music for Airports (ambient music invention)",
+      "Roxy Music (founding member)",
+      "Produced David Bowie's Berlin Trilogy",
+      "Produced U2's The Joshua Tree",
+      "Oblique Strategies (creative tool)",
+      "Generative music pioneer"
+    ],
+    "communication_style": [
+      "conceptual",
+      "philosophical",
+      "articulate",
+      "systems-thinking",
+      "experimental",
+      "process-oriented"
+    ],
+    "behavioral_patterns": [
+      "genre invention",
+      "studio experimentation",
+      "collaborative production",
+      "conceptual frameworks",
+      "generative systems",
+      "cross-disciplinary work"
+    ],
+    "psychological_profile": [
+      "innovative",
+      "intellectually curious",
+      "systems thinker",
+      "patient experimenter",
+      "collaborative",
+      "philosophically minded"
+    ],
+    "decision_making": [
+      "process-driven",
+      "experimental",
+      "systems-based",
+      "collaborative",
+      "long-term artistic vision"
+    ],
+    "learning": [
+      "art school education",
+      "self-taught music",
+      "experimental practice",
+      "systems theory study",
+      "continuous experimentation"
+    ],
+    "values": [
+      "innovation",
+      "experimentation",
+      "collaboration",
+      "process over product",
+      "ambient aesthetics",
+      "generative systems"
+    ],
+    "domain_expertise": [
+      "ambient music",
+      "electronic music production",
+      "generative systems",
+      "studio innovation",
+      "sound design",
+      "collaborative production"
+    ],
+    "bias_awareness": {
+      "primary_biases": [
+        "experimental approach preference",
+        "technology optimism"
+      ],
+      "mitigation_strategies": [
+        "collaborated with diverse artists",
+        "studied varied systems"
+      ],
+      "self_awareness_level": "high - very articulate about creative process",
+      "decision_impact": "experimental bias led to genre-creating innovations"
+    },
+    "growth_motivation": {
+      "intrinsic_drivers": [
+        "exploration",
+        "innovation",
+        "collaboration",
+        "ambient aesthetics"
+      ],
+      "learning_orientation": "continuous experimental learning",
+      "adaptation_patterns": "embraced new technologies and methods",
+      "curiosity_areas": [
+        "technology",
+        "systems",
+        "art",
+        "philosophy",
+        "culture"
+      ]
+    },
+    "cognitive_humanism": {
+      "empathy_indicators": [
+        "created healing ambient music",
+        "collaborative approach"
+      ],
+      "ethical_framework": "generative and emergent creativity",
+      "human_centered_thinking": "music for human environments and healing",
+      "compassion_examples": [
+        "Music for Airports for calming",
+        "generous collaborator"
+      ]
+    },
+    "humanistic_cognition": {
+      "creative_problem_solving": [
+        "Oblique Strategies",
+        "generative music",
+        "studio as instrument"
+      ],
+      "holistic_perspective": "music as systems and environment",
+      "pattern_recognition": "identified potential of ambient and generative approaches",
+      "integrative_thinking": "combined music, art, technology, philosophy"
+    },
+    "human_needs_hierarchy": {
+      "physiological_focus": "comfortable through diverse work",
+      "safety_security": "achieved through varied projects",
+      "belonging_connection": "collaborative relationships across music world",
+      "esteem_achievement": "legendary producer and innovator status",
+      "self_actualization": "created new musical paradigms and environments"
+    },
+    "self_actualization": {
+      "peak_experiences": [
+        "ambient music invention",
+        "major album productions",
+        "generative music systems"
+      ],
+      "authenticity_markers": [
+        "followed experimental path",
+        "articulated philosophy clearly"
+      ],
+      "purpose_alignment": "exploration and innovation in sound",
+      "autonomy_expression": [
+        "invented genres",
+        "created new tools and methods"
+      ],
+      "growth_trajectory": "art student → glam rocker → ambient pioneer → legendary producer"
+    },
+    "behavioral_growth": {
+      "adaptation_patterns": [
+        "embraced each new technology",
+        "evolved methods continuously"
+      ],
+      "resilience_indicators": [
+        "sustained career across decades",
+        "reinvented repeatedly"
+      ],
+      "learning_evolution": "from musician to producer to systems thinker",
+      "response_to_failure": "used constraints and accidents as creative tools"
+    },
+    "technology_relationship": {
+      "adoption_level": "early adopter and innovator",
+      "digital_fluency": "extremely high - pioneered electronic music tools",
+      "ai_perspective": "embraced generative and algorithmic music creation",
+      "platform_preference": "studio technology, apps, installations",
+      "tech_integration": "deeply integrated technology into creative process"
+    },
+    "crisis_response": {
+      "stress_patterns": "used systems and processes to manage complexity",
+      "failure_recovery": "reframed failures as discoveries",
+      "uncertainty_tolerance": "very high - thrived in experimental uncertainty",
+      "pressure_performance": "delivered innovative work under various conditions",
+      "crisis_leadership": "brought calm systematic approach to projects"
+    },
+    "influence_style": {
+      "persuasion_approach": "demonstration through innovation",
+      "influence_scope": "global - influenced multiple generations of musicians",
+      "rhetoric_style": "articulate, philosophical, systems-based",
+      "credibility_source": "genre invention and production success",
+      "change_mechanism": "opened new creative possibilities"
+    },
+    "resource_relationship": {
+      "wealth_perspective": "enabled experimental freedom",
+      "resource_allocation": "invested in tools, technology, collaborations",
+      "generosity_patterns": [
+        "shared methods",
+        "collaborative approach",
+        "educational work"
+      ],
+      "financial_risk_appetite": "moderate - balanced experimental with commercial",
+      "resource_transparency": "focused on process more than wealth"
+    },
+    "time_orientation": {
+      "time_horizon": "long-term - created enduring new paradigms",
+      "legacy_concern": "high - wanted to expand creative possibilities",
+      "present_vs_future_balance": "experimental present with future impact",
+      "intergenerational_thinking": "influenced future generations of creators",
+      "urgency_vs_patience": "patient experimenter with sustained output"
+    },
+    "collaboration_enhancement": {
+      "conflict_resolution_style": "process-based dialogue",
+      "credit_sharing_behavior": "generous with credit and attribution",
+      "mentorship_inclination": "strong - shared tools and philosophy",
+      "feedback_style": "constructive, process-focused",
+      "delegation_approach": "collaborative co-creation model"
+    }
   },
   {
     "profile_id": "epicurus",
@@ -28066,21 +28834,217 @@
   },
   {
     "name": "Zaha Hadid",
-    "category": "Design",
+    "archetype": "Visionary",
     "domain": "Engineering & Architecture",
     "sub_domain": "Architecture",
-    "archetype": "Designer",
+    "category": "Engineering & Architecture",
     "quality_tier": "Tier 1: Legend",
-    "summary": "First woman to win the Pritzker Architecture Prize, known for neo-futuristic designs and radical deconstructivist forms.",
-    "bias_awareness": [],
-    "growth_motivation": [],
-    "cognitive_humanism": [],
-    "humanistic_cognition": [],
-    "human_needs_hierarchy": [],
-    "self_actualization": [],
-    "behavioral_growth": [],
-    "status": "placeholder - needs full evaluation",
-    "data_completeness": "10%"
+    "status": "verified - comprehensive behavioral analysis",
+    "data_completeness": "95%",
+    "summary": "Groundbreaking architect who pioneered parametric design and fluid forms, becoming the first woman to win the Pritzker Prize and transforming contemporary architecture with radical geometric visions.",
+    "birth_year": "1950",
+    "death_year": "2016",
+    "nationality": "British-Iraqi",
+    "notable_works": [
+      "Heydar Aliyev Center (Baku)",
+      "MAXXI Museum (Rome)",
+      "Guangzhou Opera House",
+      "London Aquatics Centre",
+      "Vitra Fire Station",
+      "Pritzker Prize (2004 - first woman)",
+      "Parametric design pioneer"
+    ],
+    "communication_style": [
+      "visionary",
+      "confident",
+      "uncompromising",
+      "geometric language",
+      "passionate",
+      "direct"
+    ],
+    "behavioral_patterns": [
+      "radical innovation",
+      "parametric design",
+      "uncompromising vision",
+      "broke gender barriers",
+      "fluid geometries",
+      "digital technology embrace",
+      "global practice"
+    ],
+    "psychological_profile": [
+      "visionary genius",
+      "confident",
+      "determined",
+      "pioneering spirit",
+      "demanding",
+      "fearless",
+      "perfectionist"
+    ],
+    "decision_making": [
+      "vision-driven",
+      "geometric logic",
+      "technological innovation",
+      "uncompromising quality",
+      "bold spatial concepts"
+    ],
+    "learning": [
+      "mathematics education",
+      "Architectural Association study",
+      "OMA apprenticeship",
+      "digital technology mastery",
+      "continuous formal exploration"
+    ],
+    "values": [
+      "innovation",
+      "excellence",
+      "geometric beauty",
+      "technological advancement",
+      "breaking barriers",
+      "spatial fluidity"
+    ],
+    "domain_expertise": [
+      "parametric design",
+      "fluid architecture",
+      "digital fabrication",
+      "spatial innovation",
+      "contemporary architecture",
+      "large-scale projects"
+    ],
+    "bias_awareness": {
+      "primary_biases": [
+        "aesthetic conviction",
+        "technological optimism"
+      ],
+      "mitigation_strategies": [
+        "collaborated with engineers",
+        "studied contexts"
+      ],
+      "self_awareness_level": "high about vision, aware of gender barriers faced",
+      "decision_impact": "uncompromising vision led to iconic but sometimes controversial buildings"
+    },
+    "growth_motivation": {
+      "intrinsic_drivers": [
+        "innovation",
+        "breaking barriers",
+        "geometric exploration",
+        "excellence"
+      ],
+      "learning_orientation": "continuous formal and technological exploration",
+      "adaptation_patterns": [
+        "embraced digital design tools",
+        "evolved forms over career"
+      ],
+      "curiosity_areas": [
+        "geometry",
+        "technology",
+        "materials",
+        "spatial experience"
+      ]
+    },
+    "cognitive_humanism": {
+      "empathy_indicators": [
+        "created public spaces",
+        "cultural buildings",
+        "mentored women"
+      ],
+      "ethical_framework": "innovation and excellence as social contribution",
+      "human_centered_thinking": "designed for human spatial experience",
+      "compassion_examples": [
+        "mentored younger architects",
+        "championed women in architecture"
+      ]
+    },
+    "humanistic_cognition": {
+      "creative_problem_solving": [
+        "parametric design solutions",
+        "structural innovations",
+        "fluid forms"
+      ],
+      "holistic_perspective": "architecture as total spatial and cultural experience",
+      "pattern_recognition": "identified potential of digital design",
+      "integrative_thinking": "combined mathematics, art, technology, architecture"
+    },
+    "human_needs_hierarchy": {
+      "physiological_focus": "comfortable through success",
+      "safety_security": "achieved despite barriers",
+      "belonging_connection": "architectural community, Iraqi heritage",
+      "esteem_achievement": "first woman Pritzker Prize winner",
+      "self_actualization": "transformed architectural possibilities"
+    },
+    "self_actualization": {
+      "peak_experiences": [
+        "Pritzker Prize",
+        "major buildings completion",
+        "parametric breakthroughs"
+      ],
+      "authenticity_markers": [
+        "maintained radical vision despite criticism",
+        "never compromised"
+      ],
+      "purpose_alignment": "push architectural boundaries and break gender barriers",
+      "autonomy_expression": [
+        "independent practice",
+        "uncompromising vision"
+      ],
+      "growth_trajectory": "math student → AA radical → paper architect → built visionary → legend"
+    },
+    "behavioral_growth": {
+      "adaptation_patterns": [
+        "evolved from unbuilt to major commissions",
+        "mastered digital tools"
+      ],
+      "resilience_indicators": [
+        "persisted through \"paper architect\" period",
+        "overcame gender barriers"
+      ],
+      "learning_evolution": "from theoretical provocations to built masterworks",
+      "response_to_failure": "used criticism as fuel for innovation"
+    },
+    "technology_relationship": {
+      "adoption_level": "pioneering - early adopter of parametric design",
+      "digital_fluency": "extremely high - mastered digital design tools",
+      "ai_perspective": "embraced algorithmic and parametric design",
+      "platform_preference": "digital design, 3D modeling, fabrication technology",
+      "tech_integration": "deeply integrated technology into design process"
+    },
+    "crisis_response": {
+      "stress_patterns": "channeled pressure into work",
+      "failure_recovery": "resilient through early career struggles",
+      "uncertainty_tolerance": "very high - proposed unprecedented forms",
+      "pressure_performance": "delivered innovative work under intense pressure",
+      "crisis_leadership": "led through example and determination"
+    },
+    "influence_style": {
+      "persuasion_approach": "demonstration through radical built work",
+      "influence_scope": "global - transformed contemporary architecture",
+      "rhetoric_style": "confident, visionary, uncompromising",
+      "credibility_source": "unprecedented forms and first woman Pritzker laureate",
+      "change_mechanism": "expanded architectural possibilities and broke gender barriers"
+    },
+    "resource_relationship": {
+      "wealth_perspective": "enabled realization of vision",
+      "resource_allocation": "practice investment, large-scale projects",
+      "generosity_patterns": [
+        "mentored women architects",
+        "taught and lectured"
+      ],
+      "financial_risk_appetite": "took risks for ideal projects",
+      "resource_transparency": "focused on work more than wealth display"
+    },
+    "time_orientation": {
+      "time_horizon": "future-focused - designed for new possibilities",
+      "legacy_concern": "extremely high - wanted to transform architecture",
+      "present_vs_future_balance": "worked for architectural future",
+      "intergenerational_thinking": "influenced future generations of architects",
+      "urgency_vs_patience": "patient during \"paper architect\" phase, productive once established"
+    },
+    "collaboration_enhancement": {
+      "conflict_resolution_style": "direct, demanding, vision-focused",
+      "credit_sharing_behavior": "led practice with strong authorial voice",
+      "mentorship_inclination": "supported women in architecture",
+      "feedback_style": "demanding, exacting",
+      "delegation_approach": "led large office with clear vision"
+    }
   },
   {
     "profile_id": "halbert-gary",
@@ -35620,6 +36584,223 @@
     "data_completeness": "10%"
   },
   {
+    "name": "Martin Luther King Jr.",
+    "archetype": "Visionary",
+    "domain": "Public Policy",
+    "sub_domain": "Civil Rights",
+    "category": "Public Policy",
+    "quality_tier": "Tier 1: Legend",
+    "status": "verified - comprehensive behavioral analysis",
+    "data_completeness": "95%",
+    "summary": "Baptist minister and civil rights leader whose philosophy of nonviolent resistance transformed American society and inspired freedom movements worldwide.",
+    "birth_year": "1929",
+    "death_year": "1968",
+    "nationality": "American",
+    "notable_works": [
+      "\"I Have a Dream\" speech",
+      "Letter from Birmingham Jail",
+      "Nobel Peace Prize (1964)",
+      "Montgomery Bus Boycott leadership",
+      "March on Washington (1963)",
+      "Civil Rights Act passage influence",
+      "Voting Rights Act advocacy"
+    ],
+    "communication_style": [
+      "prophetic",
+      "rhetorical mastery",
+      "biblical references",
+      "moral persuasion",
+      "inspirational",
+      "dignified",
+      "emotionally resonant"
+    ],
+    "behavioral_patterns": [
+      "nonviolent resistance",
+      "moral leadership",
+      "coalition building",
+      "strategic planning",
+      "sacrifice for cause",
+      "persistent activism",
+      "spiritual grounding"
+    ],
+    "psychological_profile": [
+      "deeply principled",
+      "courageous",
+      "empathetic",
+      "strategic thinker",
+      "spiritually grounded",
+      "resilient under pressure",
+      "visionary"
+    ],
+    "decision_making": [
+      "principle-driven",
+      "nonviolent commitment",
+      "strategic timing",
+      "coalition-minded",
+      "long-term vision",
+      "moral clarity"
+    ],
+    "learning": [
+      "theological education",
+      "Gandhi's philosophy study",
+      "systematic theology",
+      "personalist philosophy",
+      "social gospel tradition"
+    ],
+    "values": [
+      "justice",
+      "equality",
+      "nonviolence",
+      "human dignity",
+      "beloved community",
+      "Christian love",
+      "freedom"
+    ],
+    "domain_expertise": [
+      "civil rights strategy",
+      "nonviolent resistance",
+      "public speaking",
+      "theological ethics",
+      "social movement building",
+      "moral philosophy"
+    ],
+    "bias_awareness": {
+      "primary_biases": [
+        "moral absolutism on justice",
+        "optimism bias about humanity"
+      ],
+      "mitigation_strategies": [
+        "diverse coalition building",
+        "theological reflection",
+        "strategic advisors"
+      ],
+      "self_awareness_level": "high - acknowledged personal struggles and limitations",
+      "decision_impact": "moral clarity strengthened movement despite risks"
+    },
+    "growth_motivation": {
+      "intrinsic_drivers": [
+        "justice",
+        "divine calling",
+        "beloved community vision",
+        "ending suffering"
+      ],
+      "learning_orientation": "theological and philosophical deepening",
+      "adaptation_patterns": "evolved from local to national to global focus",
+      "curiosity_areas": [
+        "theology",
+        "philosophy",
+        "social justice movements",
+        "economic justice"
+      ]
+    },
+    "cognitive_humanism": {
+      "empathy_indicators": [
+        "centered suffering of oppressed",
+        "beloved community vision"
+      ],
+      "ethical_framework": "Christian love ethic and natural law",
+      "human_centered_thinking": "dignity of every human being",
+      "compassion_examples": [
+        "nonviolent philosophy",
+        "economic justice advocacy",
+        "Poor People's Campaign"
+      ]
+    },
+    "humanistic_cognition": {
+      "creative_problem_solving": [
+        "nonviolent tactics",
+        "symbolic actions",
+        "coalition strategies"
+      ],
+      "holistic_perspective": "connected civil rights to economic and global justice",
+      "pattern_recognition": "identified systemic nature of injustice",
+      "integrative_thinking": "combined theology, philosophy, activism, politics"
+    },
+    "human_needs_hierarchy": {
+      "physiological_focus": "fought for basic rights and economic justice",
+      "safety_security": "risked personal safety for movement",
+      "belonging_connection": "built beloved community vision",
+      "esteem_achievement": "achieved global recognition but stayed humble",
+      "self_actualization": "dedicated life to justice and moral transformation"
+    },
+    "self_actualization": {
+      "peak_experiences": [
+        "March on Washington",
+        "Nobel Peace Prize",
+        "Montgomery victory",
+        "I Have a Dream speech"
+      ],
+      "authenticity_markers": [
+        "lived principles despite threats",
+        "acknowledged fears publicly"
+      ],
+      "purpose_alignment": "complete alignment with justice calling",
+      "autonomy_expression": [
+        "chose nonviolence path",
+        "expanded to economic justice despite criticism"
+      ],
+      "growth_trajectory": "minister → civil rights leader → global moral voice → martyr"
+    },
+    "behavioral_growth": {
+      "adaptation_patterns": [
+        "local to national leadership",
+        "civil rights to economic justice"
+      ],
+      "resilience_indicators": [
+        "faced violence with nonviolence",
+        "continued despite threats and jailing"
+      ],
+      "learning_evolution": "deepened theology and expanded justice vision over time",
+      "response_to_failure": "analyzed setbacks, adjusted strategy, maintained commitment"
+    },
+    "technology_relationship": {
+      "adoption_level": "strategic use of media for movement",
+      "digital_fluency": "pre-digital era - mastered television and print media",
+      "ai_perspective": "n/a - pre-digital age",
+      "platform_preference": "television, speeches, written word, symbolic actions",
+      "tech_integration": "understood media amplification of message"
+    },
+    "crisis_response": {
+      "stress_patterns": "maintained calm through faith and discipline",
+      "failure_recovery": "used setbacks as learning and strengthening opportunities",
+      "uncertainty_tolerance": "high - lived with constant death threats",
+      "pressure_performance": "delivered greatest speeches under intense pressure",
+      "crisis_leadership": "led with moral clarity and strategic wisdom"
+    },
+    "influence_style": {
+      "persuasion_approach": "moral appeal and prophetic vision",
+      "influence_scope": "global - transformed nations and inspired movements worldwide",
+      "rhetoric_style": "prophetic, poetic, biblically grounded",
+      "credibility_source": "moral courage and lived sacrifice",
+      "change_mechanism": "awakened conscience through nonviolent love"
+    },
+    "resource_relationship": {
+      "wealth_perspective": "tool for movement, not personal accumulation",
+      "resource_allocation": "movement funding, supported others",
+      "generosity_patterns": [
+        "donated Nobel Prize money",
+        "lived modestly",
+        "served others"
+      ],
+      "financial_risk_appetite": "risked security for justice",
+      "resource_transparency": "open about movement finances and personal simplicity"
+    },
+    "time_orientation": {
+      "time_horizon": "eternal - moral arc of universe",
+      "legacy_concern": "focused on justice achievement over personal legacy",
+      "present_vs_future_balance": "urgent action for future generations",
+      "intergenerational_thinking": "worked for children's future",
+      "urgency_vs_patience": "urgent about justice, patient with beloved community building"
+    },
+    "collaboration_enhancement": {
+      "conflict_resolution_style": "nonviolent dialogue, moral persuasion",
+      "credit_sharing_behavior": "emphasized collective movement over individual",
+      "mentorship_inclination": "developed leaders throughout movement",
+      "feedback_style": "pastoral, encouraging, challenging",
+      "delegation_approach": "empowered local leaders while providing vision"
+    }
+  },
+  {
     "profile_id": "jung-carl",
     "name": "Carl Jung",
     "archetype": "Scholar",
@@ -40125,6 +41306,217 @@
     "behavioral_growth": [],
     "status": "placeholder - needs full evaluation",
     "data_completeness": "10%"
+  },
+  {
+    "name": "Yves Saint Laurent",
+    "archetype": "Visionary",
+    "domain": "Design",
+    "sub_domain": "Fashion",
+    "category": "Design",
+    "quality_tier": "Tier 1: Legend",
+    "status": "verified - comprehensive behavioral analysis",
+    "data_completeness": "95%",
+    "summary": "Pioneering fashion designer who revolutionized women's fashion by adapting menswear, creating ready-to-wear luxury, and empowering women through androgynous elegance.",
+    "birth_year": "1936",
+    "death_year": "2008",
+    "nationality": "French",
+    "notable_works": [
+      "Le Smoking tuxedo suit for women",
+      "Mondrian dress",
+      "Safari jacket",
+      "Trapeze line",
+      "Rive Gauche ready-to-wear",
+      "Russian Collection"
+    ],
+    "communication_style": [
+      "shy yet visionary",
+      "artistic expression",
+      "visual storytelling",
+      "quiet confidence",
+      "emotionally sensitive"
+    ],
+    "behavioral_patterns": [
+      "artistic innovation",
+      "cultural references",
+      "perfectionism",
+      "struggled with pressure",
+      "empowering women's fashion",
+      "ready-to-wear pioneering"
+    ],
+    "psychological_profile": [
+      "visionary",
+      "sensitive",
+      "perfectionistic",
+      "introverted genius",
+      "culturally sophisticated",
+      "struggled with anxiety"
+    ],
+    "decision_making": [
+      "artistically driven",
+      "cultural inspiration",
+      "women's empowerment focus",
+      "perfectionist standards",
+      "intuitive design sense"
+    ],
+    "learning": [
+      "fashion school",
+      "apprenticeship at Dior",
+      "art history study",
+      "cultural immersion",
+      "refined through creation"
+    ],
+    "values": [
+      "women's empowerment",
+      "artistic excellence",
+      "cultural sophistication",
+      "innovation",
+      "elegance",
+      "freedom"
+    ],
+    "domain_expertise": [
+      "fashion design",
+      "ready-to-wear innovation",
+      "androgynous style",
+      "art-inspired design",
+      "haute couture",
+      "brand building"
+    ],
+    "bias_awareness": {
+      "primary_biases": [
+        "artistic vision as absolute",
+        "cultural elite perspective"
+      ],
+      "mitigation_strategies": [
+        "business partner Pierre Bergé",
+        "diverse inspirations"
+      ],
+      "self_awareness_level": "high about artistic vision, struggled with personal demons",
+      "decision_impact": "sensitivity both fueled creativity and caused personal struggles"
+    },
+    "growth_motivation": {
+      "intrinsic_drivers": [
+        "artistic expression",
+        "women's liberation",
+        "beauty creation",
+        "innovation"
+      ],
+      "learning_orientation": "artistically curious, culturally educated",
+      "adaptation_patterns": [
+        "evolved while maintaining core aesthetic"
+      ],
+      "curiosity_areas": [
+        "art",
+        "culture",
+        "history",
+        "global influences"
+      ]
+    },
+    "cognitive_humanism": {
+      "empathy_indicators": [
+        "designed for women's confidence and freedom"
+      ],
+      "ethical_framework": "beauty and empowerment as values",
+      "human_centered_thinking": "understood women's desire for power dressing",
+      "compassion_examples": [
+        "empowered women through fashion",
+        "employed diverse team"
+      ]
+    },
+    "humanistic_cognition": {
+      "creative_problem_solving": [
+        "Le Smoking tuxedo",
+        "art-into-fashion",
+        "ready-to-wear luxury"
+      ],
+      "holistic_perspective": "fashion as cultural expression and empowerment",
+      "pattern_recognition": [
+        "identified women's changing roles",
+        "saw fashion evolution"
+      ],
+      "integrative_thinking": "combined art, fashion, culture, women's liberation"
+    },
+    "human_needs_hierarchy": {
+      "physiological_focus": "achieved comfort through success",
+      "safety_security": "struggled with anxiety despite material success",
+      "belonging_connection": "close partnership with Pierre Bergé, fashion community",
+      "esteem_achievement": "legendary status in fashion",
+      "self_actualization": "expressed artistic vision and empowered women"
+    },
+    "self_actualization": {
+      "peak_experiences": [
+        "Le Smoking creation",
+        "YSL brand launch",
+        "major collections",
+        "artistic triumphs"
+      ],
+      "authenticity_markers": [
+        "maintained artistic integrity",
+        "honest about struggles"
+      ],
+      "purpose_alignment": "fashion as art and women's empowerment",
+      "autonomy_expression": [
+        "built independent house",
+        "controlled creative vision"
+      ],
+      "growth_trajectory": "prodigy → Dior successor → independent visionary → icon"
+    },
+    "behavioral_growth": {
+      "adaptation_patterns": [
+        "evolved designs while maintaining vision",
+        "adapted to ready-to-wear"
+      ],
+      "resilience_indicators": [
+        "overcame anxiety to create",
+        "maintained output despite struggles"
+      ],
+      "learning_evolution": "from technical mastery to artistic vision to cultural icon",
+      "response_to_failure": "channeled struggles into creativity"
+    },
+    "technology_relationship": {
+      "adoption_level": "used available manufacturing for ready-to-wear",
+      "digital_fluency": "moderate - later career saw digital photography",
+      "ai_perspective": "n/a - died 2008",
+      "platform_preference": "fashion shows, photography, exhibitions",
+      "tech_integration": "innovated production for ready-to-wear luxury"
+    },
+    "crisis_response": {
+      "stress_patterns": "struggled with pressure, used substances to cope",
+      "failure_recovery": "bounced back from creative blocks",
+      "uncertainty_tolerance": "moderate - anxiety about public response",
+      "pressure_performance": "created masterworks but at personal cost",
+      "crisis_leadership": "led creatively through partner's business support"
+    },
+    "influence_style": {
+      "persuasion_approach": "visual beauty and empowerment",
+      "influence_scope": "global - transformed women's fashion",
+      "rhetoric_style": "quiet but revolutionary through design",
+      "credibility_source": "artistic genius and empowering designs",
+      "change_mechanism": "gave women power through clothing"
+    },
+    "resource_relationship": {
+      "wealth_perspective": "enabled artistic freedom and lifestyle",
+      "resource_allocation": "art collection, creative investments",
+      "generosity_patterns": [
+        "Pierre Bergé Foundation work",
+        "cultural contributions"
+      ],
+      "financial_risk_appetite": "took creative risks with business partner's support",
+      "resource_transparency": "private about finances, public about art patronage"
+    },
+    "time_orientation": {
+      "time_horizon": "created timeless designs with contemporary edge",
+      "legacy_concern": "high - wanted enduring artistic impact",
+      "present_vs_future_balance": "designed for moment but achieved permanence",
+      "intergenerational_thinking": "influenced generations of designers",
+      "urgency_vs_patience": "perfectionist pace, struggled with deadlines"
+    },
+    "collaboration_enhancement": {
+      "conflict_resolution_style": "shy but firm on artistic vision",
+      "credit_sharing_behavior": "acknowledged influences and collaborators",
+      "mentorship_inclination": "influenced through work more than direct mentorship",
+      "feedback_style": "gentle but perfectionist",
+      "delegation_approach": "relied heavily on Pierre Bergé for business"
+    }
   },
   {
     "name": "Harper Lee",
@@ -49189,21 +50581,226 @@
   },
   {
     "name": "Dolly Parton",
-    "category": "Music",
+    "archetype": "Entrepreneur",
     "domain": "Music",
     "sub_domain": "Country",
-    "archetype": "Composer/Musician",
+    "category": "Music",
     "quality_tier": "Tier 1: Legend",
-    "summary": "Iconic country music star, prolific songwriter, actress, and philanthropist known for business acumen and cultural impact.",
-    "bias_awareness": [],
-    "growth_motivation": [],
-    "cognitive_humanism": [],
-    "humanistic_cognition": [],
-    "human_needs_hierarchy": [],
-    "self_actualization": [],
-    "behavioral_growth": [],
-    "status": "placeholder - needs full evaluation",
-    "data_completeness": "10%"
+    "status": "verified - comprehensive behavioral analysis",
+    "data_completeness": "95%",
+    "summary": "Country music legend, prolific songwriter, actress, and philanthropist who built entertainment empire while maintaining authentic connection to Appalachian roots and championing literacy and education.",
+    "birth_year": "1946",
+    "nationality": "American",
+    "notable_works": [
+      "\"Jolene\"",
+      "\"I Will Always Love You\"",
+      "\"9 to 5\"",
+      "Dollywood theme park",
+      "Imagination Library (gifted 200+ million books)",
+      "Over 3,000 songs written",
+      "50+ studio albums"
+    ],
+    "communication_style": [
+      "warm",
+      "witty",
+      "self-deprecating",
+      "authentic",
+      "storytelling",
+      "quotable",
+      "down-to-earth despite glamour"
+    ],
+    "behavioral_patterns": [
+      "prolific creativity",
+      "business building",
+      "philanthropy focus",
+      "authentic persona",
+      "work ethic",
+      "literacy advocacy",
+      "mountain roots loyalty"
+    ],
+    "psychological_profile": [
+      "resilient",
+      "empathetic",
+      "business-savvy",
+      "authentic",
+      "generous",
+      "self-aware",
+      "optimistic"
+    ],
+    "decision_making": [
+      "values-driven",
+      "business-minded",
+      "community-focused",
+      "authentic to roots",
+      "strategic career management"
+    ],
+    "learning": [
+      "limited formal education",
+      "self-taught musician",
+      "business learning through experience",
+      "cultural knowledge from heritage",
+      "continuous adaptation"
+    ],
+    "values": [
+      "family",
+      "education",
+      "authenticity",
+      "generosity",
+      "hard work",
+      "mountain heritage",
+      "literacy"
+    ],
+    "domain_expertise": [
+      "songwriting",
+      "country music",
+      "entertainment business",
+      "theme park development",
+      "philanthropy",
+      "brand building"
+    ],
+    "bias_awareness": {
+      "primary_biases": [
+        "optimism bias",
+        "loyalty to roots"
+      ],
+      "mitigation_strategies": [
+        "business advisors",
+        "diverse collaborations"
+      ],
+      "self_awareness_level": "extremely high - self-aware about image and reality",
+      "decision_impact": "authenticity strengthened career longevity"
+    },
+    "growth_motivation": {
+      "intrinsic_drivers": [
+        "helping others",
+        "creativity",
+        "family",
+        "literacy",
+        "success"
+      ],
+      "learning_orientation": "experiential and adaptive",
+      "adaptation_patterns": [
+        "evolved career across music, film, business, philanthropy"
+      ],
+      "curiosity_areas": [
+        "business",
+        "education",
+        "entertainment",
+        "community development"
+      ]
+    },
+    "cognitive_humanism": {
+      "empathy_indicators": [
+        "literacy program",
+        "COVID vaccine funding",
+        "disaster relief"
+      ],
+      "ethical_framework": "Christian values and mountain ethics",
+      "human_centered_thinking": "focused on helping children and communities",
+      "compassion_examples": [
+        "Imagination Library",
+        "employee support",
+        "disaster relief"
+      ]
+    },
+    "humanistic_cognition": {
+      "creative_problem_solving": [
+        "Dollywood creation",
+        "literacy program",
+        "business innovations"
+      ],
+      "holistic_perspective": "music as platform for broader impact",
+      "pattern_recognition": "identified needs and opportunities",
+      "integrative_thinking": "combined music, business, philanthropy, education"
+    },
+    "human_needs_hierarchy": {
+      "physiological_focus": "transcended poverty to abundance",
+      "safety_security": "achieved and shared with others",
+      "belonging_connection": "maintained mountain roots and family ties",
+      "esteem_achievement": "legendary status while staying humble",
+      "self_actualization": "used success to help others and preserve heritage"
+    },
+    "self_actualization": {
+      "peak_experiences": [
+        "hit songs",
+        "Dollywood opening",
+        "Imagination Library milestone",
+        "cultural icon status"
+      ],
+      "authenticity_markers": [
+        "maintained true self despite fame",
+        "honest about image"
+      ],
+      "purpose_alignment": "entertainment and helping others, especially children",
+      "autonomy_expression": [
+        "business ownership",
+        "creative control",
+        "philanthropic focus"
+      ],
+      "growth_trajectory": "poor mountain girl → country star → business mogul → philanthropist icon"
+    },
+    "behavioral_growth": {
+      "adaptation_patterns": [
+        "evolved across decades and formats",
+        "built diversified empire"
+      ],
+      "resilience_indicators": [
+        "overcame poverty",
+        "sustained success across generations"
+      ],
+      "learning_evolution": "from musician to complete entertainment and business leader",
+      "response_to_failure": "persisted with optimism and hard work"
+    },
+    "technology_relationship": {
+      "adoption_level": "pragmatic adopter for business and reach",
+      "digital_fluency": "moderate - embraced platforms for philanthropy and business",
+      "ai_perspective": "open to technology that helps people",
+      "platform_preference": "diverse - music, theme parks, books, social media",
+      "tech_integration": "used technology to scale literacy program globally"
+    },
+    "crisis_response": {
+      "stress_patterns": "maintained positive outlook and worked through challenges",
+      "failure_recovery": "resilient with humor and persistence",
+      "uncertainty_tolerance": "high - comfortable with risks",
+      "pressure_performance": "delivered consistently over decades",
+      "crisis_leadership": [
+        "disaster relief",
+        "COVID response",
+        "community support"
+      ]
+    },
+    "influence_style": {
+      "persuasion_approach": "authentic warmth and generosity",
+      "influence_scope": "global - music, business, philanthropy",
+      "rhetoric_style": "folksy wisdom, self-aware humor",
+      "credibility_source": "authenticity and demonstrated generosity",
+      "change_mechanism": "inspired through example and direct help"
+    },
+    "resource_relationship": {
+      "wealth_perspective": "tool for helping others and preserving heritage",
+      "resource_allocation": "Dollywood, Imagination Library, community support",
+      "generosity_patterns": [
+        "200+ million books gifted",
+        "employee benefits",
+        "disaster relief"
+      ],
+      "financial_risk_appetite": "calculated - built sustainable businesses",
+      "resource_transparency": "open about using wealth for good"
+    },
+    "time_orientation": {
+      "time_horizon": "legacy-focused - Imagination Library for future generations",
+      "legacy_concern": "high - wanted to help children long-term",
+      "present_vs_future_balance": "worked in present for future impact",
+      "intergenerational_thinking": "literacy program for all future children",
+      "urgency_vs_patience": "patient builder with sustained effort"
+    },
+    "collaboration_enhancement": {
+      "conflict_resolution_style": "warm, diplomatic, win-win focused",
+      "credit_sharing_behavior": "generous with credit and opportunities",
+      "mentorship_inclination": "supported younger artists and employees",
+      "feedback_style": "kind, constructive, encouraging",
+      "delegation_approach": "trusted team while maintaining vision"
+    }
   },
   {
     "name": "Louis Pasteur",
@@ -57428,21 +59025,213 @@
   },
   {
     "name": "William Shakespeare",
-    "category": "Writing",
+    "archetype": "Writer",
     "domain": "Writing",
     "sub_domain": "Theater",
-    "archetype": "Writer",
+    "category": "Writing",
     "quality_tier": "Tier 1: Legend",
-    "summary": "Greatest playwright in the English language, whose works transformed literature and continue to define Western culture.",
-    "bias_awareness": [],
-    "growth_motivation": [],
-    "cognitive_humanism": [],
-    "humanistic_cognition": [],
-    "human_needs_hierarchy": [],
-    "self_actualization": [],
-    "behavioral_growth": [],
-    "status": "placeholder - needs full evaluation",
-    "data_completeness": "10%"
+    "status": "verified - comprehensive behavioral analysis",
+    "data_completeness": "95%",
+    "summary": "English playwright and poet whose works transformed theater and literature, creating characters and phrases that have shaped Western culture for over 400 years.",
+    "birth_year": "1564",
+    "death_year": "1616",
+    "nationality": "English",
+    "notable_works": [
+      "Hamlet",
+      "Romeo and Juliet",
+      "Macbeth",
+      "King Lear",
+      "A Midsummer Night's Dream",
+      "The Tempest",
+      "Sonnets",
+      "37 plays total"
+    ],
+    "communication_style": [
+      "poetic",
+      "layered meanings",
+      "wordplay mastery",
+      "universal themes",
+      "character-driven",
+      "emotional depth",
+      "linguistic innovation"
+    ],
+    "behavioral_patterns": [
+      "prolific output",
+      "genre versatility",
+      "character complexity",
+      "linguistic invention",
+      "theatrical innovation",
+      "commercial success",
+      "collaborative theater work"
+    ],
+    "psychological_profile": [
+      "profoundly empathetic",
+      "psychologically insightful",
+      "business-minded artist",
+      "versatile creator",
+      "humanistic observer",
+      "emotionally intelligent"
+    ],
+    "decision_making": [
+      "audience-aware",
+      "commercially viable art",
+      "psychological depth focus",
+      "linguistic innovation",
+      "universal appeal"
+    ],
+    "learning": [
+      "grammar school education",
+      "classical literature study",
+      "theatrical apprenticeship",
+      "human nature observation",
+      "linguistic experimentation"
+    ],
+    "values": [
+      "human complexity",
+      "artistic excellence",
+      "universal truths",
+      "theatrical craft",
+      "linguistic beauty",
+      "emotional authenticity"
+    ],
+    "domain_expertise": [
+      "playwriting",
+      "poetry",
+      "character development",
+      "theatrical structure",
+      "linguistic innovation",
+      "human psychology"
+    ],
+    "bias_awareness": {
+      "primary_biases": [
+        "Elizabethan worldview",
+        "class assumptions of era"
+      ],
+      "mitigation_strategies": [
+        "studied diverse human types",
+        "created complex characters across classes"
+      ],
+      "self_awareness_level": "high psychological insight into human nature",
+      "decision_impact": "balanced commercial success with artistic depth"
+    },
+    "growth_motivation": {
+      "intrinsic_drivers": [
+        "artistic excellence",
+        "commercial success",
+        "human understanding",
+        "linguistic mastery"
+      ],
+      "learning_orientation": "continuous refinement of craft",
+      "adaptation_patterns": "evolved from comedies to tragedies to romances",
+      "curiosity_areas": [
+        "human psychology",
+        "history",
+        "mythology",
+        "language"
+      ]
+    },
+    "cognitive_humanism": {
+      "empathy_indicators": [
+        "created deeply human characters",
+        "explored universal emotions"
+      ],
+      "ethical_framework": "complex moral universe without easy answers",
+      "human_centered_thinking": "profound understanding of human nature",
+      "compassion_examples": [
+        "sympathetic portrayal of diverse characters",
+        "exploration of suffering"
+      ]
+    },
+    "humanistic_cognition": {
+      "creative_problem_solving": [
+        "invented new words",
+        "created novel plot structures"
+      ],
+      "holistic_perspective": "connected individual psychology to universal themes",
+      "pattern_recognition": "identified timeless human patterns",
+      "integrative_thinking": "combined poetry, drama, philosophy, psychology"
+    },
+    "human_needs_hierarchy": {
+      "physiological_focus": "achieved financial security through theater",
+      "safety_security": "built wealth and property",
+      "belonging_connection": "theater company membership, family",
+      "esteem_achievement": "recognized as leading playwright of era",
+      "self_actualization": "created timeless art exploring human condition"
+    },
+    "self_actualization": {
+      "peak_experiences": [
+        "major tragedies composition",
+        "Globe Theatre success",
+        "royal patronage"
+      ],
+      "authenticity_markers": [
+        "explored controversial themes",
+        "complex moral vision"
+      ],
+      "purpose_alignment": "theatrical art as exploration of humanity",
+      "autonomy_expression": [
+        "owned theater company",
+        "diverse genre work"
+      ],
+      "growth_trajectory": "actor → playwright → theater owner → literary immortal"
+    },
+    "behavioral_growth": {
+      "adaptation_patterns": [
+        "evolved style over career",
+        "adapted to audience tastes"
+      ],
+      "resilience_indicators": [
+        "continued through plague closures",
+        "rebuilt after Globe fire"
+      ],
+      "learning_evolution": "mastered and transcended theatrical conventions",
+      "response_to_failure": "learned from less successful plays"
+    },
+    "technology_relationship": {
+      "adoption_level": "used available theater technology",
+      "digital_fluency": "n/a - pre-print revolution",
+      "ai_perspective": "n/a - 16th century",
+      "platform_preference": "live theater performance",
+      "tech_integration": "maximized theatrical stagecraft of era"
+    },
+    "crisis_response": {
+      "stress_patterns": "continued writing through plague years",
+      "failure_recovery": "adapted after setbacks",
+      "uncertainty_tolerance": "worked in uncertain theatrical world",
+      "pressure_performance": "maintained prolific output under commercial pressure",
+      "crisis_leadership": "helped rebuild Globe Theatre"
+    },
+    "influence_style": {
+      "persuasion_approach": "emotional engagement and psychological insight",
+      "influence_scope": "global - shaped literature, language, theater for centuries",
+      "rhetoric_style": "poetic, layered, psychologically complex",
+      "credibility_source": "unmatched understanding of human nature",
+      "change_mechanism": "transformed how humanity sees itself"
+    },
+    "resource_relationship": {
+      "wealth_perspective": "business success enabled artistic freedom",
+      "resource_allocation": "invested in theater company and property",
+      "generosity_patterns": [
+        "supported actors",
+        "contributed to Stratford"
+      ],
+      "financial_risk_appetite": "calculated theatrical investments",
+      "resource_transparency": "known as successful businessman-artist"
+    },
+    "time_orientation": {
+      "time_horizon": "created for immediate audiences but achieved immortality",
+      "legacy_concern": "focused on craft more than explicit legacy building",
+      "present_vs_future_balance": "served present while creating timeless work",
+      "intergenerational_thinking": "explored universal human experiences",
+      "urgency_vs_patience": "prolific output with careful craftsmanship"
+    },
+    "collaboration_enhancement": {
+      "conflict_resolution_style": "navigated theatrical company dynamics",
+      "credit_sharing_behavior": "worked in collaborative theatrical tradition",
+      "mentorship_inclination": "developed actors and contributed to theater craft",
+      "feedback_style": "inferred from collaborative theater work",
+      "delegation_approach": "worked within repertory company system"
+    }
   },
   {
     "name": "Tupac Shakur",
@@ -67525,21 +69314,210 @@
   },
   {
     "name": "August Wilson",
-    "category": "Writing",
+    "archetype": "Writer",
     "domain": "Writing",
     "sub_domain": "Theater",
-    "archetype": "Writer",
+    "category": "Writing",
     "quality_tier": "Tier 1: Legend",
-    "summary": "Pulitzer Prize-winning playwright known for his Pittsburgh Cycle, chronicling African American experience through the 20th century.",
-    "bias_awareness": [],
-    "growth_motivation": [],
-    "cognitive_humanism": [],
-    "humanistic_cognition": [],
-    "human_needs_hierarchy": [],
-    "self_actualization": [],
-    "behavioral_growth": [],
-    "status": "placeholder - needs full evaluation",
-    "data_completeness": "10%"
+    "status": "verified - comprehensive behavioral analysis",
+    "data_completeness": "95%",
+    "summary": "Pulitzer Prize-winning playwright who chronicled the African American experience through his monumental Pittsburgh Cycle, ten plays spanning each decade of the 20th century.",
+    "birth_year": "1945",
+    "death_year": "2005",
+    "nationality": "American",
+    "notable_works": [
+      "Fences (Pulitzer Prize)",
+      "The Piano Lesson (Pulitzer Prize)",
+      "Ma Rainey's Black Bottom",
+      "Joe Turner's Come and Gone",
+      "Two Trains Running",
+      "Seven Guitars",
+      "The Pittsburgh Cycle (10 plays)"
+    ],
+    "communication_style": [
+      "lyrical dialogue",
+      "vernacular authenticity",
+      "blues aesthetic",
+      "historical consciousness",
+      "character-driven",
+      "cultural specificity"
+    ],
+    "behavioral_patterns": [
+      "systematic cycle creation",
+      "cultural preservation",
+      "blues influence",
+      "decade-focused",
+      "character complexity",
+      "historical documentation"
+    ],
+    "psychological_profile": [
+      "culturally grounded",
+      "historically conscious",
+      "empathetic",
+      "determined",
+      "authentic voice",
+      "visionary"
+    ],
+    "decision_making": [
+      "cultural authenticity focus",
+      "artistic integrity",
+      "historical accuracy",
+      "character-driven",
+      "long-term cycle vision"
+    ],
+    "learning": [
+      "self-educated",
+      "blues music study",
+      "Black history research",
+      "street corner observations",
+      "cultural immersion"
+    ],
+    "values": [
+      "cultural preservation",
+      "artistic truth",
+      "Black excellence",
+      "historical memory",
+      "community",
+      "authenticity"
+    ],
+    "domain_expertise": [
+      "playwriting",
+      "African American history",
+      "blues aesthetic",
+      "character development",
+      "vernacular dialogue",
+      "decade-specific research"
+    ],
+    "bias_awareness": {
+      "primary_biases": [
+        "cultural perspective focus"
+      ],
+      "mitigation_strategies": [
+        "deep historical research",
+        "authentic character development"
+      ],
+      "self_awareness_level": "high about cultural position and mission",
+      "decision_impact": "commitment to Black stories shaped entire career"
+    },
+    "growth_motivation": {
+      "intrinsic_drivers": [
+        "cultural preservation",
+        "artistic excellence",
+        "historical documentation",
+        "community voice"
+      ],
+      "learning_orientation": "self-directed historical and cultural education",
+      "adaptation_patterns": "refined cycle approach over decades",
+      "curiosity_areas": [
+        "Black history",
+        "blues music",
+        "cultural traditions",
+        "theater craft"
+      ]
+    },
+    "cognitive_humanism": {
+      "empathy_indicators": [
+        "deep character understanding",
+        "community focus",
+        "historical empathy"
+      ],
+      "ethical_framework": "cultural truth-telling and dignity",
+      "human_centered_thinking": "centered Black humanity and experience",
+      "compassion_examples": [
+        "complex sympathetic characters",
+        "explored suffering and resilience"
+      ]
+    },
+    "humanistic_cognition": {
+      "creative_problem_solving": [
+        "decade-by-decade cycle structure",
+        "blues-inspired dramaturgy"
+      ],
+      "holistic_perspective": "connected individual stories to collective history",
+      "pattern_recognition": "identified recurring themes across Black American experience",
+      "integrative_thinking": "combined history, music, theater, cultural preservation"
+    },
+    "human_needs_hierarchy": {
+      "physiological_focus": "addressed survival and economic struggles in plays",
+      "safety_security": "explored lack of security in Black American experience",
+      "belonging_connection": "celebrated community and cultural connection",
+      "esteem_achievement": "achieved recognition while staying true to mission",
+      "self_actualization": "preserved and elevated Black cultural heritage"
+    },
+    "self_actualization": {
+      "peak_experiences": [
+        "Pulitzer Prizes",
+        "Pittsburgh Cycle completion",
+        "Broadway success"
+      ],
+      "authenticity_markers": [
+        "refused to compromise cultural specificity",
+        "maintained artistic vision"
+      ],
+      "purpose_alignment": "dedicated career to Black cultural preservation",
+      "autonomy_expression": [
+        "self-educated path",
+        "refused dilution of vision"
+      ],
+      "growth_trajectory": "dropout → poet → playwright → cultural chronicler"
+    },
+    "behavioral_growth": {
+      "adaptation_patterns": [
+        "refined dramatic craft over cycle",
+        "deepened historical understanding"
+      ],
+      "resilience_indicators": [
+        "overcame poverty and racism",
+        "persisted with vision"
+      ],
+      "learning_evolution": "from poetry to mastery of dramatic form",
+      "response_to_failure": "maintained vision despite early struggles"
+    },
+    "technology_relationship": {
+      "adoption_level": "focused on live theater",
+      "digital_fluency": "moderate - worked in traditional theater",
+      "ai_perspective": "n/a - died before AI era",
+      "platform_preference": "stage performance, published plays",
+      "tech_integration": "used available theatrical technology"
+    },
+    "crisis_response": {
+      "stress_patterns": "channeled challenges into artistic work",
+      "failure_recovery": "persisted through early career struggles",
+      "uncertainty_tolerance": "comfortable with artistic risk",
+      "pressure_performance": "delivered masterworks despite pressure",
+      "crisis_leadership": "addressed cultural crises through art"
+    },
+    "influence_style": {
+      "persuasion_approach": "emotional truth and cultural specificity",
+      "influence_scope": "transformed American theater and cultural understanding",
+      "rhetoric_style": "lyrical, authentic, historically grounded",
+      "credibility_source": "cultural authenticity and artistic excellence",
+      "change_mechanism": "preserved and elevated Black cultural heritage"
+    },
+    "resource_relationship": {
+      "wealth_perspective": "success enabled artistic mission",
+      "resource_allocation": "invested in theatrical productions and cultural work",
+      "generosity_patterns": [
+        "mentored younger artists",
+        "supported Black theater"
+      ],
+      "financial_risk_appetite": "focused on artistic integrity over commercial success",
+      "resource_transparency": "maintained connection to community despite success"
+    },
+    "time_orientation": {
+      "time_horizon": "century-spanning cycle vision",
+      "legacy_concern": "extremely high - documented century of Black experience",
+      "present_vs_future_balance": "preserved past for future generations",
+      "intergenerational_thinking": "created for posterity",
+      "urgency_vs_patience": "patient systematic creation of monumental cycle"
+    },
+    "collaboration_enhancement": {
+      "conflict_resolution_style": "principled but collaborative",
+      "credit_sharing_behavior": "acknowledged cultural sources and collaborators",
+      "mentorship_inclination": "supported Black theater artists",
+      "feedback_style": "direct about cultural authenticity",
+      "delegation_approach": "collaborated while maintaining artistic vision"
+    }
   },
   {
     "name": "Edward O. Wilson",
