@@ -915,6 +915,7 @@ body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height
     opacity: 0.8; 
     color: #0A0D06; 
     background: transparent;
+    width: 100%;
 }
 .btn:hover { 
     outline: 1px solid #0A0D06; 
