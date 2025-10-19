@@ -2355,8 +2355,10 @@ Contact: raymassie@gmail.com for commercial licensing
                             </div>
                         </div>
                         <div class="profile-actions">
-                        <button class="btn btn-details" onclick="expandProfile('${profile.name}', event); event.stopPropagation()">Details</button>
-                    </div>
+                            <div class="details">
+                                <button class="btn btn-details" onclick="expandProfile('${profile.name}', event); event.stopPropagation()">Details</button>
+                            </div>
+                        </div>
                 `;
                 
                 fragment.appendChild(profileCard);
@@ -2380,7 +2382,9 @@ Contact: raymassie@gmail.com for commercial licensing
                     <div class="profile-archetype">${profile.archetype}</div>
                     <div class="profile-domain">${profile.domain}${profile.sub_domain ? ` - ${profile.sub_domain}` : ''}</div>
                     <div class="profile-actions">
-                        <button class="btn btn-details" onclick="expandProfile('${profile.name}', event); event.stopPropagation()">Details</button>
+                        <div class="details">
+                            <button class="btn btn-details" onclick="expandProfile('${profile.name}', event); event.stopPropagation()">Details</button>
+                        </div>
                     </div>
                 `;
                 
