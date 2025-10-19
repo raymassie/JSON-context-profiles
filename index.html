@@ -2274,7 +2274,32 @@ Contact: raymassie@gmail.com for commercial licensing
             container.appendChild(fragment);
             // Bulk download button removed in new layout
             
+            // Equalize card heights for proper button alignment
+            equalizeCardHeights();
+            
             console.log('✅ Profiles displayed successfully');
+        }
+
+        function equalizeCardHeights() {
+            const cards = document.querySelectorAll('.profile-card');
+            if (cards.length === 0) return;
+            
+            // Reset heights to auto to get natural heights
+            cards.forEach(card => card.style.height = 'auto');
+            
+            // Find the maximum height
+            let maxHeight = 0;
+            cards.forEach(card => {
+                const height = card.offsetHeight;
+                if (height > maxHeight) {
+                    maxHeight = height;
+                }
+            });
+            
+            // Apply the maximum height to all cards
+            cards.forEach(card => {
+                card.style.height = maxHeight + 'px';
+            });
         }
 
         function renderGrid(fragment) {
