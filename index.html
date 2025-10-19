@@ -2275,7 +2275,9 @@ Contact: raymassie@gmail.com for commercial licensing
             // Bulk download button removed in new layout
             
             // Equalize card heights for proper button alignment
-            equalizeCardHeights();
+            setTimeout(() => {
+                equalizeCardHeights();
+            }, 100);
             
             console.log('✅ Profiles displayed successfully');
         }
