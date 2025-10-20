@@ -897,7 +897,9 @@ body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height
     width: 100%; 
     background: #FEFAE0;
     margin-top: auto;
-    padding: 16px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-bottom: 16px;
 }
 .btn { 
     padding: 8px; 
