@@ -19,7 +19,7 @@ Contact: raymassie@gmail.com for commercial licensing
     <meta http-equiv="Expires" content="0">
     <title>Influence Atlas - Context for expert authenticity</title>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js"></script>
-                <link rel="stylesheet" href="styles.css?v=7.3">
+                <link rel="stylesheet" href="styles.css?v=7.2">
 </head>
 <body>
     <div class="container">
@@ -2274,34 +2274,7 @@ Contact: raymassie@gmail.com for commercial licensing
             container.appendChild(fragment);
             // Bulk download button removed in new layout
             
-            // Equalize card heights for proper button alignment
-            setTimeout(() => {
-                equalizeCardHeights();
-            }, 100);
-            
             console.log('✅ Profiles displayed successfully');
-        }
-
-        function equalizeCardHeights() {
-            const cards = document.querySelectorAll('.profile-card');
-            if (cards.length === 0) return;
-            
-            // Reset heights to auto to get natural heights
-            cards.forEach(card => card.style.height = 'auto');
-            
-            // Find the maximum height
-            let maxHeight = 0;
-            cards.forEach(card => {
-                const height = card.offsetHeight;
-                if (height > maxHeight) {
-                    maxHeight = height;
-                }
-            });
-            
-            // Apply the maximum height to all cards
-            cards.forEach(card => {
-                card.style.height = maxHeight + 'px';
-            });
         }
 
         function renderGrid(fragment) {
@@ -2329,34 +2302,35 @@ Contact: raymassie@gmail.com for commercial licensing
                             <div class="card-name">${profile.name}</div>
                             <div class="card-selected" id="indicator-${profile.name.replace(/\s+/g, '-')}" style="display: none;">SELECTED</div>
                         </div>
-                        <div class="card-content">
-                            <div class="field-group">
-                                <div class="field-label">Archetype</div>
-                                <div class="field-value">${profile.archetype}</div>
-                            </div>
-                            <div class="field-group">
-                                <div class="field-label">Domain</div>
-                                <div class="field-value">${profile.domain}</div>
-                            </div>
-                            <div class="field-group">
-                                <div class="field-label">Subdomain</div>
-                                <div class="field-value">${profile.sub_domain || ''}</div>
-                            </div>
-                            <div class="field-group profile-traits">
-                                <div class="field-label">Primary Traits</div>
-                                <div class="traits-list">
-                                    ${(() => {
-                                        const traits = profile.psychological_profile?.primary_traits;
-                                        if (!traits) return '';
-                                        const traitArray = Array.isArray(traits) ? traits : traits.split(',').map(t => t.trim());
-                                        return traitArray.map(trait => `<span class="trait-tag cat-psychological-profile clickable-badge" onclick="searchByBadge('${trait.replace(/'/g, "\\'")}', event)" title="Click to find other profiles with this trait">${trait}</span>`).join('');
-                                    })()}
-                                </div>
+                    </div>
+                    <div class="card-content">
+                        <div class="field-group">
+                            <div class="field-label">Archetype</div>
+                            <div class="field-value">${profile.archetype}</div>
+                        </div>
+                        <div class="field-group">
+                            <div class="field-label">Domain</div>
+                            <div class="field-value">${profile.domain}</div>
+                        </div>
+                        <div class="field-group">
+                            <div class="field-label">Subdomain</div>
+                            <div class="field-value">${profile.sub_domain || ''}</div>
+                        </div>
+                        <div class="field-group profile-traits">
+                            <div class="field-label">Primary Traits</div>
+                            <div class="traits-list">
+                                ${(() => {
+                                    const traits = profile.psychological_profile?.primary_traits;
+                                    if (!traits) return '';
+                                    const traitArray = Array.isArray(traits) ? traits : traits.split(',').map(t => t.trim());
+                                    return traitArray.map(trait => `<span class="trait-tag cat-psychological-profile clickable-badge" onclick="searchByBadge('${trait.replace(/'/g, "\\'")}', event)" title="Click to find other profiles with this trait">${trait}</span>`).join('');
+                                })()}
                             </div>
                         </div>
-                        <div class="profile-actions">
-                            <button class="btn btn-details" onclick="expandProfile('${profile.name}', event); event.stopPropagation()">Details</button>
-                        </div>
+                    </div>
+                    <div class="profile-actions">
+                        <button class="btn btn-details" onclick="expandProfile('${profile.name}', event); event.stopPropagation()">Details</button>
+                    </div>
                 `;
                 
                 fragment.appendChild(profileCard);
