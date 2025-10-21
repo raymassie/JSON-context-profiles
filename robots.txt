@@ -1,0 +1,9 @@
+User-agent: *
+Allow: /
+
+# Disallow development files
+Disallow: /scripts/
+Disallow: /docs/
+
+Sitemap: https://raymassie.github.io/influence-atlas/sitemap.xml
+
